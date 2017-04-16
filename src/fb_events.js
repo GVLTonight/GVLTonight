@@ -20,43 +20,42 @@ var getKey_and_init = function(cb){
 
 var getFBData = function(done, key){
 
-    var venues = {
-        'gottrocks': { 
-            'events': [] 
-        },
-        'smileys': {
-            'events': []
-        },
-        'groundzero': {
-            'events': []
-        },
-        'ipagreenville': {
-            'events': []
-        }
-    };
-
     // var venues = {
-    //     'venues': [
-    //         {
-    //             'name': 'gottrocks',
-    //             'events': []
-    //         },
-    //         {
-    //             'name': 'smileys',
-    //             'events': []
-    //         },
-    //         {
-    //             'name': 'groundzero',
-    //             'events': []
-    //         },
-    //         {
-    //             'name': 'ipagreenville',
-    //             'events': []
-    //         }
-    //     ]
-    // }
+    //     'gottrocks': { 
+    //         'events': [] 
+    //     },
+    //     'smileys': {
+    //         'events': []
+    //     },
+    //     'groundzero': {
+    //         'events': []
+    //     },
+    //     'ipagreenville': {
+    //         'events': []
+    //     }
+    // };
 
-    
+    var venues = {
+        'venues': [
+            {
+                'name': 'gottrocks',
+                'events': []
+            },
+            {
+                'name': 'smileys',
+                'events': []
+            },
+            {
+                'name': 'groundzero',
+                'events': []
+            },
+            {
+                'name': 'ipagreenville',
+                'events': []
+            }
+        ]
+    }
+
     FB.api('', 'post', {
         version: 'v2.8',
         access_token: key,
@@ -78,33 +77,43 @@ var getFBData = function(done, key){
         var groundzero = JSON.parse(response[2].body).data;
         var ipagreenville = JSON.parse(response[3].body).data;
 
-        for(let i = 0; i < gottrocks.length; i++){
-            let event = gottrocks[i];
-            if (moment(event.start_time).isSameOrAfter(moment())){
-                venues.gottrocks.events.push(event);
-            }
+        for(let i = 0; i < JSON.parse(response).length; i++){
+            console.log(JSON.parse(response[i]))
         }
+        // for(let i = 0; i < gottrocks.length; i++){
+        //     let event = gottrocks[i];
+        //     if (moment(event.start_time).isSameOrAfter(moment())){
+        //         venues.gottrocks.events.push(event);
+        //     }
+        // }  
 
-        for(let i = 0; i < smileys.length; i++){
-            let event = smileys[i];
-            if (moment(event.start_time).isSameOrAfter(moment())){
-                venues.smileys.events.push(event);
-            }
-        }
+        // for(let i = 0; i < gottrocks.length; i++){
+        //     let event = gottrocks[i];
+        //     if (moment(event.start_time).isSameOrAfter(moment())){
+        //         venues.gottrocks.events.push(event);
+        //     }
+        // }
 
-        for(let i = 0; i < groundzero.length; i++){
-            let event = groundzero[i];
-            if (moment(event.start_time).isSameOrAfter(moment())){
-                venues.groundzero.events.push(event);
-            }
-        }
+        // for(let i = 0; i < smileys.length; i++){
+        //     let event = smileys[i];
+        //     if (moment(event.start_time).isSameOrAfter(moment())){
+        //         venues.smileys.events.push(event);
+        //     }
+        // }
 
-        for(let i = 0; i < ipagreenville.length; i++){
-            let event = ipagreenville[i];
-            if (moment(event.start_time).isSameOrAfter(moment())){
-                venues.ipagreenville.events.push(event);
-            }
-        }
+        // for(let i = 0; i < groundzero.length; i++){
+        //     let event = groundzero[i];
+        //     if (moment(event.start_time).isSameOrAfter(moment())){
+        //         venues.groundzero.events.push(event);
+        //     }
+        // }
+
+        // for(let i = 0; i < ipagreenville.length; i++){
+        //     let event = ipagreenville[i];
+        //     if (moment(event.start_time).isSameOrAfter(moment())){
+        //         venues.ipagreenville.events.push(event);
+        //     }
+        // }
 
         // console.log(venues);
         return done(venues);
