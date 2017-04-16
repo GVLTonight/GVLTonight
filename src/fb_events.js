@@ -19,42 +19,42 @@ var getKey_and_init = function(cb){
 }
 
 var getFBData = function(done, key){
-    
-    // var venues = {
-    //     'gottrocks': { 
-    //         'events': [] 
-    //     },
-    //     'smileys': {
-    //         'events': []
-    //     },
-    //     'groundzero': {
-    //         'events': []
-    //     },
-    //     'ipagreenville': {
-    //         'events': []
-    //     }
-    // };
 
     var venues = {
-        'venues': [
-            {
-                'name': 'gottrocks',
-                'events': []
-            },
-            {
-                'name': 'smileys',
-                'events': []
-            },
-            {
-                'name': 'groundzero',
-                'events': []
-            },
-            {
-                'name': 'ipagreenville',
-                'events': []
-            }
-        ]
-    }
+        'gottrocks': { 
+            'events': [] 
+        },
+        'smileys': {
+            'events': []
+        },
+        'groundzero': {
+            'events': []
+        },
+        'ipagreenville': {
+            'events': []
+        }
+    };
+
+    // var venues = {
+    //     'venues': [
+    //         {
+    //             'name': 'gottrocks',
+    //             'events': []
+    //         },
+    //         {
+    //             'name': 'smileys',
+    //             'events': []
+    //         },
+    //         {
+    //             'name': 'groundzero',
+    //             'events': []
+    //         },
+    //         {
+    //             'name': 'ipagreenville',
+    //             'events': []
+    //         }
+    //     ]
+    // }
 
     
     FB.api('', 'post', {
