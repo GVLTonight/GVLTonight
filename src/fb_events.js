@@ -3,6 +3,7 @@ var fb = new Facebook();
 var moment = require('moment');
 var fs = require('fs');
 var clog = console.log;
+const util = require('util')
 
 exports.fb_data = function(done){
     getKey_and_init(function(result){
@@ -19,23 +20,7 @@ var getKey_and_init = function(cb){
 }
 
 var getFBData = function(done, key){
-
-    // var venues = {
-    //     'gottrocks': { 
-    //         'events': [] 
-    //     },
-    //     'smileys': {
-    //         'events': []
-    //     },
-    //     'groundzero': {
-    //         'events': []
-    //     },
-    //     'ipagreenville': {
-    //         'events': []
-    //     }
-    // };
-
-    var venues = {
+    var locations = {
         'venues': [
             {
                 'name': 'gottrocks',
@@ -72,55 +57,27 @@ var getFBData = function(done, key){
             return;
         }
 
-        var gottrocks = JSON.parse(response[0].body).data;
-        var smileys = JSON.parse(response[1].body).data;
-        var groundzero = JSON.parse(response[2].body).data;
-        var ipagreenville = JSON.parse(response[3].body).data;
-
-        for(let i = 0; i < JSON.parse(response).length; i++){
-            console.log(JSON.parse(response[i]))
+        // THIRD WORKING MODEL
+        for(let i = 0; i < response.length; i++){
+            let current_item = JSON.parse(response[i].body).data;
+            for (let k = 0; k < current_item.length; k++){
+                if (moment(current_item[k].start_time).isSameOrAfter(moment())){
+                    locations.venues[i].events.push(current_item[k]);
+                }
+            }
         }
-        // for(let i = 0; i < gottrocks.length; i++){
-        //     let event = gottrocks[i];
-        //     if (moment(event.start_time).isSameOrAfter(moment())){
-        //         venues.gottrocks.events.push(event);
-        //     }
-        // }  
 
-        // for(let i = 0; i < gottrocks.length; i++){
-        //     let event = gottrocks[i];
-        //     if (moment(event.start_time).isSameOrAfter(moment())){
-        //         venues.gottrocks.events.push(event);
-        //     }
-        // }
+        // console.log(util.inspect(locations, false, null))
 
-        // for(let i = 0; i < smileys.length; i++){
-        //     let event = smileys[i];
-        //     if (moment(event.start_time).isSameOrAfter(moment())){
-        //         venues.smileys.events.push(event);
-        //     }
-        // }
-
-        // for(let i = 0; i < groundzero.length; i++){
-        //     let event = groundzero[i];
-        //     if (moment(event.start_time).isSameOrAfter(moment())){
-        //         venues.groundzero.events.push(event);
-        //     }
-        // }
-
-        // for(let i = 0; i < ipagreenville.length; i++){
-        //     let event = ipagreenville[i];
-        //     if (moment(event.start_time).isSameOrAfter(moment())){
-        //         venues.ipagreenville.events.push(event);
-        //     }
-        // }
-
-        // console.log(venues);
-        return done(venues);
+        return done(locations);
     });
-}
+};
 
-// module.exports = "getFBData";
+
+
+// -----------------------------------------
+// NOTES
+// -----------------------------------------
 
 // FB.setAccessToken(function(){
 //     fs.readFile(__dirname + '/keys', 'utf8', (err, data) => {
