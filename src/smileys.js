@@ -5,13 +5,12 @@ Date.prototype.addDays = function(days) {
 }
 
 const request = require('request'),
-      util = require('util'),
-      clog = console.log,
-      date = new Date(),
-      startDate = date.toISOString(),
-      endDateBuffer = date.addDays(7),
-      endDate = endDateBuffer.toISOString()
-;
+    util = require('util'),
+    clog = console.log,
+    date = new Date(),
+    startDate = date.toISOString(),
+    endDateBuffer = date.addDays(7),
+    endDate = endDateBuffer.toISOString();
 
 function getSmileysKey () {
     return new Promise((resolve, reject) => {
@@ -28,7 +27,7 @@ function getSmileysKey () {
 
 function getSmileysData () {
     return new Promise((resolve, reject) => {
-        let key = getSmileysKey().then(function(key){
+        getSmileysKey().then(function(key){
             let url = 'https://clients6.google.com/calendar/v3/calendars/smileysacousticcafe@gmail.com/events?calendarId=smileysacousticcafe@gmail.com&singleEvents=true&timeZone=America%2FNew_York&maxAttendees=1&maxResults=250&sanitizeHtml=true&timeMin=' + startDate + '&timeMax=' + endDate + '&key=' + key;
             request(url, function(err, res, html){
                 if (err) {

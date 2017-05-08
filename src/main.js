@@ -1,18 +1,26 @@
-var fb_events = require('./fb_events-promise.js');
-var smileys = require('./smileys-promise.js');
-var clog = console.log;
+const fb_events = require('./fb_events-promise.js');
+const smileys = require('./smileys-promise.js');
+const clog = console.log;
+const util = require('util');
 
-var _fbEvents = [];
-var _smileysEvents = [];
+let _fbEvents = [];
+let _smileysEvents = [];
 
-var _smileysData = function(){
-    return smileys() //.then(x => {console.log(x.items.length)});
-}
+let _smileysData = function() {
+    return smileys(); //.then(x => {console.log(x.items.length)});
+};
 
-var _facebookData = function(){
+const _facebookData = function() {
     return fb_events();
-}
+};
 
-Promise.all([_facebookData(), _smileysData()]).then(arr => {
-    clog(arr);
-});
+Promise.all(
+    [
+        _facebookData()
+        // _smileysData()
+    ])
+    .then(arr => {
+        // clog(arr);
+        console.log(JSON.parse(util.inspect(arr, false, null)));
+    }
+);

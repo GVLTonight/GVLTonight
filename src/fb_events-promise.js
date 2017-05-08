@@ -1,11 +1,11 @@
-const {FB, Facebook, FacebookApiException} = require('fb'),
-      fb = new Facebook(),
-      moment = require('moment'),
-      fs = require('fs'),
-      clog = console.log,
-      util = require('util');
+const { FB, Facebook, FacebookApiException } = require('fb');
+const fb = new Facebook();
+const moment = require('moment');
+const fs = require('fs');
+const clog = console.log;
+const util = require('util');
 
-function getFacebookKey () {
+function getFacebookKey() {
     return new Promise((resolve, reject) => {
         fs.readFile(__dirname + '/keys', 'utf8', (err, data) => {
             if (err) {
@@ -17,29 +17,10 @@ function getFacebookKey () {
     });
 }
 
-function getFacebookData () {
+function getFacebookData() {
     return new Promise((resolve, reject) => {
-        getFacebookKey().then(function(key){
-            var locations = {
-                'venues': [
-                    {
-                        'name': 'gottrocks',
-                        'events': []
-                    },
-                    {
-                        'name': 'smileys',
-                        'events': []
-                    },
-                    {
-                        'name': 'groundzero',
-                        'events': []
-                    },
-                    {
-                        'name': 'ipagreenville',
-                        'events': []
-                    }
-                ]
-            }
+        getFacebookKey().then(function (key) {
+            let events = [];
 
             FB.api('', 'post', {
                 version: 'v2.8',
@@ -48,29 +29,48 @@ function getFacebookData () {
                     { method: 'get', relative_url: '/GottRocksgvl/events' },
                     { method: 'get', relative_url: '/smileysacousticcafe/events' },
                     { method: 'get', relative_url: '/groundzeroSC/events' },
-                    { method: 'get', relative_url: '/ipagreenville/events' },
+                    { method: 'get', relative_url: '/ipagreenville/events' }
                 ]
             }, (response) => {
-
-                if(!response || response.error) {
-                    reject(!response ? 'error occurred' : response.error); return;
+                if (!response || response.error) {
+                    reject(!response ? clog('error occurred') : clog(response.error)); return;
                 }
 
                 // THIRD WORKING MODEL
-                for(let i = 0; i < response.length; i++){
+                for (let i = 0; i < response.length; i++) {
                     let current_item = JSON.parse(response[i].body).data;
-                    for (let k = 0; k < current_item.length; k++){
-                        if (moment(current_item[k].start_time).isSameOrAfter(moment())){
-                            locations.venues[i].events.push(current_item[k]);
+                    for (let k = 0; k < current_item.length; k++) {
+                        // clog(current_item[k]);
+                        if (moment(current_item[k].start_time).isSameOrAfter(moment())) {
+                            // locations.venues[i].events.push(current_item[k]);
+                            // events.push(moment(current_item[k].start_time));
+                            // events.push({'test': current_item[k]});
+                            // if (current_item[k].place.name !== undefined) {
+                            //     let raw_time = current_item[k].start_time.split('T');
+                            //     let event = {
+                            //         venue: current_item[k].place.name,
+                            //         venueUrl: 'https://facebook.com/' + current_item[k].place.id,
+                            //         title: current_item[k].title,
+                            //         url: 'https://facebook.com/' + current_item[k].id,
+                            //         time: raw_time[1],
+                            //         date: raw_time[0]
+                            //     };
+
+                            //     clog(event);
+                            //     events.push(event);
+                            // } else {
+                            //     clog('error');
+                            // }
+                            events.push(JSON.stringify(current_item[k]));
                         }
                     }
                 }
 
-                // console.log(util.inspect(locations, false, null))
+                // console.log(util.inspect(locations, false, null));
 
-                resolve(locations);
+                resolve(events);
             });
-        })
+        });
     });
 }
 
@@ -85,7 +85,7 @@ module.exports = getFacebookData;
 // var getKey_and_init = function(cb){
 //     fs.readFile(__dirname + '/keys', 'utf8', (err, data) => {
 //         if (err) throw err;
-//         var parsed = JSON.parse(data);        
+//         var parsed = JSON.parse(data);
 //         getFBData(cb, parsed.fb);
 //     });
 // }
