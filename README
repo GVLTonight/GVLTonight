@@ -1,0 +1,24 @@
+#!/usr/bin/bash
+
+# node src/main.js
+
+cat <<- EOF
+    init: node src/main.js
+    structure:
+    {
+        venue:          [venue name],
+        venueUrl:       [venue main url],
+        title:          [event title],
+        description:    [event description],
+        url:            [event url],
+        time:           [event start time],
+        date:           [event date]
+    }
+    venues:
+        ◉ IPA
+        ◉ Radio Room
+        ◉ Gottrocks
+        ◉ GroundZero
+        ◉ Smileys
+
+EOF

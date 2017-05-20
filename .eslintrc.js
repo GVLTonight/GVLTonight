@@ -30,6 +30,7 @@ module.exports = {
         "quotes": ["error", "single"],
 
         // override default options for rules from base configurations
+        "no-unused-vars": "warn",
 
         // disable rules from base configurations
         "no-extend-native": "off",

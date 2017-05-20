@@ -1,17 +1,18 @@
+// Adds "Parameter days;" to current date
 Date.prototype.addDays = function(days) {
-    var dat = new Date(this.valueOf());
-    dat.setDate(dat.getDate() + days);
-    return dat;
+    var d = new Date(this.valueOf());
+    d.setDate(d.getDate() + days);
+    return d;
 }
 
-const request = require('request'),
-      util = require('util'),
-      clog = console.log,
-      date = new Date(),
-      startDate = date.toISOString(),
-      endDateBuffer = date.addDays(7),
-      endDate = endDateBuffer.toISOString()
-;
+const
+    request = require('request'),
+    util = require('util'),
+    clog = console.log,
+    date = new Date(),
+    startDate = date.toISOString(),
+    endDateBuffer = date.addDays(7),
+    endDate = endDateBuffer.toISOString();
 
 let venueUrl = 'http://www.smileysacousticcafe.com/calendar.php';
 let shows = [];
@@ -46,6 +47,7 @@ function getSmileysData () {
                         venue: 'Smileys Acoustic Cafe',
                         venueUrl: venueUrl,
                         title: items[i].summary,
+                        description: items[i].description,
                         url: items[i].htmlLink,
                         time: raw_time.split('-')[0],
                         date: raw_date.split('T')[0]

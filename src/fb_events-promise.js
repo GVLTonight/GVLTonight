@@ -21,130 +21,54 @@ function getFacebookData() {
     return new Promise((resolve, reject) => {
         getFacebookKey().then(function (key) {
             let events = [];
-
             FB.api('', 'post', {
                 version: 'v2.8',
                 access_token: key,
                 batch: [
                     { method: 'get', relative_url: '/GottRocksgvl/events' },
-                    { method: 'get', relative_url: '/smileysacousticcafe/events' },
                     { method: 'get', relative_url: '/groundzeroSC/events' },
-                    { method: 'get', relative_url: '/ipagreenville/events' }
+                    { method: 'get', relative_url: '/ipagreenville/events' },
+                    { method: 'get', relative_url: '/wpbrradioroom/events' }
+                    // { method: 'get', relative_url: '/smileysacousticcafe/events' },
                 ]
             }, (response) => {
                 if (!response || response.error) {
                     reject(!response ? clog('error occurred') : clog(response.error)); return;
                 }
-
-                // THIRD WORKING MODEL
+                // LOOP through each response from the FB.api({batch: []}) list.
+                // -- At the lowest level, extract only the details from
+                // -- each event that we'll want to use later on the site.
                 for (let i = 0; i < response.length; i++) {
-                    let current_item = JSON.parse(response[i].body).data;
+                    let current_item = JSON.parse(response[i].body).data;                   // Convert the response's body.data from string to JSON
                     for (let k = 0; k < current_item.length; k++) {
-                        // clog(current_item[k]);
-                        if (moment(current_item[k].start_time).isSameOrAfter(moment())) {
-                            // locations.venues[i].events.push(current_item[k]);
-                            // events.push(moment(current_item[k].start_time));
-                            // events.push({'test': current_item[k]});
-                            // if (current_item[k].place.name !== undefined) {
-                            //     let raw_time = current_item[k].start_time.split('T');
-                            //     let event = {
-                            //         venue: current_item[k].place.name,
-                            //         venueUrl: 'https://facebook.com/' + current_item[k].place.id,
-                            //         title: current_item[k].title,
-                            //         url: 'https://facebook.com/' + current_item[k].id,
-                            //         time: raw_time[1],
-                            //         date: raw_time[0]
-                            //     };
-
-                            //     clog(event);
-                            //     events.push(event);
-                            // } else {
-                            //     clog('error');
-                            // }
-                            events.push(JSON.stringify(current_item[k]));
+                        if (moment(current_item[k].start_time).isSameOrAfter(moment())) {   // If event is before todays date, skip
+                            if (current_item[k].place) {                                    // Check if event has a venue value (some dont) (i think it's IPA)
+                                let raw_time = current_item[k].start_time.split('T');
+                                let event = {
+                                    venue: current_item[k].place.name,
+                                    venueUrl: 'https://facebook.com/' + current_item[k].place.id,
+                                    title: current_item[k].name,
+                                    description: current_item[k].description,
+                                    url: 'https://facebook.com/' + current_item[k].id,
+                                    time: raw_time[1],
+                                    date: raw_time[0]
+                                };
+                                events.push(event);                                         // Push "Object event;" to "Array events;"
+                            } else {
+                                console.log('FBEvents\ncurrent_item[k].place cannot be found\n' + util.inspect(current_item[k], false, null) + '\n');
+                            }
                         }
                     }
                 }
-
-                // console.log(util.inspect(locations, false, null));
-
+                // console.log(events)
                 resolve(events);
             });
         });
     });
 }
 
+// getFacebookData();
 module.exports = getFacebookData;
-
-// exports.fb_data = function(done){
-//     getKey_and_init(function(result){
-//         done(result);
-//     })
-// }
-
-// var getKey_and_init = function(cb){
-//     fs.readFile(__dirname + '/keys', 'utf8', (err, data) => {
-//         if (err) throw err;
-//         var parsed = JSON.parse(data);
-//         getFBData(cb, parsed.fb);
-//     });
-// }
-
-// var getFBData = function(done, key){
-//     var locations = {
-//         'venues': [
-//             {
-//                 'name': 'gottrocks',
-//                 'events': []
-//             },
-//             {
-//                 'name': 'smileys',
-//                 'events': []
-//             },
-//             {
-//                 'name': 'groundzero',
-//                 'events': []
-//             },
-//             {
-//                 'name': 'ipagreenville',
-//                 'events': []
-//             }
-//         ]
-//     }
-
-//     FB.api('', 'post', {
-//         version: 'v2.8',
-//         access_token: key,
-//         batch: [
-//             { method: 'get', relative_url: '/GottRocksgvl/events' },
-//             { method: 'get', relative_url: '/smileysacousticcafe/events' },
-//             { method: 'get', relative_url: '/groundzeroSC/events' },
-//             { method: 'get', relative_url: '/ipagreenville/events' },
-//         ]
-//     }, function(response) {
-
-//         if(!response || response.error) {
-//             console.log(!response ? 'error occurred' : response.error);
-//             return;
-//         }
-
-//         // THIRD WORKING MODEL
-//         for(let i = 0; i < response.length; i++){
-//             let current_item = JSON.parse(response[i].body).data;
-//             for (let k = 0; k < current_item.length; k++){
-//                 if (moment(current_item[k].start_time).isSameOrAfter(moment())){
-//                     locations.venues[i].events.push(current_item[k]);
-//                 }
-//             }
-//         }
-
-//         // console.log(util.inspect(locations, false, null))
-
-//         return done(locations);
-//     });
-// };
-
-
 
 // -----------------------------------------
 // NOTES
@@ -158,7 +82,7 @@ module.exports = getFacebookData;
 //     });
 // });
 
-// FB.setAccessToken('1468614206500622|HM8RF9EDSI7qEcQ_SdIPjZuU-hE');
+// FB.setAccessToken('see KEYS file');
 
 // FB.api(
 //     '/GottRocksgvl/events',
@@ -177,12 +101,6 @@ module.exports = getFacebookData;
 //         }
 //     }
 // );
-
-// long lived access token
-// {"access_token": "EAAU3smQXLw4BAEJelFEVTbrJ5l40s1l1Pm92dPDlPEwnNgYyUHLDTrgV9PvFFxZBBqHhrjBVLRdhbVMdQ8DJvxFZA1dGMstEQ29d9EwmnFrAIsyXoV5OzGgfsvtzd1hVGDV1SBLZAInIEIm8Te8","token_type": "bearer","expires_in": 5184000}
-
-// permanent access token
-// {"data":[{"access_token":"EAAU3smQXLw4BALyihkffnEP71aJeH6J4gaWaqQcdJZB6vk6Hf7Em9WYcgMvNCcrcWehZCzYZAgLSPAubsIM7oaBV2iVzMcXXkTRTjxOmxL7eJF9efKoQVlbgRIxiBvtcDihGwBTi9nrpru3ZBHXdXlm2HAeD8J1piGDDqhYzZAOMMGyurdxSPXZA4xedIYSDAZD","category":"Media/News Company","name":"Untitled Zine","id":"350099195045356","perms":["ADMINISTER","EDIT_PROFILE","CREATE_CONTENT","MODERATE_CONTENT","CREATE_ADS","BASIC_ADMIN"]}],"paging":{"cursors":{"before":"MzUwMDk5MTk1MDQ1MzU2","after":"MzUwMDk5MTk1MDQ1MzU2"}}}
 
 // peacecenter rss
 // http://www.peacecenter.org/events/rss
