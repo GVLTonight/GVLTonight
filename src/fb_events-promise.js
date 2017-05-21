@@ -28,7 +28,9 @@ function getFacebookData() {
                     { method: 'get', relative_url: '/GottRocksgvl/events' },
                     { method: 'get', relative_url: '/groundzeroSC/events' },
                     { method: 'get', relative_url: '/ipagreenville/events' },
-                    { method: 'get', relative_url: '/wpbrradioroom/events' }
+                    { method: 'get', relative_url: '/wpbrradioroom/events' },
+                    { method: 'get', relative_url: '/iongreenville/events' },
+                    { method: 'get', relative_url: '/villivemusic/events' }
                     // { method: 'get', relative_url: '/smileysacousticcafe/events' },
                 ]
             }, (response) => {
@@ -55,7 +57,7 @@ function getFacebookData() {
                                 };
                                 events.push(event);                                         // Push "Object event;" to "Array events;"
                             } else {
-                                console.log('FBEvents\ncurrent_item[k].place cannot be found\n' + util.inspect(current_item[k], false, null) + '\n');
+                                console.log('FBEvents\ncurrent_item[k].place cannot be found\n' + util.inspect(current_item[k], false, null) + '\n' + 'https://facebook.com/' + current_item[k].id + '\n');
                             }
                         }
                     }

@@ -1,11 +1,22 @@
 const fb_events = require('./fb_events-promise.js');
 const smileys = require('./smileys-promise.js');
 const clog = console.log;
-const util = require('util');
+const mongodb = require('mongodb');
+const fs = require('fs');
 
 let _fbEvents = [];
 let _smileysEvents = [];
-let _events;
+let _events = [];
+
+const sampleEvent_birthday = {
+    venue: 'Kevs cool venue',
+    venueUrl: 'kevscoolurl.co.uk',
+    title: 'my birthday',
+    description: 'this very cool event is happening',
+    url: 'omgcool.com',
+    time: '22:00:00',
+    date: '2017-06-02'
+}
 
 const _smileysData = function() {
     return smileys(); //.then(x => {console.log(x.items.length)});
@@ -15,6 +26,18 @@ const _facebookData = function() {
     return fb_events();
 };
 
+const _getMLabKey = function(){
+    return new Promise((resolve, reject) => {
+        fs.readFile(__dirname + '/keys', 'utf8', (err, data) => {
+            if (err) {
+                reject(err); return;
+            }
+            let key = JSON.parse(data).mlab;
+            resolve(key);
+        });
+    });
+}
+
 Promise.all(
     [
         _facebookData(),
@@ -23,37 +46,45 @@ Promise.all(
     .then(arr => {
         _fbEvents = arr[0];
         _smileysEvents = arr[1];
-        return _fbEvents.concat(_smileysEvents);
+        return _events.concat(_fbEvents, _smileysEvents)
     })
     .then(events => {
         clog(events.length)
+        events.push(sampleEvent_birthday)
+
+        // // VERSION 3
+        _getMLabKey()
+        .then(uri => {
+            mongodb.MongoClient.connect(uri, function(err, db){
+                if (err) throw err;
+                for (var i = 0; i < events.length; i++) {
+                    let el = events[i];
+                    let eventsDay = db.collection(el.date);
+
+                    eventsDay.update(
+                        {
+                            title: el.title,
+                            date: el.date
+                        },
+                        {
+                            venue: el.venue,
+                            venueUrl: el.venueUrl,
+                            title: el.title,
+                            description: el.description,
+                            url: el.url,
+                            time: el.time,
+                            date: el.date
+                        },
+                        {
+                            upsert: true
+                        }
+                    )
+
+                }
+                db.close(function (err) {
+                    if(err) throw err;
+                });
+            })
+        })
     }
 );
-
-// FOR MERGING JS/JSON
-// DEEP-EXTEND: https://github.com/unclechu/node-deep-extend
-// DEEPMERGE: https://www.npmjs.com/package/deepmerge
-
-// FROM THE INTERNET
-// MERGE(Array, Array, String ["key to merge, as starting point"])
-// http://stackoverflow.com/a/41919138/3864870
-// -----------------
-// Example
-// merge(_fbEvents, _smileysEvents, 'title');
-function merge(a, b, prop){
-    var reduced = a.filter(function(aitem){
-        return ! b.find(function(bitem){
-            if((aitem[prop] === bitem[prop]) === true){
-                clog(aitem, bitem)
-            }
-            return aitem[prop] === bitem[prop];
-        });
-    });
-    return reduced.concat(b);
-}
-
-// ES6 Verions
-function mergeArrow(a, b, prop){
-    var reduced =  a.filter( aitem => ! b.find ( bitem => aitem[prop] === bitem[prop]) )
-    return reduced.concat(b);
-}
