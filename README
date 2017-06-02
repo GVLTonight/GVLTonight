@@ -2,6 +2,9 @@
 
 # node src/main.js
 
+# front end based off of
+# https://css-tricks.com/reactive-uis-vanillajs-part-1-pure-functional-style/
+
 cat <<- EOF
     init: node src/main.js
     structure:
