@@ -4,6 +4,7 @@
   "description": "",
   "main": "lib/main.js",
   "scripts": {
+    "build": "cp -R src/* ~/public/gvltonight/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
