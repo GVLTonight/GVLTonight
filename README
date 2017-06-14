@@ -9,6 +9,7 @@ cat <<- EOF
     init: node src/main.js
     structure:
     {
+        collection:     [mongo collection name]
         venue:          [venue name],
         venueUrl:       [venue main url],
         title:          [event title],
@@ -17,11 +18,13 @@ cat <<- EOF
         time:           [event start time],
         date:           [event date]
     }
-    venues:
-        ◉ IPA
-        ◉ Radio Room
-        ◉ Gottrocks
-        ◉ GroundZero
-        ◉ Smileys
-
+    Routes:
+        greenvilletonight.com/api/{available routes}:
+            ◉ events        (all events in db)
+            ◉ other         (uncommon venues)
+            ◉ gottrocks
+            ◉ groundzero
+            ◉ radioroom
+            ◉ smileys
+            ◉ village
 EOF
