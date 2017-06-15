@@ -1,12 +1,11 @@
 #!/usr/bin/bash
 
-# node src/main.js
+# node src/scripts/main.js
 
 # front end based off of
 # https://css-tricks.com/reactive-uis-vanillajs-part-1-pure-functional-style/
 
 cat <<- EOF
-    init: node src/main.js
     structure:
     {
         collection:     [mongo collection name]
@@ -18,13 +17,22 @@ cat <<- EOF
         time:           [event start time],
         date:           [event date]
     }
+
     Routes:
-        greenvilletonight.com/api/{available routes}:
-            ◉ events        (all events in db)
-            ◉ other         (uncommon venues)
-            ◉ gottrocks
-            ◉ groundzero
-            ◉ radioroom
-            ◉ smileys
-            ◉ village
+        greenvilletonight.com/api/events            # all events in db
+        greenvilletonight.com/api/thisweek          # this week's events
+        greenvilletonight.com/api/events/{venue}
+        greenvilletonight.com/api/events/{venue}/{startdate}/{enddate}
+
+    Example:
+        greenvilletonight.com/api/events/other
+        greenvilletonight.com/api/events/radioroom/3030-06-02/3031-07-09
+
+    Venues:
+        ◉ other
+        ◉ gottrocks
+        ◉ groundzero
+        ◉ radioroom
+        ◉ smileys
+        ◉ village
 EOF
