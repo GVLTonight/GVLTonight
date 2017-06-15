@@ -17,10 +17,6 @@ function BlogPost(postData) {
                     <span>${postData.time}</span>
                 </div>
                 <div>
-                    <strong> description </strong>
-                    <span>${postData.description}</span>
-                </div>
-                <div>
                     <strong> url </strong>
                     <span>${postData.url}</span>
                 </div>
@@ -38,7 +34,8 @@ function blogPostList(posts) {
 }
 
 function getJson() {
-    let url = 'https://crossorigin.me/https://bostbuilt.com/files/currentEvents.json';
+    // let url = 'https://crossorigin.me/https://bostbuilt.com/files/currentEvents.json';
+    let url = 'https://greenvilletonight.com/api/thisweek';
     $.ajax({
         url: url,
         success: function(data) {
