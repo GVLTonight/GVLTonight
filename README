@@ -15,12 +15,14 @@ cat <<- EOF
         description:    [event description],
         url:            [event url],
         time:           [event start time],
-        date:           [event date]
+        date:           [event date],
+        datetime:       [event datetime]
     }
 
     Routes:
         greenvilletonight.com/api/events            # all events in db
         greenvilletonight.com/api/thisweek          # this week's events
+        greenvilletonight.com/api/tonight           # tonights events
         greenvilletonight.com/api/events/{venue}
         greenvilletonight.com/api/events/{venue}/{startdate}/{enddate}
 
