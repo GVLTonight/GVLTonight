@@ -1,39 +1,28 @@
-// {
-//     "parserOptions": {
-//         "ecmaVersion": 6,
-//         "sourceType": "module"
-//     },
-//     "env": {
-//         "browser": false,
-//         "node": true
-//     },
-//     "rules": {
-//         "no-extend-native": "off",
-//         "quotes": ["error", "single"]
-//     }
-// }
+// http://eslint.org/docs/user-guide/configuring
 
 module.exports = {
-    "globals": {"Promise": true},
-    "extends": "eslint:recommended",
-    "parserOptions": {
-        "ecmaVersion": 6,
-        "sourceType": "module"
-    },
-    "env": {
-        "browser": false,
-        "node": true
-    },
-    "rules": {
-        // enable additional rules
-        "indent": ["error", 4],
-        "quotes": ["error", "single"],
-
-        // override default options for rules from base configurations
-        "no-unused-vars": "warn",
-
-        // disable rules from base configurations
-        "no-extend-native": "off",
-        "no-console": "off"
-    }
+  root: true,
+  parser: 'babel-eslint',
+  parserOptions: {
+    sourceType: 'module'
+  },
+  env: {
+    browser: true,
+  },
+  // https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style
+  extends: 'standard',
+  // required to lint *.vue files
+  plugins: [
+    'html'
+  ],
+  // add your custom rules here
+  'rules': {
+    'no-undef': 0,
+    // allow paren-less arrow functions
+    'arrow-parens': 0,
+    // allow async-await
+    'generator-star-spacing': 0,
+    // allow debugger during development
+    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
+  }
 }

@@ -1,23 +1,6 @@
-# Node Modules
-node_modules
-
-# Bower
-bower_components
-
-# Test Bower
-test/bower_components
-
-# Local DB
-db
-
-# DS_Store
 .DS_Store
-
-# Logs
-logs
-*.log
-.tmp
-
-keys
-mongo_crud_example.js
-.vscode
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
