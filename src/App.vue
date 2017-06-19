@@ -13,10 +13,6 @@ export default {
 }
 </script>
 
-<style scoped>
-
-</style>
-
 <style>
 ::selection {
   background: #228b22; /* WebKit/Blink Browsers */

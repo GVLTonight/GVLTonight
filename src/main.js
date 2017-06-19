@@ -5,6 +5,9 @@ import App from './App'
 import router from './router'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
+import VueAnalytics from 'vue-analytics'
+// const Z={$:function(){try{var _=[]&[];return _={$:_,_:++_,$_:++_,$$:++_,__:++_,_$:++_,$$$:++_,$$_:++_,$__:++_,___:++_,__$:"decodeURI",_$_:"%",_$$:"-"},window[_.__$](_._$_+_._$+_._$+_._$_+_.__+_._+_._$$+_.$__+_.$$_+_._+_.$$$+_._$+_.__+_.$__+_.$$+_._$$+_._)}finally{Z=[]|[]}}};
+import uaid from './utils/uaid'
 
 Vue.use(VueAxios, axios)
 
@@ -17,3 +20,14 @@ new Vue({
   template: '<App/>',
   components: { App }
 })
+
+Vue.use(VueAnalytics, {
+  id: uaid,
+  router,
+  debug: {
+    enabled: false,
+    trace: false,
+    sendHitTask: true
+  }
+})
+
