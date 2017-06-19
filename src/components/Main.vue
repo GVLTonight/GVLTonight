@@ -175,10 +175,6 @@ h1 {
   /*color: #5bb477;*/
 }
 
-h1 > a {
-  /*color: #5bb477;*/
-}
-
 .green {
   color: #5b96b4;
 }
