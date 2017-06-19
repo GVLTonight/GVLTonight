@@ -1,14 +1,24 @@
 #!/usr/bin/bash
 
-# node src/scripts/main.js
+# vue-webpack
+`npm run dev`
 
-# front end based off of
-# https://css-tricks.com/reactive-uis-vanillajs-part-1-pure-functional-style/
+# node, request, fb-graph
+# scrub data sources && update mongodb
+`node src/scripts/main.js`
+
+# requires keys file to be present in project root folder
+cat <<- EOF
+{
+	"mlab": "mlab_URI",
+	"fb": "fb_key"
+}
+EOF
 
 cat <<- EOF
-    structure:
+    Schema Structure:
     {
-        collection:     [mongo collection name]
+        collection:     [mongo collection name],
         venue:          [venue name],
         venueUrl:       [venue main url],
         title:          [event title],
