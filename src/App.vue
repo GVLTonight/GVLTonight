@@ -27,14 +27,24 @@ export default {
 </style>
 
 <style>
-::selection {
-  /*background: #228b22; /* WebKit/Blink Browsers */
-  background: #7787e4; /* WebKit/Blink Browsers */
-  color: white;
-}
+/* reset from http://jaydenseric.com/blog/forget-normalize-or-resets-lay-your-own-css-foundation */
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;box-sizing: border-box}
+*,*:before,*:after{box-sizing: inherit}
+body{margin:0;font:16px/1 sans-serif;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,p,blockquote,figure,ol,ul{margin:0;padding:0}
+main,li{display:block}
+h1,h2,h3,h4{font-size:inherit}
+strong{font-weight:700}
+a,button{color:inherit;transition:.3s}
+a{text-decoration:none}
+button{overflow:visible;border:0;font:inherit;-webkit-font-smoothing:inherit;letter-spacing:inherit;background:none;cursor:pointer}
+::-moz-focus-inner{padding:0;border:0}
+:focus{outline:0}
+img{max-width:100%;height:auto;border:0}
 
-body {
-  margin: 0;
+::selection {
+  background: #7787e4;
+  color: white;
 }
 
 #app {
@@ -47,7 +57,7 @@ body {
 
 .container {
   width: 600px;
-  margin: 30px auto 0;
+  margin: 0 auto;
 }
 
 @media all and (max-width: 699px) and (min-width: 0px) {

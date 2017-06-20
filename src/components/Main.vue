@@ -13,9 +13,9 @@
         <hr class="title-divider" />
         <ul>
           <li style="margin-top: 0">
-            <p><em>live music aggregator for greenville sc</em></p>
-            <hr class="event-divider" />
+            <div><em>live music aggregator for greenville sc</em></div>
           </li>
+          <hr class="event-divider" />
         </ul>
       </div>
     </ul>
@@ -147,24 +147,29 @@ export default {
 // }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .hidden {
   display: none;
 }
 
-hr.title-divider {
-	border-top: 1px dashed #bbbbbb;
-  border-left: 200px solid #fff;
+h1 {
+  padding-top: 1.5em;
+  font-size: 2em;
+  font-weight: normal;
+}
+
+hr {
   border-right: 200px solid #fff;
-  /*width: 100px;*/
+  border-left: 200px solid #fff;
+}
+
+hr.title-divider {
+  border-top: 1px dashed #bbbbbb;
 }
 
 hr.event-divider {
-	border-top: 1px dashed #eeeeee;
-  border-left: 200px solid #fff;
-  border-right: 200px solid #fff;
   width: 10px;
+  border-top: 1px dashed #eeeeee;
 }
 
 a {
@@ -178,15 +183,13 @@ a:hover {
   font-style: normal;
 }
 
-h1, h2 {
-  font-weight: normal;
+
+ul {
+  list-style-type: none;
 }
 
-h1 {
-  margin-bottom: -10px;
-  margin-top: 50px;
-  /*font-weight: bold;*/
-  /*color: #5bb477;*/
+li>div {
+  padding: 0.4em 0;
 }
 
 .green {
@@ -197,20 +200,4 @@ h1 {
   color: #5bb477;
   font-weight: bold;
 }
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  margin: 10px 0;
-}
-
-p {
-  margin: 0;
-}
-
-
-
 </style>
