@@ -9,7 +9,7 @@
 
     <ul>
       <div class="venue">
-        <h1><strong>gvltonight</strong></h1>
+        <h1>gvltonight</h1>
         <hr class="title-divider" />
         <ul>
           <li style="margin-top: 0">
@@ -27,10 +27,24 @@
         <ul v-if="col.data.length > 0">
           <li v-for="item of col.data">
             <div v-bind:class="{ today: item.isToday }">
-              <p v-if="item.collection === 'other' || item.collection === 'village'"><a v-bind:href="item.venueUrl">{{item.venue}}</a></p>
-              <p><em><a v-bind:href="item.url">{{item.title}}</a></em></p>
+              <p v-if="item.collection === 'other' || item.collection === 'village'">
+                <a v-bind:href="item.venueUrl">
+                  {{item.venue}}
+                </a>
+              </p>
               <p>
-                <span v-bind:class="{ hidden: !item.isToday}"><span v-bind:class="{green: item.isToday }">{{item.timeofday}}</span>:</span>
+                <em>
+                  <a target="_blank" onClick="console.log(ga)" v-bind:href="item.url">
+                    {{item.title}}
+                  </a>
+                </em>
+              </p>
+              <p>
+                <span v-bind:class="{ hidden: !item.isToday }">
+                  <span v-bind:class="{ green: item.isToday }">
+                    {{item.timeofday}}
+                  </span>:
+                </span>
                 {{item.date}}, {{item.time}}
               </p>
             </div>
@@ -40,7 +54,7 @@
         <ul v-else>
           <li>
             <p><em>no listed upcoming events for this venue</em></p>
-            <!--<hr class="event-divider" />-->
+            <hr class="event-divider" />
           </li>
         </ul>
       </div>

@@ -1,6 +1,8 @@
 <template>
   <div id="app">
     <!--<h1>&#x0287;&#x0265;&#x0183;&#x1D09;uo&#x0287;l&#x028C;&#x0183;</h1>-->
+    <!--<h1>gvltonight</h1>-->
+    <!--<TopNav class="nav-bar"></TopNav>-->
     <div class="container">
       <router-view></router-view>
     </div>
@@ -8,19 +10,31 @@
 </template>
 
 <script>
+import TopNav from '@/components/top-nav.vue'
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    TopNav
+  }
 }
 </script>
 
+<style scoped>
+  .nav-bar {
+    height: 50px;
+    background-color: rebeccapurple;
+  }
+</style>
+
 <style>
 ::selection {
-  background: #228b22; /* WebKit/Blink Browsers */
+  /*background: #228b22; /* WebKit/Blink Browsers */
+  background: #7787e4; /* WebKit/Blink Browsers */
   color: white;
 }
 
 body {
-  margin-top: 0;
+  margin: 0;
 }
 
 #app {
