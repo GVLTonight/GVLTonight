@@ -117,6 +117,7 @@ export default {
         y.date = moment(y.datetime).format('ddd MM/DD/YYYY')
         y.time = moment(y.datetime).format('h:mm A')
         y.timeofday = y.datetime.split('T')[1] > '18:00:00' ? 'TONIGHT' : 'TODAY'
+
         if (y.collection === 'radioroom') {
           this.collections[0].data.push(y)
         } else if (y.collection === 'gottrocks') {
@@ -131,20 +132,22 @@ export default {
           this.collections[5].data.push(y)
         }
       })
+      // return groupBy(res, 'collection')
     })
+    // .then(obj => {
+    //   for (var propt in obj) {
+    //     let el = obj[propt]
+    //     el.forEach(y => {
+    //       console.log(y.collection)
+    //     })
+    //   }
+    // })
     .catch(e => {
       this.errors.push(e)
     })
   }
 }
 
-// function groupBy (arr, property) {
-//   return arr.reduce(function (buffer, x) {
-//     if (!buffer[x[property]]) { buffer[x[property]] = [] }
-//     buffer[x[property]].push(x)
-//     return buffer
-//   }, {})
-// }
 </script>
 
 <style scoped>
