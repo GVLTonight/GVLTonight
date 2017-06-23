@@ -12,9 +12,9 @@
         <ul v-if="col.data.length > 0">
           <li v-for="item of col.data">
             <div v-bind:class="{ today: item.isToday }">
-              <p v-if="item.collection === 'other' || item.collection === 'village'">
-                <a v-bind:href="item.venueUrl">
-                  {{item.venue}}
+              <p v-if="item.sortBy === 'other'">
+                <a target="_blank" v-bind:href="item.venue.url">
+                  {{item.venue.name}}
                 </a>
               </p>
               <p>
@@ -57,38 +57,37 @@ export default {
   created () {
     axios.get(`https://greenvilletonight.com/api/testing`)
     .then(response => {
-      // Converts array of objects into objects based on sortBy value
-      // -- then adds useful values ie =>
-      // ---- { collectionName: { header: 'string', url: 'string', data: [ Array ] } }
+      // Converts array of objects into object keys based on sortBy value
       return groupBy(response.data, 'sortBy')
     })
     .then(rebuilt => {
+      // Adds useful values =>
+      // -- { collectionName: { header: 'string', url: 'string', sortOrder: Number, data: [ Array ] } }
       for (let x in rebuilt) {
-        let el = rebuilt[x]
-        let venue = el[0].sortBy === 'other' ? venue = 'other' : venue = el[0].venue.name
-
+        let _el = rebuilt[x]
+        let _venueName = _el[0].sortBy === 'other' ? _venueName = 'other' : _venueName = _el[0].venue.name
         this.collections.push({
-          header: venue.toLowerCase(),
-          url: el[0].venueUrl,
-          sortOrder: el[0].sortOrder,
+          header: _venueName.toLowerCase(),
+          url: _el[0].venue.url,
+          sortOrder: _el[0].sortOrder,
           data: rebuilt[x].sort()
         })
       }
       return this.collections
     })
-    .then(events => {
-      return events.forEach(y => {
-        y.data.map(x => {
-          if (moment(x.datetime).format(('YYYY-MM-DD')) === moment().format(('YYYY-MM-DD'))) {
-            x.isToday = true
-            x.timeofday = x.datetime.split('T')[1] > '18:00:00' ? 'TONIGHT' : 'TODAY'
+    .then(collectionsObject => {
+      return collectionsObject.forEach(topLevObj => {
+        topLevObj.data.map(innerObj => {
+          if (moment(innerObj.datetime).format(('YYYY-MM-DD')) === moment().format(('YYYY-MM-DD'))) {
+            innerObj.isToday = true
+            innerObj.timeofday = innerObj.datetime.split('T')[1] > '18:00:00' ? 'TONIGHT' : 'TODAY'
           }
-          x.date = moment(x.datetime).format('ddd MM/DD/YYYY')
-          x.time = moment(x.datetime).format('h:mm A')
+          innerObj.date = moment(innerObj.datetime).format('ddd MM/DD/YYYY')
+          innerObj.time = moment(innerObj.datetime).format('h:mm A')
         })
       })
     })
-    .then(sortCols => {
+    .then(() => {
       this.collections.sort(function (a, b) {
         return a.sortOrder - b.sortOrder
       })
@@ -99,6 +98,9 @@ export default {
   }
 }
 
+// Converts a flat collection of documents into:
+// -- { title: [array], title2: [array], etc: [etc] }
+// ---- groupBy( {array}, {value in documents to convert into key, and sort by} )
 function groupBy (arr, property) {
   return arr.reduce(function (buffer, x) {
     if (!buffer[x[property]]) { buffer[x[property]] = [] }
