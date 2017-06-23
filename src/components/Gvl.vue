@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div class="gvl">
 
     <ul v-if="errors && errors.length">
       <li v-for="error of errors">

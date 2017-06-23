@@ -5,7 +5,6 @@
         <h1>{{error.message}}</h1>
       </li>
     </ul>
-    <!--{{raw}}-->
     <ul v-if="collections && collections.length">
       <div class="venue" v-for="col of collections">
         <h1><a v-bind:href="col.url">{{col.header}}</a></h1>
@@ -56,21 +55,22 @@ export default {
   }),
 
   created () {
-    axios.get(`https://greenvilletonight.com/api/thisweek`)
+    axios.get(`https://greenvilletonight.com/api/testing`)
     .then(response => {
-      // Converts array of objects into objects based on collection name
+      // Converts array of objects into objects based on sortBy value
       // -- then adds useful values ie =>
       // ---- { collectionName: { header: 'string', url: 'string', data: [ Array ] } }
-      return groupBy(response.data, 'collection')
+      return groupBy(response.data, 'sortBy')
     })
     .then(rebuilt => {
       for (let x in rebuilt) {
         let el = rebuilt[x]
-        let venue = el[0].collection === 'other' ? venue = 'other' : venue = el[0].venue
+        let venue = el[0].sortBy === 'other' ? venue = 'other' : venue = el[0].venue.name
 
         this.collections.push({
           header: venue.toLowerCase(),
           url: el[0].venueUrl,
+          sortOrder: el[0].sortOrder,
           data: rebuilt[x].sort()
         })
       }
@@ -86,6 +86,11 @@ export default {
           x.date = moment(x.datetime).format('ddd MM/DD/YYYY')
           x.time = moment(x.datetime).format('h:mm A')
         })
+      })
+    })
+    .then(sortCols => {
+      this.collections.sort(function (a, b) {
+        return a.sortOrder - b.sortOrder
       })
     })
     .catch(e => {
