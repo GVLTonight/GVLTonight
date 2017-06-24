@@ -7,7 +7,7 @@
     </ul>
     <ul>
       <div class="venue">
-        <h1>gvltonight</h1>
+        <h1>gvltonight testing</h1>
         <hr class="title-divider">
         <ul>
           <li style="margin-top: 0">
@@ -68,6 +68,7 @@ export default {
 
   created () {
     axios.all([
+      // axios.get(`http://localhost:8000/api/thisweek`)
       axios.get(`https://greenvilletonight.com/api/thisweek`)
     ])
     .then(axios.spread(function (weekResponse) {
@@ -85,9 +86,12 @@ export default {
           url: _el[0].venue.url,
           sortOrder: _el[0].sortOrder,
           temporaryId: Math.random().toString(36).substring(2) + (new Date()).getTime().toString(36),
-          data: rebuilt[x].sort()
+          data: rebuilt[x].sort((a, b) => {
+            return new Date(a.datetime) - new Date(b.datetime)
+          })
         })
       }
+
       return this.collections
     })
     .then(collectionsObject => {
@@ -105,12 +109,6 @@ export default {
     .then(() => {
       this.collections.sort(function (a, b) {
         return a.sortOrder - b.sortOrder
-      })
-    })
-    .then(() => {
-      this.errors = [{message: []}]
-      this.collections.forEach(y => {
-        this.errors[0].message.push(y.date)
       })
     })
     .catch(e => {

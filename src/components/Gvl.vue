@@ -67,11 +67,14 @@ export default {
   }),
 
   created () {
-    axios.get(`https://greenvilletonight.com/api/thisweek`)
-    .then(response => {
+    axios.all([
+      axios.get(`https://greenvilletonight.com/api/thisweek`)
+    ])
+    // spread returns an array like spread(will_be_index[0], will_be_index[1])
+    .then(axios.spread((weekResponse) => {
       // Converts array of objects into object keys based on sortBy value
-      return groupBy(response.data, 'sortBy')
-    })
+      return groupBy(weekResponse.data, 'sortBy')
+    }))
     .then(rebuilt => {
       // Adds useful values =>
       // -- { collectionName: { header: 'string', url: 'string', sortOrder: Number, data: [ Array ] } }
@@ -83,7 +86,9 @@ export default {
           url: _el[0].venue.url,
           sortOrder: _el[0].sortOrder,
           temporaryId: Math.random().toString(36).substring(2) + (new Date()).getTime().toString(36),
-          data: rebuilt[x].sort()
+          data: rebuilt[x].sort((a, b) => {
+            return new Date(a.datetime) - new Date(b.datetime)
+          })
         })
       }
       return this.collections
