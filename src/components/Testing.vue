@@ -1,16 +1,28 @@
 <template>
-  <div class="testing">
+  <div class="gvl">
     <ul v-if="errors && errors.length">
-      <li v-for="error of errors">
+      <li v-for="error of errors" v-bind:key="error.message">
         <h1>{{error.message}}</h1>
       </li>
     </ul>
+    <ul>
+      <div class="venue">
+        <h1>gvltonight</h1>
+        <hr class="title-divider">
+        <ul>
+          <li style="margin-top: 0">
+            <div><em>live music aggregator for greenville sc</em></div>
+          </li>
+          <hr class="event-divider">
+        </ul>
+      </div>
+    </ul>
     <ul v-if="collections && collections.length">
-      <div class="venue" v-for="col of collections">
+      <div class="venue" v-for="col of collections" v-bind:key="col.temporaryId">
         <h1><a v-bind:href="col.url">{{col.header}}</a></h1>
-        <hr class="title-divider" />
+        <hr class="title-divider">
         <ul v-if="col.data.length > 0">
-          <li v-for="item of col.data">
+          <li v-for="item of col.data" v-bind:key="item._id">
             <div v-bind:class="{ today: item.isToday }">
               <p v-if="item.sortBy === 'other'">
                 <a target="_blank" v-bind:href="item.venue.url">
@@ -33,13 +45,13 @@
                 {{item.date}}, {{item.time}}
               </p>
             </div>
-            <hr class="event-divider" />
+            <hr class="event-divider">
           </li>
         </ul>
         <ul v-else>
           <li>
             <p><em>no listed upcoming events for this venue</em></p>
-            <hr class="event-divider" />
+            <hr class="event-divider">
           </li>
         </ul>
       </div>
@@ -55,11 +67,13 @@ export default {
   }),
 
   created () {
-    axios.get(`https://greenvilletonight.com/api/testing`)
-    .then(response => {
+    axios.all([
+      axios.get(`https://greenvilletonight.com/api/testing`)
+    ])
+    .then(axios.spread(function (weekResponse) {
       // Converts array of objects into object keys based on sortBy value
-      return groupBy(response.data, 'sortBy')
-    })
+      return groupBy(weekResponse.data, 'sortBy')
+    }))
     .then(rebuilt => {
       // Adds useful values =>
       // -- { collectionName: { header: 'string', url: 'string', sortOrder: Number, data: [ Array ] } }
@@ -70,6 +84,7 @@ export default {
           header: _venueName.toLowerCase(),
           url: _el[0].venue.url,
           sortOrder: _el[0].sortOrder,
+          temporaryId: Math.random().toString(36).substring(2) + (new Date()).getTime().toString(36),
           data: rebuilt[x].sort()
         })
       }
@@ -90,6 +105,12 @@ export default {
     .then(() => {
       this.collections.sort(function (a, b) {
         return a.sortOrder - b.sortOrder
+      })
+    })
+    .then(() => {
+      this.errors = [{message: []}]
+      this.collections.forEach(y => {
+        this.errors[0].message.push(y.date)
       })
     })
     .catch(e => {
