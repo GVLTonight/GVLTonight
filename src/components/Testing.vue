@@ -68,7 +68,7 @@ export default {
 
   created () {
     axios.all([
-      axios.get(`https://greenvilletonight.com/api/testing`)
+      axios.get(`https://greenvilletonight.com/api/thisweek`)
     ])
     .then(axios.spread(function (weekResponse) {
       // Converts array of objects into object keys based on sortBy value

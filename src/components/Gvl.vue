@@ -67,7 +67,7 @@ export default {
   }),
 
   created () {
-    axios.get(`https://greenvilletonight.com/api/testing`)
+    axios.get(`https://greenvilletonight.com/api/thisweek`)
     .then(response => {
       // Converts array of objects into object keys based on sortBy value
       return groupBy(response.data, 'sortBy')
