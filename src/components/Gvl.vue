@@ -5,18 +5,12 @@
         <h1>{{error.message}}</h1>
       </li>
     </ul>
-    <ul>
-      <div class="venue">
-        <h1 v-on:click="sendGaEvent('page header', 'not-a-link', 'no-op')">gvltonight</h1>
-        <hr class="title-divider">
-        <ul>
-          <li style="margin-top: 0">
-            <div><em>live music aggregator for greenville sc</em></div>
-          </li>
-          <hr class="event-divider">
-        </ul>
-      </div>
-    </ul>
+    <div class="venue">
+      <h1 v-on:click="sendGaEvent('page header', 'not-a-link', 'no-op')">gvltonight</h1>
+      <hr class="title-divider">
+      <em>live music aggregator for greenville sc</em>
+      <hr class="event-divider">
+    </div>
 
     <events-tonight :eventsTonight="tonightsEvents"></events-tonight>
     <events-this-week :eventsThisWeek="thisWeeksEvents"></events-this-week>
