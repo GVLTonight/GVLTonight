@@ -1,8 +1,8 @@
 <template>
-  <div class="event-item">
+  <ul>
     <li v-for="item of eventDataProperty" v-bind:key="item._id">
       <div v-bind:class="{ today: item.isToday }">
-        <p v-if="item.sortBy === 'other'">
+        <p v-if="item.sortBy === 'other' || item.isToday">
           <a target="_blank" v-on:click="sendGaEvent('Venue: ' + item.venue.name, item.venue.url, 'event venue')"  v-bind:href="item.venue.url">
             {{item.venue.name}}
           </a>
@@ -25,7 +25,7 @@
       </div>
       <hr class="event-divider">
     </li>
-  </div>
+  </ul>
 </template>
 
 <script>

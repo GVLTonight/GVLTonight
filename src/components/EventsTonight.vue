@@ -1,14 +1,14 @@
 <template>
   <div class="events-tonight">
-    <ul v-if="eventsTonight && eventsTonight.length">
-      <h1 v-on:click="sendGaEvent('tonight header', 'not-a-link', 'no-op')">tonight</h1>
-      <hr class="title-divider">
-      <div v-for="col of eventsTonight" v-bind:key="col.temporaryId">
-        <ul v-if="col.data.length > 0">
-          <event :eventDataProperty="col.data"></event>
-        </ul>
-      </div>
-    </ul>
+    <div v-if="eventsTonight && eventsTonight.length">
+      <ul class="venue">
+        <h1 v-on:click="sendGaEvent('tonight header', 'not-a-link', 'no-op')">tonight</h1>
+        <hr class="title-divider">
+        <li v-for="col of eventsTonight" v-bind:key="col.temporaryId">
+          <event v-if="col.data.length > 0" :eventDataProperty="col.data"></event>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 

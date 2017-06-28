@@ -1,14 +1,14 @@
 <template>
   <div class="events-this-week">
-    <ul v-if="eventsThisWeek && eventsThisWeek.length">
+    <div v-if="eventsThisWeek && eventsThisWeek.length">
       <div class="venue" v-for="col of eventsThisWeek" v-bind:key="col.temporaryId">
         <h1>
           <a v-on:click="sendGaEvent('Venue: ' + col.data[0].venue.name, col.data[0].venue.url, 'venue header')" v-bind:href="col.url">{{col.header}}</a>
         </h1>
         <hr class="title-divider">
-        <ul v-if="col.data.length > 0">
-          <event :eventDataProperty="col.data"></event>
-        </ul>
+        <!--<ul>-->
+          <event v-if="col.data.length > 0" :eventDataProperty="col.data"></event>
+        <!--</ul>-->
         <ul v-else>
           <li>
             <p><em>no listed upcoming events for this venue</em></p>
@@ -16,7 +16,7 @@
           </li>
         </ul>
       </div>
-    </ul>
+    </div>
   </div>
 </template>
 

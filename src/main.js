@@ -5,8 +5,8 @@ import App from './App'
 import router from './router'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
-import VueAnalytics from 'vue-analytics'
-import uaid from './utils/uaid'
+// import VueAnalytics from 'vue-analytics'
+// import uaid from './utils/uaid'
 
 Vue.use(VueAxios, axios)
 
@@ -20,13 +20,13 @@ new Vue({
   components: { App }
 })
 
-Vue.use(VueAnalytics, {
-  id: uaid,
-  router,
-  debug: {
-    enabled: false,
-    trace: false,
-    sendHitTask: true
-  }
-})
+// Vue.use(VueAnalytics, {
+//   id: uaid,
+//   router,
+//   debug: {
+//     enabled: false,
+//     trace: false,
+//     sendHitTask: true
+//   }
+// })
 
