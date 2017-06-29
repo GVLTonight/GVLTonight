@@ -1,8 +1,5 @@
 <template>
-  <div>
-    <site-title></site-title>
-    <h1 class="loading">hi sweet mary, i love you</h1>
-  </div>
+  <site-title></site-title>
 </template>
 
 <script>
@@ -19,5 +16,6 @@ export default {
   width: 100%;
   font-family: monospace;
   text-align: center;
+  animation: rotation 2s infinite linear;
 }
 </style>

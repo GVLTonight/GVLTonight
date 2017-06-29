@@ -5,12 +5,7 @@
         <h1>{{error.message}}</h1>
       </li>
     </ul>
-    <div class="venue">
-      <h1 v-on:click="sendGaEvent('page header', 'not-a-link', 'no-op')">gvltonight</h1>
-      <hr class="title-divider">
-      <em>live music aggregator for greenville sc</em>
-      <hr class="event-divider">
-    </div>
+    <site-title></site-title>
 
     <events-tonight :eventsTonight="tonightsEvents"></events-tonight>
     <events-this-week :eventsThisWeek="thisWeeksEvents"></events-this-week>
@@ -22,6 +17,7 @@
 import EventsTonight from '@/components/EventsTonight.vue'
 import EventsThisWeek from '@/components/EventsThisWeek.vue'
 import EventItem from '@/components/EventItem.vue'
+import SiteTitle from '@/components/SiteTitle.vue'
 export default {
   data: () => ({
     errors: [],
@@ -35,6 +31,7 @@ export default {
   ],
 
   components: {
+    SiteTitle,
     EventsTonight,
     EventsThisWeek,
     EventItem

@@ -2,7 +2,7 @@
   <div id="app">
     <!--<h1>&#x0287;&#x0265;&#x0183;&#x1D09;uo&#x0287;l&#x028C;&#x0183;</h1>-->
     <!--<h1>gvltonight</h1>-->
-    <!--<TopNav class="nav-bar"></TopNav>-->
+    <TopNav class="nav-bar"></TopNav>
     <div class="container">
       <router-view></router-view>
     </div>
@@ -22,7 +22,7 @@ export default {
 <style scoped>
   .nav-bar {
     height: 50px;
-    background-color: rebeccapurple;
+    background-color: white;
   }
 </style>
 
