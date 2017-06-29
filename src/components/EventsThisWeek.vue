@@ -6,9 +6,7 @@
           <a v-on:click="sendGaEvent('Venue: ' + col.data[0].venue.name, col.data[0].venue.url, 'venue header')" v-bind:href="col.url">{{col.header}}</a>
         </h1>
         <hr class="title-divider">
-        <!--<ul>-->
-          <event v-if="col.data.length > 0" :eventDataProperty="col.data"></event>
-        <!--</ul>-->
+        <event v-if="col.data.length > 0" :eventDataProperty="col.data"></event>
         <ul v-else>
           <li>
             <p><em>no listed upcoming events for this venue</em></p>

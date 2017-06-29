@@ -25,7 +25,7 @@ export default {
   }*/
 
   h1 {
-
+    padding-top: .7em;
   }
 
   a:hover {

@@ -1,7 +1,7 @@
 <template>
   <div>
-    <!--<router-link class="nav-link" to="/"><span>home</span></router-link>-->
-    <router-link class="nav-link" to="/about"><span>about</span></router-link>
+    <!--<router-link class="nav-link home" to="/"><span>home</span></router-link>-->
+    <router-link class="nav-link about" to="/about"><span>about</span></router-link>
   </div>
 </template>
 
@@ -16,11 +16,15 @@ export default {
 </script>
 
 <style scoped>
+.home {
+  float: left;
+}
+
+.about {
+  float: right;
+}
+
 .nav-link {
-  /*max-width:296px;*/
-  /*width: 100%;*/
-  display: inline-block;
   padding: 5px;
-  /*box-shadow: inset 0 -1px 0 1px black;*/
 }
 </style>

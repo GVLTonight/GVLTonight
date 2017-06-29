@@ -1,5 +1,8 @@
 <template>
-  <site-title></site-title>
+  <div>
+    <site-title></site-title>
+    <h1>YOU FOUND THE ABOUT PAGE WHOOOAAAAA</h1>
+  </div>
 </template>
 
 <script>
