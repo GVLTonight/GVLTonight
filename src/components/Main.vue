@@ -1,5 +1,5 @@
 <template>
-  <div class="gvl">
+  <div class="main">
     <ul v-if="errors && errors.length">
       <li v-for="error of errors" v-bind:key="error.message">
         <h1>{{error.message}}</h1>
