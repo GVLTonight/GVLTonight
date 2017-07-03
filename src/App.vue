@@ -4,7 +4,7 @@
     <!--<h1>gvltonight</h1>-->
     <TopNav class="nav-bar"></TopNav>
     <div class="container">
-      <router-view></router-view>
+      <router-view keep-alive></router-view>
     </div>
   </div>
 </template>

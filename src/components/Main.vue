@@ -54,8 +54,8 @@ export default {
     axios.all([
       // axios.get(`http://localhost:8000/api/tonight`),
       // axios.get(`http://localhost:8000/api/events/${tomorrow}/${endOfWeek}`)
-      axios.get(`https://greenvilletonight.com/api/tonight`),
-      axios.get(`https://greenvilletonight.com/api/events/${tomorrow}/${endOfWeek}`)
+      axios.get(`https://api.gvltonight.com/v1/tonight`),
+      axios.get(`https://api.gvltonight.com/v1/events/${tomorrow}/${endOfWeek}`)
     ])
     // axios.spread returns an array ie: function (will_be_index[0], will_be_index[1]) { }
     .then(
