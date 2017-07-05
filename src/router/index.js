@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Gvl from '@/components/Main'
+import Main from '@/components/Main'
 import About from '@/components/About'
 import Testing from '@/components/Testing'
 
@@ -11,7 +11,7 @@ export default new Router({
     {
       path: '/',
       name: 'Main',
-      component: Gvl
+      component: Main
     }, {
       path: '/about',
       name: 'About',

@@ -18,6 +18,8 @@ import EventsTonight from '@/components/EventsTonight.vue'
 import EventsThisWeek from '@/components/EventsThisWeek.vue'
 import EventItem from '@/components/EventItem.vue'
 import SiteTitle from '@/components/SiteTitle.vue'
+import moment from 'moment'
+import axios from 'axios'
 export default {
   data: () => ({
     errors: [],
