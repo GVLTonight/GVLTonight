@@ -5,10 +5,11 @@ import App from './App'
 import router from './router'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
+import moment from 'moment'
 // import VueAnalytics from 'vue-analytics'
 // import uaid from './utils/uaid'
 
-Vue.use(VueAxios, axios)
+Vue.use(VueAxios, axios, moment)
 
 // Vue.config.productionTip = true
 
