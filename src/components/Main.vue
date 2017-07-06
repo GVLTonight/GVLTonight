@@ -54,8 +54,8 @@ export default {
     let endOfWeek = moment().add(7, 'day').format('YYYY-MM-DD')
 
     axios.all([
-      // axios.get(`http://localhost:8000/api/tonight`),
-      // axios.get(`http://localhost:8000/api/events/${tomorrow}/${endOfWeek}`)
+      // axios.get(`http://localhost:8000/v1/tonight`),
+      // axios.get(`http://localhost:8000/v1/events/${tomorrow}/${endOfWeek}`)
       axios.get(`https://api.gvltonight.com/v1/tonight`),
       axios.get(`https://api.gvltonight.com/v1/events/${tomorrow}/${endOfWeek}`)
     ])
@@ -63,8 +63,8 @@ export default {
     .then(
       axios.spread(function (tonight, week) {
         return {
-          week: groupBy(week.data, 'sortBy'),
-          tonight: groupBy(tonight.data, 'sortBy')
+          week: groupBySorter(week.data, 'groupBy'),
+          tonight: groupBySorter(tonight.data, 'groupBy')
         }
       })
     )
@@ -96,8 +96,8 @@ export default {
 
 // Converts a flat collection of documents into:
 // -- { title: [array], title2: [array], etc: [etc] }
-// ---- groupBy( {array}, {value in documents to convert into key, and sort by} )
-function groupBy (arr, property) {
+// ---- groupBySorter( {array}, {value in documents to convert into key, and sort by} )
+function groupBySorter (arr, property) {
   return arr.reduce(function (buffer, x) {
     if (!buffer[x[property]]) { buffer[x[property]] = [] }
     buffer[x[property]].push(x)
@@ -125,7 +125,7 @@ function rebuild (rebuiltObj, param) {
   let bufferArray = []
   for (let x in rebuiltObj[param]) {
     let _el = rebuiltObj[param][x]
-    let _venueName = _el[0].sortBy === 'other' ? _venueName = 'other' : _venueName = _el[0].venue.name
+    let _venueName = _el[0].groupBy === 'other' ? _venueName = 'other' : _venueName = _el[0].venue.name
     bufferArray.push({
       header: _venueName.toLowerCase(),
       url: _el[0].venue.url,
