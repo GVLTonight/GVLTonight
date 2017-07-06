@@ -44,7 +44,6 @@ api.gvltonight.com.com/v1/venue/other/3030-06-02/3031-07-09
 api.gvltonight.com.com/v1/events/3030-06-02/3031-07-09
 ```
 
-
 ## Venues:
 ```
 ◉ other
