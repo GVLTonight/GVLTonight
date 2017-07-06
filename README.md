@@ -1,11 +1,3 @@
-## requires keys file to be present in project root folder
-``` json
-{
-	"mlab": "mlab_URI",
-	"fb": "fb_key"
-}
-```
-
 ## Schema Structure:
 ``` javascript
 {
@@ -36,7 +28,7 @@
 ```
 
 ## Routes:
-```
+``` bash
 api.gvltonight.com.com/v1/events            # all events in db
 api.gvltonight.com.com/v1/thisweek          # this week's events
 api.gvltonight.com.com/v1/tonight           # tonights events
@@ -46,7 +38,7 @@ api.gvltonight.com.com/v1/events/{startdate}/{enddate}
 ```
 
 ## Example Routes:
-```
+``` bash
 api.gvltonight.com.com/v1/venue/other
 api.gvltonight.com.com/v1/venue/other/3030-06-02/3031-07-09
 api.gvltonight.com.com/v1/events/3030-06-02/3031-07-09
