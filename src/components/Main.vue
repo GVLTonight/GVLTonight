@@ -56,6 +56,8 @@ export default {
     axios.all([
       // axios.get(`http://localhost:8000/v1/tonight`),
       // axios.get(`http://localhost:8000/v1/events/${tomorrow}/${endOfWeek}`)
+      // axios.get(`https://api.colatonight.com/v1/cola/tonight`),
+      // axios.get(`https://api.colatonight.com/v1/cola/events/${tomorrow}/${endOfWeek}`)
       axios.get(`https://api.gvltonight.com/v1/tonight`),
       axios.get(`https://api.gvltonight.com/v1/events/${tomorrow}/${endOfWeek}`)
     ])
