@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Main from '@/components/Main'
 import About from '@/components/About'
 import Testing from '@/components/Testing'
+// import Dossier from '@/utils/dossier'
 
 Vue.use(Router)
 
@@ -11,7 +12,11 @@ export default new Router({
     {
       path: '/',
       name: 'Main',
-      component: Main
+      component: Main,
+      props: {
+        variant: process.env.VARIANT
+
+      }
     }, {
       path: '/about',
       name: 'About',

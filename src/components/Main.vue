@@ -5,7 +5,7 @@
         <h1>{{error.message}}</h1>
       </li>
     </ul>
-    <site-title></site-title>
+    <site-title :variant="variant"></site-title>
 
     <events-tonight :eventsTonight="tonightsEvents"></events-tonight>
     <events-this-week :eventsThisWeek="thisWeeksEvents"></events-this-week>
@@ -26,11 +26,11 @@ export default {
     thisWeeksEvents: [],
     tonightsEvents: []
   }),
-
-  props: [
-    'eventsTonight',
-    'eventsThisWeek'
-  ],
+  props: {
+    variant: {},
+    eventsTonight: {},
+    eventsThisWeek: {}
+  },
 
   components: {
     SiteTitle,
@@ -50,21 +50,12 @@ export default {
   },
 
   created () {
-    let tomorrow = moment().add(1, 'day').format('YYYY-MM-DD')
-    let endOfWeek = moment().add(7, 'day').format('YYYY-MM-DD')
-
     axios.all([
       // axios.get(`http://localhost:8000/v1/tonight`),
       // axios.get(`http://localhost:8000/v1/events/${tomorrow}/${endOfWeek}`)
 
-      // axios.get(`https://api.colatonight.com/v1/cola/tonight`),
-      // axios.get(`https://api.colatonight.com/v1/cola/events/${tomorrow}/${endOfWeek}`)
-
-      // axios.get(`https://api.avltonight.com/v1/avl/tonight`),
-      // axios.get(`https://api.avltonight.com/v1/avl/events/${tomorrow}/${endOfWeek}`)
-
-      axios.get(`https://api.gvltonight.com/v1/gvl/tonight`),
-      axios.get(`https://api.gvltonight.com/v1/gvl/events/${tomorrow}/${endOfWeek}`)
+      axios.get(process.env.VARIANT.ajax[0]),
+      axios.get(process.env.VARIANT.ajax[1])
     ])
     // axios.spread returns an array ie: function (will_be_index[0], will_be_index[1]) { }
     .then(

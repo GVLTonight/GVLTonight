@@ -4,7 +4,7 @@
     <!--<h1>gvltonight</h1>-->
     <TopNav class="nav-bar"></TopNav>
     <div class="container">
-      <router-view keep-alive></router-view>
+      <router-view keep-alive :variant="cityVariant"></router-view>
     </div>
   </div>
 </template>
@@ -15,6 +15,12 @@ export default {
   name: 'app',
   components: {
     TopNav
+  },
+  data: () => ({
+    cityVariant: {}
+  }),
+  props: {
+    varient: {}
   }
 }
 </script>

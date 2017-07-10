@@ -4,6 +4,7 @@ var path = require('path')
 module.exports = {
   build: {
     env: require('./prod.env'),
+    dossier: require('./dossier.conf.js'),
     index: path.resolve(__dirname, '../dist/index.html'),
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
@@ -23,6 +24,7 @@ module.exports = {
   },
   dev: {
     env: require('./dev.env'),
+    dossier: require('./dossier.conf.js'),
     port: 8080,
     autoOpenBrowser: true,
     assetsSubDirectory: 'static',
