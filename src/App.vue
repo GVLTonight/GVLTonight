@@ -2,7 +2,7 @@
   <div id="app">
     <!--<h1>&#x0287;&#x0265;&#x0183;&#x1D09;uo&#x0287;l&#x028C;&#x0183;</h1>-->
     <!--<h1>gvltonight</h1>-->
-    <TopNav class="nav-bar"></TopNav>
+    <TopNav :varianto="cityVariant"></TopNav>
     <div class="container">
       <router-view keep-alive :variant="cityVariant"></router-view>
     </div>
@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import TopNav from '@/components/top-nav.vue'
+import TopNav from '@/components/TopNav.vue'
 export default {
   name: 'app',
   components: {
@@ -20,16 +20,13 @@ export default {
     cityVariant: {}
   }),
   props: {
-    varient: {}
+    varianto: {}
   }
 }
 </script>
 
 <style scoped>
-  .nav-bar {
-    height: 50px;
-    background-color: white;
-  }
+
 </style>
 
 <style>

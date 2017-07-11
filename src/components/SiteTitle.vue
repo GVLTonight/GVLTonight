@@ -12,7 +12,8 @@
 <script>
 export default {
   props: [
-    'variant'
+    'variant',
+    'about'
   ]
 }
 </script>
@@ -34,4 +35,15 @@ export default {
     color: white;
     background-color: black;
   }
+
+  @media(max-width: 600px){
+    h1 {
+      display: none;
+    }
+
+    .title-divider {
+      border: none;
+    }
+  }
+
 </style>

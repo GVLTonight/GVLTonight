@@ -15,12 +15,14 @@ export default new Router({
       component: Main,
       props: {
         variant: process.env.VARIANT
-
       }
     }, {
       path: '/about',
       name: 'About',
-      component: About
+      component: About,
+      props: {
+        variant: process.env.VARIANT
+      }
     }, {
       path: '/mary',
       name: 'Testing',
