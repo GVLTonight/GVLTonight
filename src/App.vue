@@ -56,6 +56,7 @@ img{max-width:100%;height:auto;border:0}
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+
 }
 
 .container {
