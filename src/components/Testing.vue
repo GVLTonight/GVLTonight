@@ -1,6 +1,6 @@
 <template>
   <div>
-    <site-title></site-title>
+    <site-title :variant="variant"></site-title>
     <h1 class="loading">hi sweet mary, i love you</h1>
   </div>
 </template>
@@ -13,6 +13,9 @@ import SiteTitle from '@/components/SiteTitle.vue'
 export default {
   components: {
     SiteTitle
+  },
+  props: {
+    variant: {}
   }
 }
 </script>

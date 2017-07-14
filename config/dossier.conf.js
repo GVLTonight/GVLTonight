@@ -1,14 +1,16 @@
 var dossier = require('../src/utils/dossier')
 
-var argv = require('minimist')(process.argv.slice(2));
-var arg = argv._[0];
+var keys = Object.keys(dossier)
+var argv = require('yargs')
+  .usage('Usage: npm run (script) -- --city=[' + [...keys] + ']')
+  .argv;
 
-if (arg) {
-  if (arg == 'cola') {
+if (typeof argv.city !== 'boolean') {
+  if (argv.city == 'cola') {
     process.env.VARIANT = JSON.stringify(dossier.cola);
-  } else if (arg == 'avl') {
+  } else if (argv.city == 'avl') {
     process.env.VARIANT = JSON.stringify(dossier.avl);
-  } else {
+  } else if (argv.city == 'gvl'){
     process.env.VARIANT = JSON.stringify(dossier.gvl);
   }
 }
