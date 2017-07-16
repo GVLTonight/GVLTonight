@@ -3,6 +3,8 @@ const moment = require('moment')
 let tomorrow = moment().add(1, 'day').format('YYYY-MM-DD')
 let endOfWeek = moment().add(7, 'day').format('YYYY-MM-DD')
 
+console.log(tomorrow, endOfWeek)
+
 module.exports = {
   gvl: {
     name: 'gvltonight',
@@ -11,7 +13,7 @@ module.exports = {
     title: 'GVLTONIGHT: live music aggregator for greenville sc',
     ajax: [
       `https://api.gvltonight.com/v1/gvl/tonight`,
-      `https://api.gvltonight.com/v1/gvl/events/${tomorrow}/${endOfWeek}`
+      `https://api.gvltonight.com/v1/gvl/thisweek`
     ]
   },
   cola: {
@@ -21,7 +23,7 @@ module.exports = {
     title: 'COLATONIGHT: live music aggregator for columbia sc',
     ajax: [
       `https://api.colatonight.com/v1/cola/tonight`,
-      `https://api.colatonight.com/v1/cola/events/${tomorrow}/${endOfWeek}`
+      `https://api.colatonight.com/v1/cola/thisweek`
     ]
   },
   avl: {
@@ -31,7 +33,7 @@ module.exports = {
     title: 'AVLTONIGHT: live music aggregator for asheville nc',
     ajax: [
       `https://api.avltonight.com/v1/avl/tonight`,
-      `https://api.avltonight.com/v1/avl/events/${tomorrow}/${endOfWeek}`
+      `https://api.avltonight.com/v1/avl/thisweek`
     ]
   }
 }
