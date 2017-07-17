@@ -1,37 +1,38 @@
 ## Schema Structure:
 ``` javascript
 {
-    groupBy:            String,
-    sortOrder:          Number,
+    groupBy:        String,
+    sortOrder:      Number,
     updated: {
-        type:           Date,
-        default:        Date.now,
+        type:       Date,
+        default:    Date.now,
     },
     venue: {
-        name:           String,
-        url:            String,
-        latitude:       Number,
-        longitude:      Number,
-        country:        String,
-        city:           String,
-        state:          String,
-        street:         String,
-        zip:            String,
+        name:       String,
+        url:        String,
+        latitude:   Number,
+        longitude:  Number,
+        country:    String,
+        city:       String,
+        state:      String,
+        street:     String,
+        zip:        String,
     },
-    title:              String,
-    description:        String,
-    url:                String,
-    time:               String,
-    date:               String,
-    datetime:           String,
+    title:          String,
+    description:    String,
+    url:            String,
+    time:           String,
+    date:           String,
+    datetime:       String,
 }
 ```
 
 ## Live Sites
-gvltonight.com
-avltonight.com
-colatonight.com
-
+```
+◉ gvltonight.com
+◉ avltonight.com
+◉ colatonight.com
+```
 
 ## Routes:
 ``` bash
@@ -85,7 +86,7 @@ AVL
 
 ***important: Scripts must be run with a city flag.***
 
-Since npm scripts don't handle flags well, the flag MUST come after a ` -- `.
+Since npm scripts don't handle flags well, the flag MUST come after a "` -- `". Alternatively, scripts  can be run as their non-alias commands (ex: `node build/dev-server.js --city=gvl`)
 
 Available cities are `gvl, avl, cola`.
 
