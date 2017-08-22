@@ -1,10 +1,3 @@
-const moment = require('moment')
-
-let tomorrow = moment().add(1, 'day').format('YYYY-MM-DD')
-let endOfWeek = moment().add(7, 'day').format('YYYY-MM-DD')
-
-console.log(tomorrow, endOfWeek)
-
 module.exports = {
   gvl: {
     name: 'gvltonight',

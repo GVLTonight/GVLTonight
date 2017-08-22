@@ -74,7 +74,6 @@ export default {
     .then(thisWeeksEventsObject => {
       this.thisWeeksEvents = thisWeeksEventsObject.week
       this.tonightsEvents = thisWeeksEventsObject.tonight
-      // console.log(thisWeeksEventsObject.tonight)
       accessorize(this.thisWeeksEvents)
       accessorize(this.tonightsEvents)
     })

@@ -77,9 +77,13 @@ COLA
 
 AVL
 ◉ avl music hall
+◉ one stop
 ◉ orange peel
 ◉ grey eagle
 ◉ civic center
+◉ highland
+◉ bhramari brewhouse
+◉ new mountain avl
 ```
 
 ## Scripts
