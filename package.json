@@ -13,7 +13,10 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
-    "testing": "node build/test.js"
+    "testing": "node build/test.js",
+    "build-gvl": "node build/build.js --city=gvl && rm -rf dist-gvl && mv dist dist-gvl",
+    "build-avl": "node build/build.js --city=avl && rm -rf dist-avl && mv dist dist-avl",
+    "build-cola": "node build/build.js --city=cola && rm -rf dist-cola && mv dist dist-cola"
   },
   "dependencies": {
     "axios": "^0.16.2",
