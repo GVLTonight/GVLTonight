@@ -9,6 +9,8 @@ import moment from 'moment'
 // import VueAnalytics from 'vue-analytics'
 // import uaid from './utils/uaid'
 
+// console.log('FBEvents\ncurrent_item[k].place cannot be found\n' + util.inspect(current_item[k], false, null) + '\n');
+
 Vue.use(VueAxios, axios, moment)
 
 // Vue.config.productionTip = true
