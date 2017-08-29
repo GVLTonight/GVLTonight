@@ -13,8 +13,9 @@ import EventsThisWeek from '@/components/EventsThisWeek.vue'
 import EventItem from '@/components/EventItem.vue'
 import SiteTitle from '@/components/SiteTitle.vue'
 import Errors from '@/components/Errors.vue'
-import axios from 'axios'
-import {groupBySorter, accessorize, rebuild} from '../utils/dataTransformations'
+import {accessorize} from '../utils/dataTransformations'
+import dataFetcher from '../utils/dataFetcher'
+
 export default {
   data: () => ({
     message: 'hello!',
@@ -49,28 +50,7 @@ export default {
   },
 
   created () {
-    axios.all([
-      // axios.get(`http://localhost:8000/v1/tonight`),
-      // axios.get(`http://localhost:8000/v1/events/${tomorrow}/${endOfWeek}`)
-
-      axios.get(process.env.VARIANT.ajax[0]),
-      axios.get(process.env.VARIANT.ajax[1])
-    ])
-    // axios.spread returns an array ie: function (will_be_index[0], will_be_index[1]) { }
-    .then(
-      axios.spread(function (tonight, week) {
-        return {
-          week: groupBySorter(week.data, 'groupBy'),
-          tonight: groupBySorter(tonight.data, 'groupBy')
-        }
-      })
-    )
-    .then(rebuilt => {
-      return {
-        week: rebuild(rebuilt, 'week'),
-        tonight: rebuild(rebuilt, 'tonight')
-      }
-    })
+    dataFetcher(process.env.VARIANT)
     .then(thisWeeksEventsObject => {
       this.thisWeeksEvents = thisWeeksEventsObject.week
       this.tonightsEvents = thisWeeksEventsObject.tonight
