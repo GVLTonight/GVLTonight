@@ -1,4 +1,5 @@
 import moment from 'moment'
+// import util from 'util'
 
 // Converts a flat collection of documents into:
 // -- { title: [array], title2: [array], etc: [etc] }
@@ -18,6 +19,7 @@ export function accessorize (rebuiltObj) {
       if (moment(innerObj.datetime).format(('YYYY-MM-DD')) === moment().format(('YYYY-MM-DD'))) {
         innerObj.isToday = true
         innerObj.timeofday = innerObj.datetime.split('T')[1] > '18:00:00' ? 'TONIGHT' : 'TODAY'
+        innerObj.dayOfWeek = moment(innerObj.datetime).format('dddd')
       }
       innerObj.date = moment(innerObj.datetime).format('ddd MM/DD/YYYY')
       innerObj.time = moment(innerObj.datetime).format('h:mm A')
@@ -41,6 +43,17 @@ export function rebuild (rebuiltObj, param) {
         return new Date(a.datetime) - new Date(b.datetime)
       })
     })
+  }
+  if (process.env.NODE_ENV === 'development') {
+    // console.log(util.inspect(bufferArray, false, null))
+    const tmp = {
+      rebuiltObj: rebuiltObj,
+      param: param,
+      output: bufferArray
+    }
+    console.log('\nrebuild(rebuiltObj, param)')
+    console.dir(tmp)
+    // console.dir(`rebuiltObj${rebuiltObj}\nparam${param}\noutput${bufferArray}`)
   }
   return bufferArray
 }

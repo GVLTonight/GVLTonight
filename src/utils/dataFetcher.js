@@ -1,7 +1,7 @@
 import axios from 'axios'
 import {groupBySorter, rebuild} from '../utils/dataTransformations'
 
-export default function dataFetcher (proc) {
+export default function dataFetcher (proc, sortOption) {
   return new Promise((resolve) => {
     resolve(axios.all([
       // axios.get(`http://localhost:8000/v1/tonight`),
@@ -12,6 +12,8 @@ export default function dataFetcher (proc) {
     // axios.spread returns an array ie: function (will_be_index[0], will_be_index[1]) { }
     .then(
       axios.spread(function (tonight, week) {
+        console.log('axios.get')
+        console.dir({tonight: tonight, week: week})
         return {
           week: groupBySorter(week.data, 'groupBy'),
           tonight: groupBySorter(tonight.data, 'groupBy')

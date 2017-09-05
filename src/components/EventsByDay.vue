@@ -1,5 +1,6 @@
 <template>
   <div class="events-this-week">
+    <h1>{{sortOptionToggle}}</h1>
     <div v-if="eventsThisWeek && eventsThisWeek.length">
       <div class="venue" v-for="col of eventsThisWeek" v-bind:key="col.temporaryId">
         <h1>

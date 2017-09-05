@@ -4,7 +4,7 @@
     <toggle></toggle>
     <errors :errorList="errors"></errors>
     <events-tonight :eventsTonight="tonightsEvents"></events-tonight>
-    <events-this-week :eventsThisWeek="thisWeeksEvents"></events-this-week>
+    <events-this-week :sortOptionToggle="sortOption" :eventsThisWeek="thisWeeksEvents"></events-this-week>
   </div>
 </template>
 
@@ -24,13 +24,15 @@ export default {
     errors: [],
     tonightsEvents: [],
     thisWeeksEvents: [],
-    variantObject: process.env.VARIANT
+    variantObject: process.env.VARIANT,
+    sortOption: 'venue'
   }),
   props: {
     variant: {},
     eventsTonight: {},
     eventsThisWeek: {},
-    errorList: {}
+    errorList: {},
+    sortOptionToggle: {}
   },
 
   components: {
