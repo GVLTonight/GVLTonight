@@ -18,23 +18,43 @@ export default {
 }
 </script>
 
-<style scoped>
-  /*a {
-    display: block;
-  }
+<style scoped lang="scss">
+/* ---------- GENERAL ---------- */
 
-  a:hover {
-    color: black;
-  }*/
+body {
+	background: #4a4a4a;
+	color: #151515;
+	font: 100%/1.5em "Lato", sans-serif;
+	margin: 0;
+}
 
-  h1 {
-    padding-top: .7em;
-  }
+input {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: normal;
+    margin: 0;
+}
 
-  a:hover {
-    color: white;
-    background-color: black;
-  }
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+// h1 {
+//   padding-top: .7em;
+// }
+
+// a {
+//   &:hover {
+//     color: white;
+//     background-color: black;
+//     span {
+//       height: 2em;
+//       background-color: pink;
+//       padding: .5em;
+//     }
+//   }
+// }
 
   @media(max-width: 600px){
     h1 {

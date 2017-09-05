@@ -1,6 +1,7 @@
 <template>
   <div class="main">
     <site-title :variant="variantObject"></site-title>
+    <toggle></toggle>
     <errors :errorList="errors"></errors>
     <events-tonight :eventsTonight="tonightsEvents"></events-tonight>
     <events-this-week :eventsThisWeek="thisWeeksEvents"></events-this-week>
@@ -13,6 +14,7 @@ import EventsThisWeek from '@/components/EventsThisWeek.vue'
 import EventItem from '@/components/EventItem.vue'
 import SiteTitle from '@/components/SiteTitle.vue'
 import Errors from '@/components/Errors.vue'
+import Toggle from '@/components/Toggle.vue'
 import {accessorize} from '../utils/dataTransformations'
 import dataFetcher from '../utils/dataFetcher'
 
@@ -36,7 +38,8 @@ export default {
     EventsTonight,
     EventsThisWeek,
     EventItem,
-    Errors
+    Errors,
+    Toggle
   },
 
   methods: {
@@ -50,7 +53,7 @@ export default {
   },
 
   created () {
-    dataFetcher(process.env.VARIANT)
+    dataFetcher(process.env)
     .then(thisWeeksEventsObject => {
       this.thisWeeksEvents = thisWeeksEventsObject.week
       this.tonightsEvents = thisWeeksEventsObject.tonight
