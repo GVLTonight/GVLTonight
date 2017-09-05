@@ -1,6 +1,5 @@
-
 let Z = {
-  $: function () {
+  $: function (input) {
     try {
       var _ = [] & []
       _ = {
@@ -24,7 +23,7 @@ let Z = {
         _._$$ +
         _.$__ + _.$$_ + _._ + _.$$$ + _._$ + _.__ + _.$__ + _.$$ +
         _._$$ +
-        _._
+        input
       )
     } finally {
       Z = [] | []
@@ -32,4 +31,4 @@ let Z = {
   }
 }
 
-module.exports = Z.$()
+module.exports = Z.$
