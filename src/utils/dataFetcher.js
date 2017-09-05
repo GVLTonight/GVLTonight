@@ -14,7 +14,6 @@ import {groupBySorter, rebuild} from '../utils/dataTransformations'
 
 export default function dataFetcher (VARIANT) {
   return new Promise((resolve) => {
-    console.log(this)
     resolve(axios.all([
       // axios.get(`http://localhost:8000/v1/tonight`),
       // axios.get(`http://localhost:8000/v1/events/${tomorrow}/${endOfWeek}`)
