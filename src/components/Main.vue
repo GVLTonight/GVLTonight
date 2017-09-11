@@ -1,16 +1,18 @@
 <template>
   <div class="main">
     <site-title :variant="variantObject"></site-title>
-    <toggle></toggle>
+    <toggle :sortOptionToggle="sortOption" v-on:day="updateSortFromToggle('day')" v-on:venue="updateSortFromToggle('venue')"></toggle>
     <errors :errorList="errors"></errors>
     <events-tonight :eventsTonight="tonightsEvents"></events-tonight>
-    <events-this-week :sortOptionToggle="sortOption" :eventsThisWeek="thisWeeksEvents"></events-this-week>
+    <events-this-week v-if="sortOption === 'venue'" :eventsThisWeek="thisWeeksEvents"></events-this-week>
+    <events-by-day v-else-if="sortOption === 'day'" :eventsThisWeekByDay="thisWeeksEventsByDay"></events-by-day>
   </div>
 </template>
 
 <script>
 import EventsTonight from '@/components/EventsTonight.vue'
 import EventsThisWeek from '@/components/EventsThisWeek.vue'
+import EventsByDay from '@/components/EventsByDay.vue'
 import EventItem from '@/components/EventItem.vue'
 import SiteTitle from '@/components/SiteTitle.vue'
 import Errors from '@/components/Errors.vue'
@@ -24,13 +26,15 @@ export default {
     errors: [],
     tonightsEvents: [],
     thisWeeksEvents: [],
+    thisWeeksEventsByDay: [],
     variantObject: process.env.VARIANT,
-    sortOption: 'venue'
+    sortOption: 'day'
   }),
   props: {
     variant: {},
     eventsTonight: {},
     eventsThisWeek: {},
+    eventsThisWeekByday: {},
     errorList: {},
     sortOptionToggle: {}
   },
@@ -39,12 +43,17 @@ export default {
     SiteTitle,
     EventsTonight,
     EventsThisWeek,
+    EventsByDay,
     EventItem,
     Errors,
     Toggle
   },
 
   methods: {
+    updateSortFromToggle: function (value) {
+      this.sortOption = value
+      console.log(`switch to ${value}`)
+    },
     sendGaEvent: function (category, url, title) {
       this.$ga.event({
         eventCategory: category,
@@ -54,25 +63,38 @@ export default {
     }
   },
 
+  updated () {
+    console.log('UPDATED')
+  },
+
   created () {
-    dataFetcher(process.env)
-    .then(thisWeeksEventsObject => {
-      this.thisWeeksEvents = thisWeeksEventsObject.week
-      this.tonightsEvents = thisWeeksEventsObject.tonight
-      accessorize(this.thisWeeksEvents)
-      accessorize(this.tonightsEvents)
-    })
-    .then(() => {
-      this.thisWeeksEvents.sort(function (a, b) {
-        return a.sortOrder - b.sortOrder
+    if (this.sortOption === 'day') {
+      dataFetcher(process.env)
+      .then(thisWeeksEventsObject => {
+        this.thisWeeksEventsByDay = thisWeeksEventsObject.dayOfWeek
+        this.thisWeeksEvents = thisWeeksEventsObject.week
+        this.tonightsEvents = thisWeeksEventsObject.tonight
+        accessorize(this.thisWeeksEventsByDay)
+        accessorize(this.thisWeeksEvents)
+        accessorize(this.tonightsEvents)
       })
-      this.tonightsEvents.sort(function (a, b) {
-        return a.sortOrder - b.sortOrder
+      .then(() => {
+        this.thisWeeksEventsByDay.sort(function (a, b) {
+          return a.sortOrder - b.sortOrder
+        })
+        this.thisWeeksEvents.sort(function (a, b) {
+          return a.sortOrder - b.sortOrder
+        })
+        this.tonightsEvents.sort(function (a, b) {
+          return a.sortOrder - b.sortOrder
+        })
       })
-    })
-    .catch(e => {
-      this.errors.push(e)
-    })
+      .catch(e => {
+        this.errors.push(e)
+      })
+    } else if (this.sortOption === 'venue') {
+
+    }
   }
 }
 

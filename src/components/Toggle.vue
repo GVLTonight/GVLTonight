@@ -3,32 +3,48 @@
     <span class="switch-background inset-border left"></span>
     <button v-on:click="switchLeft" class="switch left active">days</button>
     <button v-on:click="switchRight" class="switch right">venues</button>
+    <h2>{{sortOptionToggle}}</h2>
   </div>
 </template>
 
 <script>
 
 export default {
+  props: {
+    sortOptionToggle: {}
+  },
+  data: function () {
+    return {
+      sortOption: this.sortOptionToggle
+    }
+  },
   methods: {
     switchRight: function () {
       document.querySelector('.switch.right').classList.add('active')
       document.querySelector('.switch.left').classList.remove('active')
       document.querySelector('.switch-background').style.left = '50%'
+      this.sortOption = 'venue'
+      this.$emit(this.sortOption)
     },
     switchLeft: function () {
       document.querySelector('.switch.right').classList.remove('active')
       document.querySelector('.switch.left').classList.add('active')
       document.querySelector('.switch-background').style.left = '0%'
+      this.sortOption = 'day'
+      this.$emit(this.sortOption)
     }
   },
 
   created () {
-
+    // console.log(this.sortOption)
   }
 }
 </script>
 
 <style scoped lang="scss">
+  h2 {
+    margin-top: 20px;
+  }
 
 /* ------ DETERMINE WHITE OR BLACK ------ */
 // determines if contrast color should

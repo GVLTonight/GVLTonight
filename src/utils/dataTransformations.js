@@ -31,28 +31,45 @@ export function accessorize (rebuiltObj) {
 // -- { collectionName: { header: 'string', url: 'string', sortOrder: Number, data: [ Array ] } }
 export function rebuild (rebuiltObj, param) {
   let bufferArray = []
-  for (let x in rebuiltObj[param]) {
-    let _el = rebuiltObj[param][x]
-    let _venueName = _el[0].groupBy === 'other' ? _venueName = 'other' : _venueName = _el[0].venue.name
-    bufferArray.push({
-      header: _venueName.toLowerCase(),
-      url: _el[0].venue.url,
-      sortOrder: _el[0].sortOrder,
-      temporaryId: Math.random().toString(36).substring(2) + (new Date()).getTime().toString(36),
-      data: rebuiltObj[param][x].sort((a, b) => {
-        return new Date(a.datetime) - new Date(b.datetime)
+  if (param === 'day') {
+    for (let x in rebuiltObj[param]) {
+      let _el = rebuiltObj[param][x]
+      let _dayOfWeek = _el[0].dayOfWeek
+      bufferArray.push({
+        header: _dayOfWeek.toLowerCase(),
+        url: _el[0].venue.url,
+        sortOrder: _el[0].sortOrder,
+        temporaryId: Math.random().toString(36).substring(2) + (new Date()).getTime().toString(36),
+        data: rebuiltObj[param][x].sort((a, b) => {
+          return new Date(a.datetime) - new Date(b.datetime)
+        })
       })
-    })
+    }
+    console.log(bufferArray)
+  } else {
+    for (let x in rebuiltObj[param]) {
+      let _el = rebuiltObj[param][x]
+      let _venueName = _el[0].groupBy === 'other' ? _venueName = 'other' : _venueName = _el[0].venue.name
+      bufferArray.push({
+        header: _venueName.toLowerCase(),
+        url: _el[0].venue.url,
+        sortOrder: _el[0].sortOrder,
+        temporaryId: Math.random().toString(36).substring(2) + (new Date()).getTime().toString(36),
+        data: rebuiltObj[param][x].sort((a, b) => {
+          return new Date(a.datetime) - new Date(b.datetime)
+        })
+      })
+    }
   }
   if (process.env.NODE_ENV === 'development') {
     // console.log(util.inspect(bufferArray, false, null))
-    const tmp = {
-      rebuiltObj: rebuiltObj,
-      param: param,
-      output: bufferArray
-    }
-    console.log('\nrebuild(rebuiltObj, param)')
-    console.dir(tmp)
+    // const tmp = {
+    //   rebuiltObj: rebuiltObj,
+    //   param: param,
+    //   output: bufferArray
+    // }
+    // console.log('\nrebuild(rebuiltObj, param)')
+    // console.dir(tmp)
     // console.dir(`rebuiltObj${rebuiltObj}\nparam${param}\noutput${bufferArray}`)
   }
   return bufferArray

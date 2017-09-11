@@ -1,10 +1,11 @@
 <template>
   <div class="events-this-week">
-    <h1>{{sortOptionToggle}}</h1>
-    <div v-if="eventsThisWeek && eventsThisWeek.length">
-      <div class="venue" v-for="col of eventsThisWeek" v-bind:key="col.temporaryId">
+    <h1>EVENTS BY DAY</h1>
+    <div v-if="eventsThisWeekByDay && eventsThisWeekByDay.length">
+      <div class="venue" v-for="col of eventsThisWeekByDay" v-bind:key="col.temporaryId">
         <h1>
-          <a v-on:click="sendGaEvent('Venue: ' + col.data[0].venue.name, col.data[0].venue.url, 'venue header')" v-bind:href="col.url">{{col.header}}</a>
+          <!-- <a v-on:click="sendGaEvent('Venue: ' + col.data[0].venue.name, col.data[0].venue.url, 'venue header')" v-bind:href="col.url">{{col.header}}</a> -->
+          <a v-bind:href="col.url">{{col.header}}</a>
         </h1>
         <hr class="title-divider">
         <event v-if="col.data.length > 0" :eventDataProperty="col.data"></event>
@@ -23,7 +24,7 @@
 import EventItem from '@/components/EventItem.vue'
 export default {
   props: [
-    'eventsThisWeek',
+    'eventsThisWeekByDay',
     'eventDataProperty',
     'sortOptionToggle'
   ],
@@ -42,6 +43,6 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>

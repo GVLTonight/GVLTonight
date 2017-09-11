@@ -12,9 +12,8 @@ export default function dataFetcher (proc, sortOption) {
     // axios.spread returns an array ie: function (will_be_index[0], will_be_index[1]) { }
     .then(
       axios.spread(function (tonight, week) {
-        console.log('axios.get')
-        console.dir({tonight: tonight, week: week})
         return {
+          day: groupBySorter(week.data, 'dayOfWeek'),
           week: groupBySorter(week.data, 'groupBy'),
           tonight: groupBySorter(tonight.data, 'groupBy')
         }
@@ -22,6 +21,7 @@ export default function dataFetcher (proc, sortOption) {
     )
     .then(rebuilt => {
       return {
+        dayOfWeek: rebuild(rebuilt, 'day'),
         week: rebuild(rebuilt, 'week'),
         tonight: rebuild(rebuilt, 'tonight')
       }
