@@ -79,8 +79,19 @@ export default {
         accessorize(this.tonightsEvents)
       })
       .then(() => {
+        // const unordered = {"Friday":["5:00pm to 12:00am"] ,"Wednesday":["5:00pm to 11:00pm"],"Sunday":["11:00am to 11:00pm"], "Thursday":["5:00pm to 11:00pm"],"Saturday":["11:00am to 12:00am"]};
+
+        // const ordered = {};
+        // Object.keys(thisWeeksEventsByDay).sort(function (a, b) {
+        //     return moment(a, 'ddd dddd').weekday() > moment(b, 'ddd dddd').weekday();
+        // }).forEach(function(key) {
+        //     ordered[key] = unordered[key];
+        // });
+
+        // return ordered;
         this.thisWeeksEventsByDay.sort(function (a, b) {
-          return a.sortOrder - b.sortOrder
+          return moment(a.header, 'ddd dddd').weekday() > moment(b.header, 'ddd dddd').weekday()
+          // return a.sortOrder - b.sortOrder
         })
         this.thisWeeksEvents.sort(function (a, b) {
           return a.sortOrder - b.sortOrder

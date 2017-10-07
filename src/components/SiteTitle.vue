@@ -1,5 +1,5 @@
 <template>
-  <div class="venue">
+  <div class="site-title">
     <h1 v-on:click="sendGaEvent('page header', 'not-a-link', 'no-op')">
       <router-link to="/">{{variant.name}}</router-link>
     </h1>
@@ -22,28 +22,38 @@ export default {
 /* ---------- GENERAL ---------- */
 
 body {
-	background: #4a4a4a;
-	color: #151515;
-	font: 100%/1.5em "Lato", sans-serif;
-	margin: 0;
+  background: #4a4a4a;
+  color: #151515;
+  font: 100%/1.5em "Lato", sans-serif;
+  margin: 0;
 }
 
 input {
-    font-family: inherit;
-    font-size: 100%;
-    line-height: normal;
-    margin: 0;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: normal;
+  margin: 0;
 }
 
 input[type="radio"] {
-    box-sizing: border-box;
-    padding: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+
+@media(max-width: 600px) {
+  h1 {
+    display: none;
+  }
+
+  .title-divider {
+    border: none;
+  }
 }
 
 // h1 {
 //   padding-top: .7em;
 // }
-
 // a {
 //   &:hover {
 //     color: white;
@@ -55,15 +65,4 @@ input[type="radio"] {
 //     }
 //   }
 // }
-
-  @media(max-width: 600px){
-    h1 {
-      display: none;
-    }
-
-    .title-divider {
-      border: none;
-    }
-  }
-
 </style>

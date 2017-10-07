@@ -3,7 +3,7 @@
     <li v-for="item of eventDataProperty" v-bind:key="item._id">
       <div v-bind:class="{ today: item.isToday }">
         <p v-if="item.groupBy === 'other' || item.isToday">
-          <a target="_blank" v-on:click="sendGaEvent('Venue: ' + item.venue.name, item.venue.url, 'event venue')"  v-bind:href="item.venue.url">
+          <a target="_blank" v-on:click="sendGaEvent('Venue: ' + item.venue.name, item.venue.url, 'event venue')" v-bind:href="item.venue.url">
             {{item.venue.name}}
           </a>
         </p>
@@ -35,7 +35,7 @@ export default {
     'eventDataProperty'
   ],
   methods: {
-    sendGaEvent: function (category, url, label) {
+    sendGaEvent: function(category, url, label) {
       this.$ga.event({
         eventCategory: category,
         eventAction: url,

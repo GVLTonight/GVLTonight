@@ -5,7 +5,7 @@
       <div class="venue" v-for="col of eventsThisWeekByDay" v-bind:key="col.temporaryId">
         <h1>
           <!-- <a v-on:click="sendGaEvent('Venue: ' + col.data[0].venue.name, col.data[0].venue.url, 'venue header')" v-bind:href="col.url">{{col.header}}</a> -->
-          <a v-bind:href="col.url">{{col.header}}</a>
+          <a v-bind:href="col.url">{{col.header}} {{col.data[0].date}}</a>
         </h1>
         <hr class="title-divider">
         <event v-if="col.data.length > 0" :eventDataProperty="col.data"></event>
