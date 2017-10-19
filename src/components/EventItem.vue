@@ -35,7 +35,7 @@ export default {
     'eventDataProperty'
   ],
   methods: {
-    sendGaEvent: function(category, url, label) {
+    sendGaEvent: function (category, url, label) {
       this.$ga.event({
         eventCategory: category,
         eventAction: url,

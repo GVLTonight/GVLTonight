@@ -12,6 +12,8 @@ if (typeof argv.city !== 'boolean') {
     process.env.VARIANT = JSON.stringify(dossier.avl);
   } else if (argv.city == 'gvl'){
     process.env.VARIANT = JSON.stringify(dossier.gvl);
+  } else if (argv.city == 'clt'){
+    process.env.VARIANT = JSON.stringify(dossier.clt);
   }
 }
 
