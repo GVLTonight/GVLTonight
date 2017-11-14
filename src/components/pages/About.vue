@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import SiteTitle from '@/components/SiteTitle.vue'
+import SiteTitle from '@/components/elements/SiteTitle.vue'
 export default {
   components: {
     SiteTitle

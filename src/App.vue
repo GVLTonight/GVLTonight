@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import TopNav from '@/components/TopNav.vue'
+import TopNav from '@/components/elements/TopNav.vue'
 export default {
   name: 'app',
   components: {

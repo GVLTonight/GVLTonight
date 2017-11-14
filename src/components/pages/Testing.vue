@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import SiteTitle from '@/components/SiteTitle.vue'
+import SiteTitle from '@/components/elements/SiteTitle.vue'
 // import EventsTonight from '@/components/EventsTonight.vue'
 // import EventsThisWeek from '@/components/EventsThisWeek.vue'
 // import EventItem from '@/components/EventItem.vue'
