@@ -1,29 +1,30 @@
 ## Schema Structure:
 ``` javascript
 {
-    groupBy:        String,
-    sortOrder:      Number,
+    groupBy:            String,
+    dayOfWeek:          String,
+    sortOrder:          Number,
     updated: {
-        type:       Date,
-        default:    Date.now,
+        type:           Date,
+        default:        Date.now,
     },
     venue: {
-        name:       String,
-        url:        String,
-        latitude:   Number,
-        longitude:  Number,
-        country:    String,
-        city:       String,
-        state:      String,
-        street:     String,
-        zip:        String,
+        name:           String,
+        url:            String,
+        latitude:       Number,
+        longitude:      Number,
+        country:        String,
+        city:           String,
+        state:          String,
+        street:         String,
+        zip:            String,
     },
-    title:          String,
-    description:    String,
-    url:            String,
-    time:           String,
-    date:           String,
-    datetime:       String,
+    title:              String,
+    description:        String,
+    url:                String,
+    time:               String,
+    date:               String,
+    datetime:           String,
 }
 ```
 
@@ -36,12 +37,13 @@
 
 ## Routes:
 ``` bash
-api.gvltonight.com/v1/gvl/events            # all events in db
-api.gvltonight.com/v1/gvl/thisweek          # this week's events
-api.gvltonight.com/v1/gvl/tonight           # tonights events
-api.gvltonight.com/v1/gvl/venue/{venue}
-api.gvltonight.com/v1/gvl/venue/{venue}/{startdate}/{enddate}
-api.gvltonight.com/v1/gvl/events/{startdate}/{enddate}
+api.[city]tonight.com/v1/[city]/events            # all events in db
+api.[city]tonight.com/v1/[city]/thisweek          # this week's events
+api.[city]tonight.com/v1/[city]/thisweek/presort  # presorted by dayOfWeek
+api.[city]tonight.com/v1/[city]/tonight           # tonights events
+api.[city]tonight.com/v1/[city]/venue/{venue}
+api.[city]tonight.com/v1/[city]/venue/{venue}/{startdate}/{enddate}
+api.[city]tonight.com/v1/[city]/events/{startdate}/{enddate}
 ```
 
 ## Example Routes:
@@ -51,50 +53,28 @@ api.colatonight.com/v1/cola/tonight
 api.avltonight.com/v1/avl/tonight
 api.gvltonight.com/v1/gvl/tonight
 
+api.avltonight.com/v1/avl/events
+api.gvltonight.com/v1/gvl/thisweek
+api.colatonight.com/v1/cola/thisweek/presort
+
 api.gvltonight.com/v1/gvl/venue/other
 api.gvltonight.com/v1/gvl/venue/other/1692-06-02/3031-07-09
 api.gvltonight.com/v1/gvl/events/1692-06-02/3031-07-09
+
 ```
 
 ## Venues:
 For the update list of accounted for venues, see [GVLTonight-scrubber/dossier.js](https://github.com/GVLTonight/GVLTonight-scrubber/blob/master/dossier.js)
-```
-GVL
-◉ other
-◉ gottrocks
-◉ groundzero
-◉ radioroom
-◉ smileys
-◉ grandmas
-◉ village
-
-COLA
-◉ other
-◉ main st public ale house
-◉ music farm
-◉ new brookland
-◉ tin roof
-
-AVL
-◉ avl music hall
-◉ one stop
-◉ orange peel
-◉ grey eagle
-◉ civic center
-◉ highland
-◉ bhramari brewhouse
-◉ new mountain avl
-```
 
 ## Scripts
 
-***important: Scripts must be run with a city flag.***
+***important: Scripts must be run with a city flag. See examples.***
 
 Since npm scripts don't handle flags well, the flag MUST come after a "` -- `". Alternatively, scripts  can be run as their non-alias commands (ex: `node build/dev-server.js --city=gvl`)
 
 Available cities are `gvl, avl, cola`.
 
-See examples.
+Examples.
 ``` bash
 # install dependencies
 npm install
