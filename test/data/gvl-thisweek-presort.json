@@ -1,0 +1,1634 @@
+{
+  "day": {
+    "Thursday": [
+      {
+        "_id": "5a0e34935627174649455027",
+        "groupBy": "radioroom",
+        "dayOfWeek": "Thursday",
+        "sortOrder": 1000,
+        "title": "40oz Philosophy Open Mic",
+        "description":
+          "Stone Grown Comedy will be doing its very first LIVE PODCAST with YOU! And following promptly will be an open mic featuring Greenville's best and brightest comediens!",
+        "url": "https://facebook.com/227939924408464",
+        "time": "19:30:00",
+        "date": "2017-11-22",
+        "datetime": "2017-11-22T19:30:00-0500",
+        "venue": {
+          "name": "The Radio Room",
+          "url": "https://facebook.com/1511036895876524",
+          "latitude": 34.8865318,
+          "longitude": -82.3904037,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "110 Poinsett hwy",
+          "zip": "29609"
+        },
+        "updated": "2017-11-21T12:00:04.788Z"
+      },
+      {
+        "_id": "5a0ce313562717464945501d",
+        "groupBy": "smileys",
+        "dayOfWeek": "Thursday",
+        "sortOrder": 3000,
+        "title": "Live Band Karaoke",
+        "description": null,
+        "url":
+          "https://www.google.com/calendar/event?eid=cWt2MGY0bGZqbmRrMjJiZDN1NDY4MWZmcjBfMjAxNzExMjNUMDEwMDAwWiBzbWlsZXlzYWNvdXN0aWNjYWZlQG0&ctz=America/New_York",
+        "time": "20:00:00",
+        "date": "2017-11-22",
+        "datetime": "2017-11-22T20:00:00-05:00",
+        "venue": {
+          "name": "Smileys Acoustic Cafe",
+          "url": "http://www.smileysacousticcafe.com/calendar.php",
+          "latitude": 34.842952,
+          "longitude": -82.405414,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "111 Augusta Street",
+          "zip": "29601"
+        },
+        "updated": "2017-11-21T12:00:04.826Z"
+      },
+      {
+        "_id": "5a0e34935627174649455029",
+        "groupBy": "tipsymusicpub",
+        "dayOfWeek": "Thursday",
+        "sortOrder": 1100,
+        "title": "Phat Lip Thanksgiving Eve Get Down",
+        "description":
+          "Come celebrate Thanksgiving's Eve at Tipsy Music Pub with Phat Lip!",
+        "url": "https://facebook.com/1755208024774567",
+        "time": "21:00:00",
+        "date": "2017-11-22",
+        "datetime": "2017-11-22T21:00:00-0500",
+        "venue": {
+          "name": "Tipsy Music Pub",
+          "url": "https://facebook.com/108987659815117",
+          "latitude": 34.84701,
+          "longitude": -82.42862,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "1237 Pendleton St.",
+          "zip": "29611"
+        },
+        "updated": "2017-11-21T12:00:04.825Z"
+      },
+      {
+        "_id": "5a0e34935627174649455020",
+        "groupBy": "gottrocks",
+        "dayOfWeek": "Thursday",
+        "sortOrder": 2000,
+        "title":
+          "Loaves & Fishes JamsGiving w/ Justin Johnson (Marcus King Band) w/ TJ Lazer",
+        "description":
+          "21+\n$15/ $10 with food donation for Loaves & Fishes\n9pm\n\n\nJoin us for the inaugural Loaves & Fishes JamsGiving and help feed our local community this holiday season! $15 cover or $10 with food donation for Loaves & Fishes\n\nAbout Loaves & Fishes: \n\nLoaves & Fishes is Greenville County’s only food rescue organization. We collect donations of perishable food from grocery stores, restaurants, companies, churches and wholesalers. We operate with 2 full time and 1 part time refrigerated truck drivers and 3 administrative staff. This year we will deliver more than 2 million pounds of food to more than 98 emergency food providers in our community. This is food that would otherwise be wasted and deposited into landfills. 34 million pounds of organic waste is deposited into our landfills nationally every year. \n\n\n\nWe need these foods MOST:\n\nCanned meats\nPeanut butter and other nut butters\nStaples like flour, sugar, coffee, vegetable oil\nCanned or dried beans and peas\nPasta, rice, cereal, grits\nDry milk\nAny healthy, low-fat and low-sugar products\n\nTo ensure safety, we can NOT use:\n\nRusty or unlabeled cans\nHomemade items\nNoncommercial canned or packaged items\nAlcoholic beverages or mixes or soda\nOpen or used items\n\n\nThank You!\n\nBy contributing to Loaves & Fishes through a Food Drive, you are helping to provide high quality, nutritious food to thousands of Greenville County residents who rely on emergency food assistance each year. Thank you for supporting our hungry neighbors!",
+        "url": "https://facebook.com/727305327460816",
+        "time": "21:00:00",
+        "date": "2017-11-22",
+        "datetime": "2017-11-22T21:00:00-0500",
+        "venue": {
+          "name": "GOTTROCKS",
+          "url": "https://facebook.com/188656604439",
+          "latitude": 34.852613397854,
+          "longitude": -82.358855397222,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "200 Eisenhower Dr",
+          "zip": "29607"
+        },
+        "updated": "2017-11-17T12:00:04.117Z"
+      },
+      {
+        "_id": "5a0f8613562717464945502c",
+        "groupBy": "gottrocks",
+        "dayOfWeek": "Thursday",
+        "sortOrder": 2000,
+        "title":
+          "Loaves & Fishes JamsGiving w/ Justin Johnson (Marcus King Band) & TJ Lazer",
+        "description":
+          "21+\n$15/ $10 with food donation for Loaves & Fishes\n9pm\n\n\nJoin us for the inaugural Loaves & Fishes JamsGiving and help feed our local community this holiday season! $15 cover or $10 with food donation for Loaves & Fishes\n\nAbout Loaves & Fishes: \n\nLoaves & Fishes is Greenville County’s only food rescue organization. We collect donations of perishable food from grocery stores, restaurants, companies, churches and wholesalers. We operate with 2 full time and 1 part time refrigerated truck drivers and 3 administrative staff. This year we will deliver more than 2 million pounds of food to more than 98 emergency food providers in our community. This is food that would otherwise be wasted and deposited into landfills. 34 million pounds of organic waste is deposited into our landfills nationally every year. \n\n\n\nWe need these foods MOST:\n\nCanned meats\nPeanut butter and other nut butters\nStaples like flour, sugar, coffee, vegetable oil\nCanned or dried beans and peas\nPasta, rice, cereal, grits\nDry milk\nAny healthy, low-fat and low-sugar products\n\nTo ensure safety, we can NOT use:\n\nRusty or unlabeled cans\nHomemade items\nNoncommercial canned or packaged items\nAlcoholic beverages or mixes or soda\nOpen or used items\n\n\nThank You!\n\nBy contributing to Loaves & Fishes through a Food Drive, you are helping to provide high quality, nutritious food to thousands of Greenville County residents who rely on emergency food assistance each year. Thank you for supporting our hungry neighbors!",
+        "url": "https://facebook.com/727305327460816",
+        "time": "21:00:00",
+        "date": "2017-11-22",
+        "datetime": "2017-11-22T21:00:00-0500",
+        "venue": {
+          "name": "GOTTROCKS",
+          "url": "https://facebook.com/188656604439",
+          "latitude": 34.852613397854,
+          "longitude": -82.358855397222,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "200 Eisenhower Dr",
+          "zip": "29607"
+        },
+        "updated": "2017-11-21T12:00:04.765Z"
+      },
+      {
+        "_id": "5a0e34935627174649455026",
+        "groupBy": "other",
+        "dayOfWeek": "Thursday",
+        "sortOrder": 5000,
+        "title": "Upstate Holiday Light Show",
+        "description":
+          "Upstate Holiday Light Show will be opening for the 2017 season on Thanksgiving Night! Located at Greenville-Pickens Speedway; bring the whole family to the biggest interactive LED light show in the Upstate!! Meet Santa at his workshop, Petting Zoo & Ice Skating rink! \n**LIKE, SHARE, & INVITE a Friend to WIN a Car Pass for both You & a Friend!!**\n\nPrices are just $20 for the whole car! (This includes cars, trucks, mini van, or suv.) \n$40 for passenger vans \n$75 for buses. \n\nTickets are available at the door & online at \nhttps://www.eventbrite.com/e/upstate-holiday-light-show-tickets-39451339017\n\nPlease visit our website or give us a call at 864-295-5764 if you have any questions!",
+        "url": "https://facebook.com/104208593683739",
+        "time": "18:00:00",
+        "date": "2017-11-23",
+        "datetime": "2017-11-23T18:00:00-0500",
+        "venue": {
+          "name": "Greenville-Pickens Speedway",
+          "url": "https://facebook.com/272931339980",
+          "latitude": 34.833047110591,
+          "longitude": -82.500968025562,
+          "country": "United States",
+          "city": "Easley",
+          "state": "SC",
+          "street": "3800 Calhoun Memorial Hwy",
+          "zip": "29640"
+        },
+        "updated": "2017-11-21T12:00:04.787Z"
+      },
+      {
+        "_id": "5a0e3493562717464945502a",
+        "groupBy": "smileys",
+        "dayOfWeek": "Thursday",
+        "sortOrder": 3000,
+        "title": "Closed",
+        "description": "Live Music",
+        "url":
+          "https://www.google.com/calendar/event?eid=XzhkOWxjZ3JmZHByNmFzamtjNHMzOGRwcDZsaG1jb2IyNmNwNjRwaG9jNWkzNmRyMzZkZ2pjZDlsY2RoNjhvaGk2Y28wIHNtaWxleXNhY291c3RpY2NhZmVAbQ&ctz=America/New_York",
+        "time": "18:30:00",
+        "date": "2017-11-23",
+        "datetime": "2017-11-23T18:30:00-05:00",
+        "venue": {
+          "name": "Smileys Acoustic Cafe",
+          "url": "http://www.smileysacousticcafe.com/calendar.php",
+          "latitude": 34.842952,
+          "longitude": -82.405414,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "111 Augusta Street",
+          "zip": "29601"
+        },
+        "updated": "2017-11-21T12:00:04.827Z"
+      }
+    ],
+    "Wednesday": [
+      {
+        "_id": "5a0ce313562717464945501c",
+        "groupBy": "groundzero",
+        "dayOfWeek": "Wednesday",
+        "sortOrder": 4000,
+        "title": "Benefit For Tracy's Medical Bills",
+        "description":
+          "Tracy Wyatt has had major medical bills while being treated for breast cancer , upcoming surgery November 21st . She will be missing work for several weeks . \n\n\" Tracy wants to raise awareness for all women to get regularly scheduled mammograms \"\n\n We are putting on a show with all the proceeds from $10 ticket sales going straight to her surgery bills , also raffling off several items on Wednesday November 21st at GroundZero in Spartanburg\nThe Lost Outlaws 11pm\n The Wes, Bob & Bill Show10 pm \n Gods of Mars  9pm \n Random Highway 8pm \n\nMessage GroundZero if you have questions , want to perform , donate items to raffle etc. Please share this with all your friends\n\nhttps://www.facebook.com/wesbobbillshow/\n\nhttps://www.facebook.com/TheLostOutlaws/\n\nhttps://www.facebook.com/fuzzlordz/",
+        "url": "https://facebook.com/1931866393740215",
+        "time": "18:00:00",
+        "date": "2017-11-22",
+        "datetime": "2017-11-22T18:00:00-0500",
+        "venue": {
+          "name": "GroundZero",
+          "url": "https://facebook.com/211975785235",
+          "latitude": 34.97026,
+          "longitude": -81.9642,
+          "country": "United States",
+          "city": "Spartanburg",
+          "state": "SC",
+          "street": "3052 Howard St.",
+          "zip": "29303"
+        },
+        "updated": "2017-11-21T12:00:04.767Z"
+      },
+      {
+        "_id": "5a137a935627174649455064",
+        "groupBy": "other",
+        "dayOfWeek": "Wednesday",
+        "sortOrder": 5000,
+        "title": "Thanksgiving Eve Cookout and Piano Jam",
+        "description":
+          "This Thanksgiving Eve we will have Evan Dehner out rocking the piano from 8:00-10:00pm, and we will be serving our smoked chili either on grilled hot dogs, or by itself. What is smoked chili you ask? Smoked chili is the culinary genious of dry rubbing and smoking all your meats before slow cooking them into chili.",
+        "url": "https://facebook.com/149555735795413",
+        "time": "18:00:00",
+        "date": "2017-11-22",
+        "datetime": "2017-11-22T18:00:00-0500",
+        "venue": {
+          "name": "13 Stripes Brewery",
+          "url": "https://facebook.com/462016993908281",
+          "latitude": 34.9199309,
+          "longitude": -82.2864145,
+          "country": "United States",
+          "city": "Taylors",
+          "state": "SC",
+          "street": "250 Mill St Ste PW3101",
+          "zip": "29687"
+        },
+        "updated": "2017-11-21T12:00:04.801Z"
+      }
+    ],
+    "Friday": [
+      {
+        "_id": "5a0ecf44562717464945502b",
+        "groupBy": "smileys",
+        "dayOfWeek": "Friday",
+        "sortOrder": 3000,
+        "title": "Happy Thanksgiving!",
+        "description": "Live Music",
+        "url":
+          "https://www.google.com/calendar/event?eid=XzhkOWxjZ3JmZHByNmFzams2MHI2OGM5cDZzcmo4b2ozY2NwMzBkMWc3NHAzZW9qNGM5ajNjZTloNmxpMzZkajNjNWlnIHNtaWxleXNhY291c3RpY2NhZmVAbQ&ctz=America/New_York",
+        "time": "22:00:00",
+        "date": "2017-11-23",
+        "datetime": "2017-11-23T22:00:00-05:00",
+        "venue": {
+          "name": "Smileys Acoustic Cafe",
+          "url": "http://www.smileysacousticcafe.com/calendar.php",
+          "latitude": 34.842952,
+          "longitude": -82.405414,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "111 Augusta Street",
+          "zip": "29601"
+        },
+        "updated": "2017-11-21T12:00:04.826Z"
+      },
+      {
+        "_id": "5a0f86145627174649455033",
+        "groupBy": "smileys",
+        "dayOfWeek": "Friday",
+        "sortOrder": 3000,
+        "title": "Jack Greer Band ",
+        "description": "Live Music",
+        "url":
+          "https://www.google.com/calendar/event?eid=XzhkOWxjZ3JmZHByNmFzamtjb28zZ2NiNjYwb2o4Y2hwNnBoNjhjOWw3NWgzNHBiNjZjcTNlZTMyY2tzM2dkOWdjcGhnIHNtaWxleXNhY291c3RpY2NhZmVAbQ&ctz=America/New_York",
+        "time": "18:30:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T18:30:00-05:00",
+        "venue": {
+          "name": "Smileys Acoustic Cafe",
+          "url": "http://www.smileysacousticcafe.com/calendar.php",
+          "latitude": 34.842952,
+          "longitude": -82.405414,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "111 Augusta Street",
+          "zip": "29601"
+        },
+        "updated": "2017-11-21T12:00:04.828Z"
+      },
+      {
+        "_id": "5a0f8613562717464945502e",
+        "groupBy": "groundzero",
+        "dayOfWeek": "Friday",
+        "sortOrder": 4000,
+        "title": "Annual Can Food Drive Fri Nov 24th",
+        "description":
+          "Friday November 24th 3 canned food items for entry or $7 . Bands performing are Groove Matter , The Apartment Club, Total Astronaut, Fixed Faces and Psycho Pyscho\n\nhttps://www.facebook.com/GROOVEMATTERBAND/\n\nhttps://www.facebook.com/totalastronautband/\n\nhttps://www.facebook.com/theaptclub/\n\nhttps://www.facebook.com/PsychoPsychoSC/\n\nhttps://www.facebook.com/fixedfaces/\n\n\nFixed Faces  Midnight\nGroove Matter 11p\nThe Apartment Club 10p\nTotal Astronaut 9p\nPsycho Psycho 8p",
+        "url": "https://facebook.com/163620070895293",
+        "time": "18:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T18:00:00-0500",
+        "venue": {
+          "name": "GroundZero",
+          "url": "https://facebook.com/211975785235",
+          "latitude": 34.97026,
+          "longitude": -81.9642,
+          "country": "United States",
+          "city": "Spartanburg",
+          "state": "SC",
+          "street": "3052 Howard St.",
+          "zip": "29303"
+        },
+        "updated": "2017-11-21T12:00:04.766Z"
+      }
+    ],
+    "Saturday": [
+      {
+        "_id": "5a10d7935627174649455049",
+        "groupBy": "tipsymusicpub",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 1100,
+        "title": "Black Friday Getdown!",
+        "description":
+          "Come get down with some of your very own greenville talent at this Black Friday event!  Let’s Jam!  We have members of Four 14, Jack Ryan of Marcus King Band, Charles Hedgepath and many more!",
+        "url": "https://facebook.com/495253360873711",
+        "time": "21:30:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T21:30:00-0500",
+        "venue": {
+          "name": "Tipsy Music Pub",
+          "url": "https://facebook.com/108987659815117",
+          "latitude": 34.84701,
+          "longitude": -82.42862,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "1237 Pendleton St.",
+          "zip": "29611"
+        },
+        "updated": "2017-11-21T12:00:04.824Z"
+      },
+      {
+        "_id": "5a10d793562717464945503f",
+        "groupBy": "other",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 5000,
+        "title": "Pure Ghost",
+        "description":
+          "The Velo Fellow will be hosting local shoegaze/post rock outfit, Pure Ghost.  \n\npureghostband.bandcamp.com\nPure Ghost\nNo Cover\n21+\n\nPost-show after-party // Tavo & friends will be spinning vinyls records | Friday Night Delights | soul, funk, & other rarities\n\n/ Black Friday cocktail specials /\n🕷 | dress in black, or don't | 🥀",
+        "url": "https://facebook.com/1335740923218153",
+        "time": "22:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T22:00:00-0500",
+        "venue": {
+          "name": "The Velo Fellow",
+          "url": "https://facebook.com/131308053611133",
+          "latitude": 34.843842489976,
+          "longitude": -82.404256485236,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "1 Augusta St, Ste 126",
+          "zip": "29601"
+        },
+        "updated": "2017-11-21T12:00:04.766Z"
+      },
+      {
+        "_id": "5a1020c45627174649455035",
+        "groupBy": "smileys",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 3000,
+        "title": "Shane Pruitt & Max Hightower ",
+        "description": "Live Music",
+        "url":
+          "https://www.google.com/calendar/event?eid=XzhkOWxjZ3JmZHByNmFzams3NWdqY2RiM2M1aDY0b3I0Y3BqM2VjMzJjcGkzMnAxazYxaDM2Y3BqY2RqMzBkaGtjOHNnIHNtaWxleXNhY291c3RpY2NhZmVAbQ&ctz=America/New_York",
+        "time": "22:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T22:00:00-05:00",
+        "venue": {
+          "name": "Smileys Acoustic Cafe",
+          "url": "http://www.smileysacousticcafe.com/calendar.php",
+          "latitude": 34.842952,
+          "longitude": -82.405414,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "111 Augusta Street",
+          "zip": "29601"
+        },
+        "updated": "2017-11-21T12:00:04.827Z"
+      },
+      {
+        "_id": "5a10d793562717464945503c",
+        "groupBy": "gottrocks",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 2000,
+        "title": "Afterglow Jam 2017",
+        "description":
+          "3rd Annual Thanksgving Afterglow Jam!\n\nAfter spending the actual holiday with the blood/legal relatives, visit the friendly, familiar, but ever more badass Gottrocks on Friday night to reunitie with your musical family. \n\nFeat:\nRush Morgan\nLOZ \nHillary Keane Project \nJillian Sprague \nBrandon Leon David \n\n#LocalGreen #AfterglowJam #StonerPop",
+        "url": "https://facebook.com/134948580463698",
+        "time": "20:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T20:00:00-0500",
+        "venue": {
+          "name": "GOTTROCKS",
+          "url": "https://facebook.com/188656604439",
+          "latitude": 34.852613397854,
+          "longitude": -82.358855397222,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "200 Eisenhower Dr",
+          "zip": "29607"
+        },
+        "updated": "2017-11-21T12:00:04.758Z"
+      },
+      {
+        "_id": "5a10d7935627174649455047",
+        "groupBy": "other",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 5000,
+        "title": "Gabe Dixon w/ Swamp Rabbit Railroad",
+        "description":
+          "Doors: 7pm\nShow: 8pm\n\n$12 adv. / $15 DOS\n\nThroughout Gabe Dixon's career, many other notable artists have taken note of his immense talents. He has held side gigs as keyboardist and vocalist for Paul McCartney, Alison Krauss & Union Station, O.A.R. and Supertramp. His songs have received placements on major television shows including Parks and Recreation, Grey's Anatomy, and Vampire Diaries, and his song \"Find My Way\" served as the title for the box office hit The Proposal starring Sandra Bullock. Fans have seen him perform twice on Jimmy Kimmel LIVE!, as well as The Late Late Show with Craig Ferguson, and on festival stages everywhere from Bonnaroo to High Sierra Music Festival. However, it's with Turns To Gold that listeners will hear Gabe Dixon as he always meant.\n\n\"Turns To Gold\", released in April, 2016, was produced by Paul Moak (Mat Kearney, Third Day), engineered by Devin Vaughan (Marc Broussard), and mastered by Brad Blackwood at Euphonics Mastering (Allison Krauss & Union Station, Luther Dickinson). The LP marks Gabe's first official collection as an independent artist. Following the release of 2011's One Spark, the Nashville-based troubadour changed almost everything. He was focused on starting from scratch, and parted ways with his longtime management and record label, Concord Music Group. The one thing that didn't change was that honest, heartfelt approach to songwriting that countless fans fell in love with when he first emerged in 1999.\n\nTurns To Gold addresses some weighty subjects—mortality, what's important in life, and the value of love. \"In many ways, my new music is about learning how to be in a committed relationship, leave immature ways behind, grow, evolve, and move on from habits that aren't necessarily who you are anymore,\" he says. The album was recorded at The Smoakstack recording studio in Berry Hill, TN with Jano Rix on drums (The Wood Brothers), Viktor Krauss on bass (Lyle Lovett), and Kris Donegan on guitar (Cam). \"I wanted to go in with musicians and get performances that were inspiring and inspired, and take it from there. Producer Paul Moak was completely on the same page. We cut everything to analog tape with no click track. What results is an album that feels very natural. Since One Spark I learned to trust myself, and the sound of Turns To Gold is the most representative of who I am. It's warm, laid-back, acoustic, and live.\"\n\nThe opener and first single, \"Holding Her Freedom,\" out now, coasts between a shimmering piano melody, organ swell, guitar rumble, and heavenly vocal performance from Gabe. It also conveys a cinematic narrative. \"It's a story about a woman who has been burned by love, and she's afraid to let herself be vulnerable and fall in love again,\" he explains. \"She's figuratively holding her freedom like a cage. That same 'freedom' keeps her trapped and unable to love again.\" The album's second single, \"The Way To Love Me,\" features Natalie Prass and will be released on February 5th. \"Natalie's voice has the perfect delicate and vulnerable qualities that the song required,\" says Gabe. \"She recorded it while passing through Nashville to play the Ryman Auditorium, part of a long tour opening for Ryan Adams.\"\n\nhttp://www.gabedixon.com\n\n\n\nSwamp Rabbit Railroad represents the tradition of American folk revival music as established by Leadbelly, Woody Guthrie, Pete Seeger, and Bob Dylan, among others, while also creating innovative and socially-pertinent tunes in the modern folk setting. Like folk songwriters of the past, this husband and wife duo seeks to be a voice for its generation. The Casons’ unique blend of harmonies creates a haunting and beautiful sound that captures the essence of the foothills in which they were formed while their onstage chemistry captivates the attention of any audience. \n\nhttp://swamprabbitrailroad.com",
+        "url": "https://facebook.com/944192659052035",
+        "time": "20:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T20:00:00-0500",
+        "venue": {
+          "name": "The Spinning Jenny",
+          "url": "https://facebook.com/432057096968022",
+          "latitude": 34.93893,
+          "longitude": -82.22501,
+          "country": "United States",
+          "city": "Greer",
+          "state": "SC",
+          "street": "107 Cannon St",
+          "zip": "29651"
+        },
+        "updated": "2017-11-21T12:00:04.818Z"
+      },
+      {
+        "_id": "5a10d793562717464945504a",
+        "groupBy": "smileys",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 3000,
+        "title": "J Michael King     ",
+        "description": "Live Music",
+        "url":
+          "https://www.google.com/calendar/event?eid=XzhkOWxjZ3JmZHByNmFzams2cGg2YWMxbmNrbzY4YzluNjVqM2VjMzM2c3IzMGQ5aTc0czZhYzFsYzVpamVkYjU2Z3FnIHNtaWxleXNhY291c3RpY2NhZmVAbQ&ctz=America/New_York",
+        "time": "18:30:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T18:30:00-05:00",
+        "venue": {
+          "name": "Smileys Acoustic Cafe",
+          "url": "http://www.smileysacousticcafe.com/calendar.php",
+          "latitude": 34.842952,
+          "longitude": -82.405414,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "111 Augusta Street",
+          "zip": "29601"
+        },
+        "updated": "2017-11-21T12:00:04.826Z"
+      },
+      {
+        "_id": "5a10d7935627174649455040",
+        "groupBy": "groundzero",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 4000,
+        "title":
+          "Cesspool of Vermin,BWD,CadaverCreator,Krvsade,Novgorod 10bandsSat Nov 25th",
+        "description":
+          "#DivineTreachery \n#CesspoolOfVermin\n#Krvsade \n#DeathOfAugust \n#BeyondTheGallows\n#CadaverCreator \n#Infensus Inferi\n#Novgorod\n#Abductor\n#Blackwater Drowning \n\nA night full of metal! Starts at 6pm!\n10 Bands!\n$10",
+        "url": "https://facebook.com/466640760370570",
+        "time": "18:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T18:00:00-0500",
+        "venue": {
+          "name": "GroundZero",
+          "url": "https://facebook.com/211975785235",
+          "latitude": 34.97026,
+          "longitude": -81.9642,
+          "country": "United States",
+          "city": "Spartanburg",
+          "state": "SC",
+          "street": "3052 Howard St.",
+          "zip": "29303"
+        },
+        "updated": "2017-11-21T01:00:03.021Z"
+      },
+      {
+        "_id": "5a137a935627174649455062",
+        "groupBy": "other",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 5000,
+        "title": "Friendsgiving Yoga",
+        "description":
+          "Friendsgiving Yoga in the Birdhouse! Join us for a special yoga class where we give thanks to our beautiful community of Bendy Birds.\n\nSpecial price of 2 for $15 when you come with a friend! Bring someone who's new to yoga, who's never tried #bfsbeer, or who's visiting in town for the holiday weekend.\n\nAll levels welcomed, bring a mat and setup at 11:45 for this noon session. Pricing includes class + one pint per person!",
+        "url": "https://facebook.com/947220475425743",
+        "time": "12:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T12:00:00-0500",
+        "venue": {
+          "name": "Birds Fly South Ale Project",
+          "url": "https://facebook.com/809146989137188",
+          "latitude": 34.86592,
+          "longitude": -82.41552,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "1320 Hampton Ave Ext",
+          "zip": "29601"
+        },
+        "updated": "2017-11-21T12:00:04.768Z"
+      },
+      {
+        "_id": "5a10d7935627174649455048",
+        "groupBy": "tipsymusicpub",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 1100,
+        "title": "The Substitutes",
+        "description": null,
+        "url": "https://facebook.com/378707399249121",
+        "time": "18:30:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T18:30:00-0500",
+        "venue": {
+          "name": "Tipsy Music Pub",
+          "url": "https://facebook.com/108987659815117",
+          "latitude": 34.84701,
+          "longitude": -82.42862,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "1237 Pendleton St.",
+          "zip": "29611"
+        },
+        "updated": "2017-11-21T12:00:04.819Z"
+      },
+      {
+        "_id": "5a10d7935627174649455042",
+        "groupBy": "other",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 5000,
+        "title": "Free Christmas Wonderland at Anderson Jockey Lot",
+        "description":
+          "Make plans this holiday season to come and have cocoa & cookies with Santa in his \"Winter Wonderland\" at the Anderson Jockey Lot's Free Christmas Event. You can have pictures made with Santa and have them instantly printed for a $5.00 donation per picture or you can take your own picture for free. Custom Gift wrapping will be available for $1.00 donation per item. Please remove price tags and have them labeled with \"to and from\" information.  We will also have local groups here performing holiday plays, singing and playing music.  If your group would like to come donate your time please call the office at 864-224-2027 to sign up.  \n\nWe will be accepting donations (toys, clothing, monetary donations) will be accepted each weekend and will be donated to help local charity.  \n\nWe will also be selling raffle tickets for prizes, if you would like to donate an item to raffle to raise money for charity, please submit to the office by November 12th.  The raffle tickets will be sold November 18 tru December 23.  The drawing will be at 2pm Saturday Dec. 23 you do not have to be present to win.\n\nOur Free event will be held Saturday and Sunday November 25&26 December 2&3, 9&10, 16&17, and 23&24 from 11am-2pm. \nIf you would like to donate before these event dates. Please bring all donations to the office at Anderson Jockey Lot on any Friday, Saturday or Sundays from 9-5. Come on out for some fun and help our community!",
+        "url": "https://facebook.com/488224298217857",
+        "time": "11:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T11:00:00-0500",
+        "venue": {
+          "name": "Anderson Jockey Lot",
+          "url": "https://facebook.com/1383386941715502",
+          "latitude": 34.5847344,
+          "longitude": -82.548066,
+          "country": "United States",
+          "city": "Belton",
+          "state": "SC",
+          "street": "4530 Hwy 29 N",
+          "zip": "29627"
+        },
+        "updated": "2017-11-21T12:00:04.784Z"
+      },
+      {
+        "_id": "5a10d7935627174649455044",
+        "groupBy": "other",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 5000,
+        "title": "Small Business Saturday",
+        "description":
+          "Join us for #SmallBizSat this Nov 25 and #ShopSmall at the businesses you love. Promotions map: https://buff.ly/2mA6dqX",
+        "url": "https://facebook.com/1501061053309595",
+        "time": "08:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T08:00:00-0500",
+        "venue": {
+          "name": "Greer, SC",
+          "url": "https://facebook.com/103703819668542",
+          "latitude": 34.9303,
+          "longitude": -82.2251,
+          "country": "United States",
+          "city": "Greer",
+          "state": "SC",
+          "street": null,
+          "zip": "29650-29652"
+        },
+        "updated": "2017-11-21T12:00:04.786Z"
+      },
+      {
+        "_id": "5a1415445627174649455066",
+        "groupBy": "groundzero",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 4000,
+        "title":
+          "Cesspool of Vermin,CadaverCreator,Krvsade,Novgorod 9 bands Sat Nov 25th",
+        "description":
+          "#DivineTreachery \n#CesspoolOfVermin\n#Krvsade \n#DeathOfAugust \n#BeyondTheGallows\n#CadaverCreator \n#Infensus Inferi\n#Novgorod\n#Abductor\n\n\nA night full of metal! Starts at 6pm!\n9 Bands!\n$10",
+        "url": "https://facebook.com/466640760370570",
+        "time": "18:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T18:00:00-0500",
+        "venue": {
+          "name": "GroundZero",
+          "url": "https://facebook.com/211975785235",
+          "latitude": 34.97026,
+          "longitude": -81.9642,
+          "country": "United States",
+          "city": "Spartanburg",
+          "state": "SC",
+          "street": "3052 Howard St.",
+          "zip": "29303"
+        },
+        "updated": "2017-11-21T12:00:04.766Z"
+      },
+      {
+        "_id": "5a10d7935627174649455043",
+        "groupBy": "other",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 5000,
+        "title": "Swag Saturday returns to Horizon!",
+        "description":
+          "Horizon is once again asking Greenville to join us and pay it FORWARD for Food and Warmth on Small Business Saturday! Starting Saturday November 25th, Horizon Records will celebrate Small Business Saturday by encouraging all to share some Food (non-perishables only), or Warmth (need blankets, caps, gloves, socks) and of course deductible Cash or Check, all in support of TRIUNE MERCY CENTER, who bring desperately needed assistance to those in need in the season of Thanksgiving and all year round.\n\nTHE SWAG: We are giving away a ton of nifty, fun and sometimes collectible swag items we have accumulated as a music store in exchange for any donation to these 3 coffers. Freebies include, CD Samplers, Vinyl LP Test Pressings, Posters and more.\n\nTriune, with Pastor Deb Richardson-Moore at the helm, is on the frontline bringing spirituality and the services that so many hard-hit people need to get back on their feet or recover; the homeless, the hungry, the struggling addicts and others. Triune, just down 3 blocks from our corner provides a safe haven and a friendly respite day in day out for those who need it most, whether through food bank, classes or allowing a myriad of 12-step program meetings to use their rooms.\n\nHorizon Records, so grateful that we are able to still be on our corner (now celebrating 41 years), feels that all businesses are partners in our communities, and that sharing is the best way to show our thanks and in the process help others. SO we will have 2 big boxes set out and a donation jar in hopes that each of our customers, neighbors or just anyone wishing to pay it forward in this season of family, food and hearth.\n\nLast year your generosity created a whole pickup truck-load of stuff. Join us in this worthy Thanksgiving-season project and let's get 3 truckloads to transport over to Triune Mercy Center.",
+        "url": "https://facebook.com/136723263717084",
+        "time": "09:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T09:00:00-0500",
+        "venue": {
+          "name": "Horizon Records",
+          "url": "https://facebook.com/52506587562",
+          "latitude": 34.86191,
+          "longitude": -82.39456,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "2 W Stone Ave",
+          "zip": "29609"
+        },
+        "updated": "2017-11-21T12:00:04.786Z"
+      }
+    ],
+    "Sunday": [
+      {
+        "_id": "5a1229145627174649455057",
+        "groupBy": "radioroom",
+        "dayOfWeek": "Sunday",
+        "sortOrder": 1000,
+        "title": "The Radio Room Presents: Emo Night GVL",
+        "description":
+          "Free until 10 PM\n$3 over $21/$5 under\n\n- DJ Blake spinning all of your favorite Emo \"hits\" of the early aughts. \n- Live Karaoke\n- Photo Booth\n- Drink Specials",
+        "url": "https://facebook.com/1479453512162007",
+        "time": "22:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T22:00:00-0500",
+        "venue": {
+          "name": "The Radio Room",
+          "url": "https://facebook.com/1511036895876524",
+          "latitude": 34.8865318,
+          "longitude": -82.3904037,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "110 Poinsett hwy",
+          "zip": "29609"
+        },
+        "updated": "2017-11-21T12:00:04.801Z"
+      },
+      {
+        "_id": "5a137a93562717464945505f",
+        "groupBy": "other",
+        "dayOfWeek": "Sunday",
+        "sortOrder": 5000,
+        "title": "Darby Wilcox",
+        "description":
+          "\"Wilcox has a shockingly powerful bluesy and sultry resonance\" - Kristin Isgett\n\nShe's been described as, \"The best since the 60's; a love-child of Janis Joplin, Joss Stone and Shelby Lynne.\" - Jim Gibson\n\nInfluences\nCat Power, Radiohead, The Shins, Elliott Smith, Pedro the Lion, The Beatles, Grace Potter.. all that we live and breathe...",
+        "url": "https://facebook.com/657764004611590",
+        "time": "21:30:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T21:30:00-0500",
+        "venue": {
+          "name": "The Velo Fellow",
+          "url": "https://facebook.com/131308053611133",
+          "latitude": 34.843842489976,
+          "longitude": -82.404256485236,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "1 Augusta St, Ste 126",
+          "zip": "29601"
+        },
+        "updated": "2017-11-21T12:00:04.765Z"
+      },
+      {
+        "_id": "5a1229145627174649455056",
+        "groupBy": "gottrocks",
+        "dayOfWeek": "Sunday",
+        "sortOrder": 2000,
+        "title": "Emily Musolino at Gottrocks! - Greenville SC",
+        "description":
+          "Come hear rock 'n soul goddess Emily Musolino rock out with her band at Gottrocks, the hottest venue in Greenville!",
+        "url": "https://facebook.com/185566588684636",
+        "time": "21:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T21:00:00-0500",
+        "venue": {
+          "name": "GOTTROCKS",
+          "url": "https://facebook.com/188656604439",
+          "latitude": 34.852613397854,
+          "longitude": -82.358855397222,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "200 Eisenhower Dr",
+          "zip": "29607"
+        },
+        "updated": "2017-11-21T12:00:04.757Z"
+      },
+      {
+        "_id": "5a117244562717464945504b",
+        "groupBy": "smileys",
+        "dayOfWeek": "Sunday",
+        "sortOrder": 3000,
+        "title": "Paper Crowns ",
+        "description": "Live Music",
+        "url":
+          "https://www.google.com/calendar/event?eid=XzhkOWxjZ3JmZHByNmFzams3MHI2MmUzNjY1aTZjZHBwNmtyamNjajFjZ3EzNGNwZzZkajNnZWIyNzRvbTJvaG82OHMwIHNtaWxleXNhY291c3RpY2NhZmVAbQ&ctz=America/New_York",
+        "time": "22:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T22:00:00-05:00",
+        "venue": {
+          "name": "Smileys Acoustic Cafe",
+          "url": "http://www.smileysacousticcafe.com/calendar.php",
+          "latitude": 34.842952,
+          "longitude": -82.405414,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "111 Augusta Street",
+          "zip": "29601"
+        },
+        "updated": "2017-11-21T12:00:04.827Z"
+      },
+      {
+        "_id": "5a1229145627174649455059",
+        "groupBy": "tipsymusicpub",
+        "dayOfWeek": "Sunday",
+        "sortOrder": 1100,
+        "title": "Rush Morgan & Friends",
+        "description": null,
+        "url": "https://facebook.com/379998772438853",
+        "time": "21:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T21:00:00-0500",
+        "venue": {
+          "name": "Tipsy Music Pub",
+          "url": "https://facebook.com/108987659815117",
+          "latitude": 34.84701,
+          "longitude": -82.42862,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "1237 Pendleton St.",
+          "zip": "29611"
+        },
+        "updated": "2017-11-21T12:00:04.819Z"
+      },
+      {
+        "_id": "5a1229145627174649455058",
+        "groupBy": "tipsymusicpub",
+        "dayOfWeek": "Sunday",
+        "sortOrder": 1100,
+        "title": "The Ben Taylor Trio at Tipsy Music Pub",
+        "description":
+          "Come enjoy Sunday Brunch at Tipsy Music Pub with me and my jazz trio!",
+        "url": "https://facebook.com/1866584590036113",
+        "time": "11:30:00",
+        "date": "2017-11-26",
+        "datetime": "2017-11-26T11:30:00-0500",
+        "venue": {
+          "name": "Tipsy Music Pub",
+          "url": "https://facebook.com/108987659815117",
+          "latitude": 34.84701,
+          "longitude": -82.42862,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "1237 Pendleton St.",
+          "zip": "29611"
+        },
+        "updated": "2017-11-21T12:00:04.819Z"
+      }
+    ],
+    "Monday": [
+      {
+        "_id": "5a137a935627174649455065",
+        "groupBy": "smileys",
+        "dayOfWeek": "Monday",
+        "sortOrder": 3000,
+        "title": "Smiley's World Famous Open Mic!",
+        "description": null,
+        "url":
+          "https://www.google.com/calendar/event?eid=dDRpa2dwZW1qNjZxZjBsMm1kbTY0b2Vuc2dfMjAxNzExMjdUMjMwMDAwWiBzbWlsZXlzYWNvdXN0aWNjYWZlQG0&ctz=America/New_York",
+        "time": "18:00:00",
+        "date": "2017-11-27",
+        "datetime": "2017-11-27T18:00:00-05:00",
+        "venue": {
+          "name": "Smileys Acoustic Cafe",
+          "url": "http://www.smileysacousticcafe.com/calendar.php",
+          "latitude": 34.842952,
+          "longitude": -82.405414,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "111 Augusta Street",
+          "zip": "29601"
+        },
+        "updated": "2017-11-21T12:00:04.825Z"
+      }
+    ]
+  },
+  "venue": {
+    "radioroom": [
+      {
+        "_id": "5a0e34935627174649455027",
+        "groupBy": "radioroom",
+        "dayOfWeek": "Thursday",
+        "sortOrder": 1000,
+        "title": "40oz Philosophy Open Mic",
+        "description":
+          "Stone Grown Comedy will be doing its very first LIVE PODCAST with YOU! And following promptly will be an open mic featuring Greenville's best and brightest comediens!",
+        "url": "https://facebook.com/227939924408464",
+        "time": "19:30:00",
+        "date": "2017-11-22",
+        "datetime": "2017-11-22T19:30:00-0500",
+        "venue": {
+          "name": "The Radio Room",
+          "url": "https://facebook.com/1511036895876524",
+          "latitude": 34.8865318,
+          "longitude": -82.3904037,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "110 Poinsett hwy",
+          "zip": "29609"
+        },
+        "updated": "2017-11-21T12:00:04.788Z"
+      },
+      {
+        "_id": "5a1229145627174649455057",
+        "groupBy": "radioroom",
+        "dayOfWeek": "Sunday",
+        "sortOrder": 1000,
+        "title": "The Radio Room Presents: Emo Night GVL",
+        "description":
+          "Free until 10 PM\n$3 over $21/$5 under\n\n- DJ Blake spinning all of your favorite Emo \"hits\" of the early aughts. \n- Live Karaoke\n- Photo Booth\n- Drink Specials",
+        "url": "https://facebook.com/1479453512162007",
+        "time": "22:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T22:00:00-0500",
+        "venue": {
+          "name": "The Radio Room",
+          "url": "https://facebook.com/1511036895876524",
+          "latitude": 34.8865318,
+          "longitude": -82.3904037,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "110 Poinsett hwy",
+          "zip": "29609"
+        },
+        "updated": "2017-11-21T12:00:04.801Z"
+      }
+    ],
+    "groundzero": [
+      {
+        "_id": "5a0ce313562717464945501c",
+        "groupBy": "groundzero",
+        "dayOfWeek": "Wednesday",
+        "sortOrder": 4000,
+        "title": "Benefit For Tracy's Medical Bills",
+        "description":
+          "Tracy Wyatt has had major medical bills while being treated for breast cancer , upcoming surgery November 21st . She will be missing work for several weeks . \n\n\" Tracy wants to raise awareness for all women to get regularly scheduled mammograms \"\n\n We are putting on a show with all the proceeds from $10 ticket sales going straight to her surgery bills , also raffling off several items on Wednesday November 21st at GroundZero in Spartanburg\nThe Lost Outlaws 11pm\n The Wes, Bob & Bill Show10 pm \n Gods of Mars  9pm \n Random Highway 8pm \n\nMessage GroundZero if you have questions , want to perform , donate items to raffle etc. Please share this with all your friends\n\nhttps://www.facebook.com/wesbobbillshow/\n\nhttps://www.facebook.com/TheLostOutlaws/\n\nhttps://www.facebook.com/fuzzlordz/",
+        "url": "https://facebook.com/1931866393740215",
+        "time": "18:00:00",
+        "date": "2017-11-22",
+        "datetime": "2017-11-22T18:00:00-0500",
+        "venue": {
+          "name": "GroundZero",
+          "url": "https://facebook.com/211975785235",
+          "latitude": 34.97026,
+          "longitude": -81.9642,
+          "country": "United States",
+          "city": "Spartanburg",
+          "state": "SC",
+          "street": "3052 Howard St.",
+          "zip": "29303"
+        },
+        "updated": "2017-11-21T12:00:04.767Z"
+      },
+      {
+        "_id": "5a0f8613562717464945502e",
+        "groupBy": "groundzero",
+        "dayOfWeek": "Friday",
+        "sortOrder": 4000,
+        "title": "Annual Can Food Drive Fri Nov 24th",
+        "description":
+          "Friday November 24th 3 canned food items for entry or $7 . Bands performing are Groove Matter , The Apartment Club, Total Astronaut, Fixed Faces and Psycho Pyscho\n\nhttps://www.facebook.com/GROOVEMATTERBAND/\n\nhttps://www.facebook.com/totalastronautband/\n\nhttps://www.facebook.com/theaptclub/\n\nhttps://www.facebook.com/PsychoPsychoSC/\n\nhttps://www.facebook.com/fixedfaces/\n\n\nFixed Faces  Midnight\nGroove Matter 11p\nThe Apartment Club 10p\nTotal Astronaut 9p\nPsycho Psycho 8p",
+        "url": "https://facebook.com/163620070895293",
+        "time": "18:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T18:00:00-0500",
+        "venue": {
+          "name": "GroundZero",
+          "url": "https://facebook.com/211975785235",
+          "latitude": 34.97026,
+          "longitude": -81.9642,
+          "country": "United States",
+          "city": "Spartanburg",
+          "state": "SC",
+          "street": "3052 Howard St.",
+          "zip": "29303"
+        },
+        "updated": "2017-11-21T12:00:04.766Z"
+      },
+      {
+        "_id": "5a10d7935627174649455040",
+        "groupBy": "groundzero",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 4000,
+        "title":
+          "Cesspool of Vermin,BWD,CadaverCreator,Krvsade,Novgorod 10bandsSat Nov 25th",
+        "description":
+          "#DivineTreachery \n#CesspoolOfVermin\n#Krvsade \n#DeathOfAugust \n#BeyondTheGallows\n#CadaverCreator \n#Infensus Inferi\n#Novgorod\n#Abductor\n#Blackwater Drowning \n\nA night full of metal! Starts at 6pm!\n10 Bands!\n$10",
+        "url": "https://facebook.com/466640760370570",
+        "time": "18:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T18:00:00-0500",
+        "venue": {
+          "name": "GroundZero",
+          "url": "https://facebook.com/211975785235",
+          "latitude": 34.97026,
+          "longitude": -81.9642,
+          "country": "United States",
+          "city": "Spartanburg",
+          "state": "SC",
+          "street": "3052 Howard St.",
+          "zip": "29303"
+        },
+        "updated": "2017-11-21T01:00:03.021Z"
+      },
+      {
+        "_id": "5a1415445627174649455066",
+        "groupBy": "groundzero",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 4000,
+        "title":
+          "Cesspool of Vermin,CadaverCreator,Krvsade,Novgorod 9 bands Sat Nov 25th",
+        "description":
+          "#DivineTreachery \n#CesspoolOfVermin\n#Krvsade \n#DeathOfAugust \n#BeyondTheGallows\n#CadaverCreator \n#Infensus Inferi\n#Novgorod\n#Abductor\n\n\nA night full of metal! Starts at 6pm!\n9 Bands!\n$10",
+        "url": "https://facebook.com/466640760370570",
+        "time": "18:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T18:00:00-0500",
+        "venue": {
+          "name": "GroundZero",
+          "url": "https://facebook.com/211975785235",
+          "latitude": 34.97026,
+          "longitude": -81.9642,
+          "country": "United States",
+          "city": "Spartanburg",
+          "state": "SC",
+          "street": "3052 Howard St.",
+          "zip": "29303"
+        },
+        "updated": "2017-11-21T12:00:04.766Z"
+      }
+    ],
+    "smileys": [
+      {
+        "_id": "5a0ce313562717464945501d",
+        "groupBy": "smileys",
+        "dayOfWeek": "Thursday",
+        "sortOrder": 3000,
+        "title": "Live Band Karaoke",
+        "description": null,
+        "url":
+          "https://www.google.com/calendar/event?eid=cWt2MGY0bGZqbmRrMjJiZDN1NDY4MWZmcjBfMjAxNzExMjNUMDEwMDAwWiBzbWlsZXlzYWNvdXN0aWNjYWZlQG0&ctz=America/New_York",
+        "time": "20:00:00",
+        "date": "2017-11-22",
+        "datetime": "2017-11-22T20:00:00-05:00",
+        "venue": {
+          "name": "Smileys Acoustic Cafe",
+          "url": "http://www.smileysacousticcafe.com/calendar.php",
+          "latitude": 34.842952,
+          "longitude": -82.405414,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "111 Augusta Street",
+          "zip": "29601"
+        },
+        "updated": "2017-11-21T12:00:04.826Z"
+      },
+      {
+        "_id": "5a0ecf44562717464945502b",
+        "groupBy": "smileys",
+        "dayOfWeek": "Friday",
+        "sortOrder": 3000,
+        "title": "Happy Thanksgiving!",
+        "description": "Live Music",
+        "url":
+          "https://www.google.com/calendar/event?eid=XzhkOWxjZ3JmZHByNmFzams2MHI2OGM5cDZzcmo4b2ozY2NwMzBkMWc3NHAzZW9qNGM5ajNjZTloNmxpMzZkajNjNWlnIHNtaWxleXNhY291c3RpY2NhZmVAbQ&ctz=America/New_York",
+        "time": "22:00:00",
+        "date": "2017-11-23",
+        "datetime": "2017-11-23T22:00:00-05:00",
+        "venue": {
+          "name": "Smileys Acoustic Cafe",
+          "url": "http://www.smileysacousticcafe.com/calendar.php",
+          "latitude": 34.842952,
+          "longitude": -82.405414,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "111 Augusta Street",
+          "zip": "29601"
+        },
+        "updated": "2017-11-21T12:00:04.826Z"
+      },
+      {
+        "_id": "5a0e3493562717464945502a",
+        "groupBy": "smileys",
+        "dayOfWeek": "Thursday",
+        "sortOrder": 3000,
+        "title": "Closed",
+        "description": "Live Music",
+        "url":
+          "https://www.google.com/calendar/event?eid=XzhkOWxjZ3JmZHByNmFzamtjNHMzOGRwcDZsaG1jb2IyNmNwNjRwaG9jNWkzNmRyMzZkZ2pjZDlsY2RoNjhvaGk2Y28wIHNtaWxleXNhY291c3RpY2NhZmVAbQ&ctz=America/New_York",
+        "time": "18:30:00",
+        "date": "2017-11-23",
+        "datetime": "2017-11-23T18:30:00-05:00",
+        "venue": {
+          "name": "Smileys Acoustic Cafe",
+          "url": "http://www.smileysacousticcafe.com/calendar.php",
+          "latitude": 34.842952,
+          "longitude": -82.405414,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "111 Augusta Street",
+          "zip": "29601"
+        },
+        "updated": "2017-11-21T12:00:04.827Z"
+      },
+      {
+        "_id": "5a0f86145627174649455033",
+        "groupBy": "smileys",
+        "dayOfWeek": "Friday",
+        "sortOrder": 3000,
+        "title": "Jack Greer Band ",
+        "description": "Live Music",
+        "url":
+          "https://www.google.com/calendar/event?eid=XzhkOWxjZ3JmZHByNmFzamtjb28zZ2NiNjYwb2o4Y2hwNnBoNjhjOWw3NWgzNHBiNjZjcTNlZTMyY2tzM2dkOWdjcGhnIHNtaWxleXNhY291c3RpY2NhZmVAbQ&ctz=America/New_York",
+        "time": "18:30:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T18:30:00-05:00",
+        "venue": {
+          "name": "Smileys Acoustic Cafe",
+          "url": "http://www.smileysacousticcafe.com/calendar.php",
+          "latitude": 34.842952,
+          "longitude": -82.405414,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "111 Augusta Street",
+          "zip": "29601"
+        },
+        "updated": "2017-11-21T12:00:04.828Z"
+      },
+      {
+        "_id": "5a1020c45627174649455035",
+        "groupBy": "smileys",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 3000,
+        "title": "Shane Pruitt & Max Hightower ",
+        "description": "Live Music",
+        "url":
+          "https://www.google.com/calendar/event?eid=XzhkOWxjZ3JmZHByNmFzams3NWdqY2RiM2M1aDY0b3I0Y3BqM2VjMzJjcGkzMnAxazYxaDM2Y3BqY2RqMzBkaGtjOHNnIHNtaWxleXNhY291c3RpY2NhZmVAbQ&ctz=America/New_York",
+        "time": "22:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T22:00:00-05:00",
+        "venue": {
+          "name": "Smileys Acoustic Cafe",
+          "url": "http://www.smileysacousticcafe.com/calendar.php",
+          "latitude": 34.842952,
+          "longitude": -82.405414,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "111 Augusta Street",
+          "zip": "29601"
+        },
+        "updated": "2017-11-21T12:00:04.827Z"
+      },
+      {
+        "_id": "5a10d793562717464945504a",
+        "groupBy": "smileys",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 3000,
+        "title": "J Michael King     ",
+        "description": "Live Music",
+        "url":
+          "https://www.google.com/calendar/event?eid=XzhkOWxjZ3JmZHByNmFzams2cGg2YWMxbmNrbzY4YzluNjVqM2VjMzM2c3IzMGQ5aTc0czZhYzFsYzVpamVkYjU2Z3FnIHNtaWxleXNhY291c3RpY2NhZmVAbQ&ctz=America/New_York",
+        "time": "18:30:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T18:30:00-05:00",
+        "venue": {
+          "name": "Smileys Acoustic Cafe",
+          "url": "http://www.smileysacousticcafe.com/calendar.php",
+          "latitude": 34.842952,
+          "longitude": -82.405414,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "111 Augusta Street",
+          "zip": "29601"
+        },
+        "updated": "2017-11-21T12:00:04.826Z"
+      },
+      {
+        "_id": "5a117244562717464945504b",
+        "groupBy": "smileys",
+        "dayOfWeek": "Sunday",
+        "sortOrder": 3000,
+        "title": "Paper Crowns ",
+        "description": "Live Music",
+        "url":
+          "https://www.google.com/calendar/event?eid=XzhkOWxjZ3JmZHByNmFzams3MHI2MmUzNjY1aTZjZHBwNmtyamNjajFjZ3EzNGNwZzZkajNnZWIyNzRvbTJvaG82OHMwIHNtaWxleXNhY291c3RpY2NhZmVAbQ&ctz=America/New_York",
+        "time": "22:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T22:00:00-05:00",
+        "venue": {
+          "name": "Smileys Acoustic Cafe",
+          "url": "http://www.smileysacousticcafe.com/calendar.php",
+          "latitude": 34.842952,
+          "longitude": -82.405414,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "111 Augusta Street",
+          "zip": "29601"
+        },
+        "updated": "2017-11-21T12:00:04.827Z"
+      },
+      {
+        "_id": "5a137a935627174649455065",
+        "groupBy": "smileys",
+        "dayOfWeek": "Monday",
+        "sortOrder": 3000,
+        "title": "Smiley's World Famous Open Mic!",
+        "description": null,
+        "url":
+          "https://www.google.com/calendar/event?eid=dDRpa2dwZW1qNjZxZjBsMm1kbTY0b2Vuc2dfMjAxNzExMjdUMjMwMDAwWiBzbWlsZXlzYWNvdXN0aWNjYWZlQG0&ctz=America/New_York",
+        "time": "18:00:00",
+        "date": "2017-11-27",
+        "datetime": "2017-11-27T18:00:00-05:00",
+        "venue": {
+          "name": "Smileys Acoustic Cafe",
+          "url": "http://www.smileysacousticcafe.com/calendar.php",
+          "latitude": 34.842952,
+          "longitude": -82.405414,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "111 Augusta Street",
+          "zip": "29601"
+        },
+        "updated": "2017-11-21T12:00:04.825Z"
+      }
+    ],
+    "tipsymusicpub": [
+      {
+        "_id": "5a0e34935627174649455029",
+        "groupBy": "tipsymusicpub",
+        "dayOfWeek": "Thursday",
+        "sortOrder": 1100,
+        "title": "Phat Lip Thanksgiving Eve Get Down",
+        "description":
+          "Come celebrate Thanksgiving's Eve at Tipsy Music Pub with Phat Lip!",
+        "url": "https://facebook.com/1755208024774567",
+        "time": "21:00:00",
+        "date": "2017-11-22",
+        "datetime": "2017-11-22T21:00:00-0500",
+        "venue": {
+          "name": "Tipsy Music Pub",
+          "url": "https://facebook.com/108987659815117",
+          "latitude": 34.84701,
+          "longitude": -82.42862,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "1237 Pendleton St.",
+          "zip": "29611"
+        },
+        "updated": "2017-11-21T12:00:04.825Z"
+      },
+      {
+        "_id": "5a10d7935627174649455049",
+        "groupBy": "tipsymusicpub",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 1100,
+        "title": "Black Friday Getdown!",
+        "description":
+          "Come get down with some of your very own greenville talent at this Black Friday event!  Let’s Jam!  We have members of Four 14, Jack Ryan of Marcus King Band, Charles Hedgepath and many more!",
+        "url": "https://facebook.com/495253360873711",
+        "time": "21:30:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T21:30:00-0500",
+        "venue": {
+          "name": "Tipsy Music Pub",
+          "url": "https://facebook.com/108987659815117",
+          "latitude": 34.84701,
+          "longitude": -82.42862,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "1237 Pendleton St.",
+          "zip": "29611"
+        },
+        "updated": "2017-11-21T12:00:04.824Z"
+      },
+      {
+        "_id": "5a10d7935627174649455048",
+        "groupBy": "tipsymusicpub",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 1100,
+        "title": "The Substitutes",
+        "description": null,
+        "url": "https://facebook.com/378707399249121",
+        "time": "18:30:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T18:30:00-0500",
+        "venue": {
+          "name": "Tipsy Music Pub",
+          "url": "https://facebook.com/108987659815117",
+          "latitude": 34.84701,
+          "longitude": -82.42862,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "1237 Pendleton St.",
+          "zip": "29611"
+        },
+        "updated": "2017-11-21T12:00:04.819Z"
+      },
+      {
+        "_id": "5a1229145627174649455059",
+        "groupBy": "tipsymusicpub",
+        "dayOfWeek": "Sunday",
+        "sortOrder": 1100,
+        "title": "Rush Morgan & Friends",
+        "description": null,
+        "url": "https://facebook.com/379998772438853",
+        "time": "21:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T21:00:00-0500",
+        "venue": {
+          "name": "Tipsy Music Pub",
+          "url": "https://facebook.com/108987659815117",
+          "latitude": 34.84701,
+          "longitude": -82.42862,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "1237 Pendleton St.",
+          "zip": "29611"
+        },
+        "updated": "2017-11-21T12:00:04.819Z"
+      },
+      {
+        "_id": "5a1229145627174649455058",
+        "groupBy": "tipsymusicpub",
+        "dayOfWeek": "Sunday",
+        "sortOrder": 1100,
+        "title": "The Ben Taylor Trio at Tipsy Music Pub",
+        "description":
+          "Come enjoy Sunday Brunch at Tipsy Music Pub with me and my jazz trio!",
+        "url": "https://facebook.com/1866584590036113",
+        "time": "11:30:00",
+        "date": "2017-11-26",
+        "datetime": "2017-11-26T11:30:00-0500",
+        "venue": {
+          "name": "Tipsy Music Pub",
+          "url": "https://facebook.com/108987659815117",
+          "latitude": 34.84701,
+          "longitude": -82.42862,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "1237 Pendleton St.",
+          "zip": "29611"
+        },
+        "updated": "2017-11-21T12:00:04.819Z"
+      }
+    ],
+    "other": [
+      {
+        "_id": "5a137a935627174649455064",
+        "groupBy": "other",
+        "dayOfWeek": "Wednesday",
+        "sortOrder": 5000,
+        "title": "Thanksgiving Eve Cookout and Piano Jam",
+        "description":
+          "This Thanksgiving Eve we will have Evan Dehner out rocking the piano from 8:00-10:00pm, and we will be serving our smoked chili either on grilled hot dogs, or by itself. What is smoked chili you ask? Smoked chili is the culinary genious of dry rubbing and smoking all your meats before slow cooking them into chili.",
+        "url": "https://facebook.com/149555735795413",
+        "time": "18:00:00",
+        "date": "2017-11-22",
+        "datetime": "2017-11-22T18:00:00-0500",
+        "venue": {
+          "name": "13 Stripes Brewery",
+          "url": "https://facebook.com/462016993908281",
+          "latitude": 34.9199309,
+          "longitude": -82.2864145,
+          "country": "United States",
+          "city": "Taylors",
+          "state": "SC",
+          "street": "250 Mill St Ste PW3101",
+          "zip": "29687"
+        },
+        "updated": "2017-11-21T12:00:04.801Z"
+      },
+      {
+        "_id": "5a0e34935627174649455026",
+        "groupBy": "other",
+        "dayOfWeek": "Thursday",
+        "sortOrder": 5000,
+        "title": "Upstate Holiday Light Show",
+        "description":
+          "Upstate Holiday Light Show will be opening for the 2017 season on Thanksgiving Night! Located at Greenville-Pickens Speedway; bring the whole family to the biggest interactive LED light show in the Upstate!! Meet Santa at his workshop, Petting Zoo & Ice Skating rink! \n**LIKE, SHARE, & INVITE a Friend to WIN a Car Pass for both You & a Friend!!**\n\nPrices are just $20 for the whole car! (This includes cars, trucks, mini van, or suv.) \n$40 for passenger vans \n$75 for buses. \n\nTickets are available at the door & online at \nhttps://www.eventbrite.com/e/upstate-holiday-light-show-tickets-39451339017\n\nPlease visit our website or give us a call at 864-295-5764 if you have any questions!",
+        "url": "https://facebook.com/104208593683739",
+        "time": "18:00:00",
+        "date": "2017-11-23",
+        "datetime": "2017-11-23T18:00:00-0500",
+        "venue": {
+          "name": "Greenville-Pickens Speedway",
+          "url": "https://facebook.com/272931339980",
+          "latitude": 34.833047110591,
+          "longitude": -82.500968025562,
+          "country": "United States",
+          "city": "Easley",
+          "state": "SC",
+          "street": "3800 Calhoun Memorial Hwy",
+          "zip": "29640"
+        },
+        "updated": "2017-11-21T12:00:04.787Z"
+      },
+      {
+        "_id": "5a10d793562717464945503f",
+        "groupBy": "other",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 5000,
+        "title": "Pure Ghost",
+        "description":
+          "The Velo Fellow will be hosting local shoegaze/post rock outfit, Pure Ghost.  \n\npureghostband.bandcamp.com\nPure Ghost\nNo Cover\n21+\n\nPost-show after-party // Tavo & friends will be spinning vinyls records | Friday Night Delights | soul, funk, & other rarities\n\n/ Black Friday cocktail specials /\n🕷 | dress in black, or don't | 🥀",
+        "url": "https://facebook.com/1335740923218153",
+        "time": "22:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T22:00:00-0500",
+        "venue": {
+          "name": "The Velo Fellow",
+          "url": "https://facebook.com/131308053611133",
+          "latitude": 34.843842489976,
+          "longitude": -82.404256485236,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "1 Augusta St, Ste 126",
+          "zip": "29601"
+        },
+        "updated": "2017-11-21T12:00:04.766Z"
+      },
+      {
+        "_id": "5a10d7935627174649455047",
+        "groupBy": "other",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 5000,
+        "title": "Gabe Dixon w/ Swamp Rabbit Railroad",
+        "description":
+          "Doors: 7pm\nShow: 8pm\n\n$12 adv. / $15 DOS\n\nThroughout Gabe Dixon's career, many other notable artists have taken note of his immense talents. He has held side gigs as keyboardist and vocalist for Paul McCartney, Alison Krauss & Union Station, O.A.R. and Supertramp. His songs have received placements on major television shows including Parks and Recreation, Grey's Anatomy, and Vampire Diaries, and his song \"Find My Way\" served as the title for the box office hit The Proposal starring Sandra Bullock. Fans have seen him perform twice on Jimmy Kimmel LIVE!, as well as The Late Late Show with Craig Ferguson, and on festival stages everywhere from Bonnaroo to High Sierra Music Festival. However, it's with Turns To Gold that listeners will hear Gabe Dixon as he always meant.\n\n\"Turns To Gold\", released in April, 2016, was produced by Paul Moak (Mat Kearney, Third Day), engineered by Devin Vaughan (Marc Broussard), and mastered by Brad Blackwood at Euphonics Mastering (Allison Krauss & Union Station, Luther Dickinson). The LP marks Gabe's first official collection as an independent artist. Following the release of 2011's One Spark, the Nashville-based troubadour changed almost everything. He was focused on starting from scratch, and parted ways with his longtime management and record label, Concord Music Group. The one thing that didn't change was that honest, heartfelt approach to songwriting that countless fans fell in love with when he first emerged in 1999.\n\nTurns To Gold addresses some weighty subjects—mortality, what's important in life, and the value of love. \"In many ways, my new music is about learning how to be in a committed relationship, leave immature ways behind, grow, evolve, and move on from habits that aren't necessarily who you are anymore,\" he says. The album was recorded at The Smoakstack recording studio in Berry Hill, TN with Jano Rix on drums (The Wood Brothers), Viktor Krauss on bass (Lyle Lovett), and Kris Donegan on guitar (Cam). \"I wanted to go in with musicians and get performances that were inspiring and inspired, and take it from there. Producer Paul Moak was completely on the same page. We cut everything to analog tape with no click track. What results is an album that feels very natural. Since One Spark I learned to trust myself, and the sound of Turns To Gold is the most representative of who I am. It's warm, laid-back, acoustic, and live.\"\n\nThe opener and first single, \"Holding Her Freedom,\" out now, coasts between a shimmering piano melody, organ swell, guitar rumble, and heavenly vocal performance from Gabe. It also conveys a cinematic narrative. \"It's a story about a woman who has been burned by love, and she's afraid to let herself be vulnerable and fall in love again,\" he explains. \"She's figuratively holding her freedom like a cage. That same 'freedom' keeps her trapped and unable to love again.\" The album's second single, \"The Way To Love Me,\" features Natalie Prass and will be released on February 5th. \"Natalie's voice has the perfect delicate and vulnerable qualities that the song required,\" says Gabe. \"She recorded it while passing through Nashville to play the Ryman Auditorium, part of a long tour opening for Ryan Adams.\"\n\nhttp://www.gabedixon.com\n\n\n\nSwamp Rabbit Railroad represents the tradition of American folk revival music as established by Leadbelly, Woody Guthrie, Pete Seeger, and Bob Dylan, among others, while also creating innovative and socially-pertinent tunes in the modern folk setting. Like folk songwriters of the past, this husband and wife duo seeks to be a voice for its generation. The Casons’ unique blend of harmonies creates a haunting and beautiful sound that captures the essence of the foothills in which they were formed while their onstage chemistry captivates the attention of any audience. \n\nhttp://swamprabbitrailroad.com",
+        "url": "https://facebook.com/944192659052035",
+        "time": "20:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T20:00:00-0500",
+        "venue": {
+          "name": "The Spinning Jenny",
+          "url": "https://facebook.com/432057096968022",
+          "latitude": 34.93893,
+          "longitude": -82.22501,
+          "country": "United States",
+          "city": "Greer",
+          "state": "SC",
+          "street": "107 Cannon St",
+          "zip": "29651"
+        },
+        "updated": "2017-11-21T12:00:04.818Z"
+      },
+      {
+        "_id": "5a137a93562717464945505f",
+        "groupBy": "other",
+        "dayOfWeek": "Sunday",
+        "sortOrder": 5000,
+        "title": "Darby Wilcox",
+        "description":
+          "\"Wilcox has a shockingly powerful bluesy and sultry resonance\" - Kristin Isgett\n\nShe's been described as, \"The best since the 60's; a love-child of Janis Joplin, Joss Stone and Shelby Lynne.\" - Jim Gibson\n\nInfluences\nCat Power, Radiohead, The Shins, Elliott Smith, Pedro the Lion, The Beatles, Grace Potter.. all that we live and breathe...",
+        "url": "https://facebook.com/657764004611590",
+        "time": "21:30:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T21:30:00-0500",
+        "venue": {
+          "name": "The Velo Fellow",
+          "url": "https://facebook.com/131308053611133",
+          "latitude": 34.843842489976,
+          "longitude": -82.404256485236,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "1 Augusta St, Ste 126",
+          "zip": "29601"
+        },
+        "updated": "2017-11-21T12:00:04.765Z"
+      },
+      {
+        "_id": "5a137a935627174649455062",
+        "groupBy": "other",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 5000,
+        "title": "Friendsgiving Yoga",
+        "description":
+          "Friendsgiving Yoga in the Birdhouse! Join us for a special yoga class where we give thanks to our beautiful community of Bendy Birds.\n\nSpecial price of 2 for $15 when you come with a friend! Bring someone who's new to yoga, who's never tried #bfsbeer, or who's visiting in town for the holiday weekend.\n\nAll levels welcomed, bring a mat and setup at 11:45 for this noon session. Pricing includes class + one pint per person!",
+        "url": "https://facebook.com/947220475425743",
+        "time": "12:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T12:00:00-0500",
+        "venue": {
+          "name": "Birds Fly South Ale Project",
+          "url": "https://facebook.com/809146989137188",
+          "latitude": 34.86592,
+          "longitude": -82.41552,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "1320 Hampton Ave Ext",
+          "zip": "29601"
+        },
+        "updated": "2017-11-21T12:00:04.768Z"
+      },
+      {
+        "_id": "5a10d7935627174649455042",
+        "groupBy": "other",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 5000,
+        "title": "Free Christmas Wonderland at Anderson Jockey Lot",
+        "description":
+          "Make plans this holiday season to come and have cocoa & cookies with Santa in his \"Winter Wonderland\" at the Anderson Jockey Lot's Free Christmas Event. You can have pictures made with Santa and have them instantly printed for a $5.00 donation per picture or you can take your own picture for free. Custom Gift wrapping will be available for $1.00 donation per item. Please remove price tags and have them labeled with \"to and from\" information.  We will also have local groups here performing holiday plays, singing and playing music.  If your group would like to come donate your time please call the office at 864-224-2027 to sign up.  \n\nWe will be accepting donations (toys, clothing, monetary donations) will be accepted each weekend and will be donated to help local charity.  \n\nWe will also be selling raffle tickets for prizes, if you would like to donate an item to raffle to raise money for charity, please submit to the office by November 12th.  The raffle tickets will be sold November 18 tru December 23.  The drawing will be at 2pm Saturday Dec. 23 you do not have to be present to win.\n\nOur Free event will be held Saturday and Sunday November 25&26 December 2&3, 9&10, 16&17, and 23&24 from 11am-2pm. \nIf you would like to donate before these event dates. Please bring all donations to the office at Anderson Jockey Lot on any Friday, Saturday or Sundays from 9-5. Come on out for some fun and help our community!",
+        "url": "https://facebook.com/488224298217857",
+        "time": "11:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T11:00:00-0500",
+        "venue": {
+          "name": "Anderson Jockey Lot",
+          "url": "https://facebook.com/1383386941715502",
+          "latitude": 34.5847344,
+          "longitude": -82.548066,
+          "country": "United States",
+          "city": "Belton",
+          "state": "SC",
+          "street": "4530 Hwy 29 N",
+          "zip": "29627"
+        },
+        "updated": "2017-11-21T12:00:04.784Z"
+      },
+      {
+        "_id": "5a10d7935627174649455044",
+        "groupBy": "other",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 5000,
+        "title": "Small Business Saturday",
+        "description":
+          "Join us for #SmallBizSat this Nov 25 and #ShopSmall at the businesses you love. Promotions map: https://buff.ly/2mA6dqX",
+        "url": "https://facebook.com/1501061053309595",
+        "time": "08:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T08:00:00-0500",
+        "venue": {
+          "name": "Greer, SC",
+          "url": "https://facebook.com/103703819668542",
+          "latitude": 34.9303,
+          "longitude": -82.2251,
+          "country": "United States",
+          "city": "Greer",
+          "state": "SC",
+          "street": null,
+          "zip": "29650-29652"
+        },
+        "updated": "2017-11-21T12:00:04.786Z"
+      },
+      {
+        "_id": "5a10d7935627174649455043",
+        "groupBy": "other",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 5000,
+        "title": "Swag Saturday returns to Horizon!",
+        "description":
+          "Horizon is once again asking Greenville to join us and pay it FORWARD for Food and Warmth on Small Business Saturday! Starting Saturday November 25th, Horizon Records will celebrate Small Business Saturday by encouraging all to share some Food (non-perishables only), or Warmth (need blankets, caps, gloves, socks) and of course deductible Cash or Check, all in support of TRIUNE MERCY CENTER, who bring desperately needed assistance to those in need in the season of Thanksgiving and all year round.\n\nTHE SWAG: We are giving away a ton of nifty, fun and sometimes collectible swag items we have accumulated as a music store in exchange for any donation to these 3 coffers. Freebies include, CD Samplers, Vinyl LP Test Pressings, Posters and more.\n\nTriune, with Pastor Deb Richardson-Moore at the helm, is on the frontline bringing spirituality and the services that so many hard-hit people need to get back on their feet or recover; the homeless, the hungry, the struggling addicts and others. Triune, just down 3 blocks from our corner provides a safe haven and a friendly respite day in day out for those who need it most, whether through food bank, classes or allowing a myriad of 12-step program meetings to use their rooms.\n\nHorizon Records, so grateful that we are able to still be on our corner (now celebrating 41 years), feels that all businesses are partners in our communities, and that sharing is the best way to show our thanks and in the process help others. SO we will have 2 big boxes set out and a donation jar in hopes that each of our customers, neighbors or just anyone wishing to pay it forward in this season of family, food and hearth.\n\nLast year your generosity created a whole pickup truck-load of stuff. Join us in this worthy Thanksgiving-season project and let's get 3 truckloads to transport over to Triune Mercy Center.",
+        "url": "https://facebook.com/136723263717084",
+        "time": "09:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T09:00:00-0500",
+        "venue": {
+          "name": "Horizon Records",
+          "url": "https://facebook.com/52506587562",
+          "latitude": 34.86191,
+          "longitude": -82.39456,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "2 W Stone Ave",
+          "zip": "29609"
+        },
+        "updated": "2017-11-21T12:00:04.786Z"
+      }
+    ],
+    "gottrocks": [
+      {
+        "_id": "5a0e34935627174649455020",
+        "groupBy": "gottrocks",
+        "dayOfWeek": "Thursday",
+        "sortOrder": 2000,
+        "title":
+          "Loaves & Fishes JamsGiving w/ Justin Johnson (Marcus King Band) w/ TJ Lazer",
+        "description":
+          "21+\n$15/ $10 with food donation for Loaves & Fishes\n9pm\n\n\nJoin us for the inaugural Loaves & Fishes JamsGiving and help feed our local community this holiday season! $15 cover or $10 with food donation for Loaves & Fishes\n\nAbout Loaves & Fishes: \n\nLoaves & Fishes is Greenville County’s only food rescue organization. We collect donations of perishable food from grocery stores, restaurants, companies, churches and wholesalers. We operate with 2 full time and 1 part time refrigerated truck drivers and 3 administrative staff. This year we will deliver more than 2 million pounds of food to more than 98 emergency food providers in our community. This is food that would otherwise be wasted and deposited into landfills. 34 million pounds of organic waste is deposited into our landfills nationally every year. \n\n\n\nWe need these foods MOST:\n\nCanned meats\nPeanut butter and other nut butters\nStaples like flour, sugar, coffee, vegetable oil\nCanned or dried beans and peas\nPasta, rice, cereal, grits\nDry milk\nAny healthy, low-fat and low-sugar products\n\nTo ensure safety, we can NOT use:\n\nRusty or unlabeled cans\nHomemade items\nNoncommercial canned or packaged items\nAlcoholic beverages or mixes or soda\nOpen or used items\n\n\nThank You!\n\nBy contributing to Loaves & Fishes through a Food Drive, you are helping to provide high quality, nutritious food to thousands of Greenville County residents who rely on emergency food assistance each year. Thank you for supporting our hungry neighbors!",
+        "url": "https://facebook.com/727305327460816",
+        "time": "21:00:00",
+        "date": "2017-11-22",
+        "datetime": "2017-11-22T21:00:00-0500",
+        "venue": {
+          "name": "GOTTROCKS",
+          "url": "https://facebook.com/188656604439",
+          "latitude": 34.852613397854,
+          "longitude": -82.358855397222,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "200 Eisenhower Dr",
+          "zip": "29607"
+        },
+        "updated": "2017-11-17T12:00:04.117Z"
+      },
+      {
+        "_id": "5a0f8613562717464945502c",
+        "groupBy": "gottrocks",
+        "dayOfWeek": "Thursday",
+        "sortOrder": 2000,
+        "title":
+          "Loaves & Fishes JamsGiving w/ Justin Johnson (Marcus King Band) & TJ Lazer",
+        "description":
+          "21+\n$15/ $10 with food donation for Loaves & Fishes\n9pm\n\n\nJoin us for the inaugural Loaves & Fishes JamsGiving and help feed our local community this holiday season! $15 cover or $10 with food donation for Loaves & Fishes\n\nAbout Loaves & Fishes: \n\nLoaves & Fishes is Greenville County’s only food rescue organization. We collect donations of perishable food from grocery stores, restaurants, companies, churches and wholesalers. We operate with 2 full time and 1 part time refrigerated truck drivers and 3 administrative staff. This year we will deliver more than 2 million pounds of food to more than 98 emergency food providers in our community. This is food that would otherwise be wasted and deposited into landfills. 34 million pounds of organic waste is deposited into our landfills nationally every year. \n\n\n\nWe need these foods MOST:\n\nCanned meats\nPeanut butter and other nut butters\nStaples like flour, sugar, coffee, vegetable oil\nCanned or dried beans and peas\nPasta, rice, cereal, grits\nDry milk\nAny healthy, low-fat and low-sugar products\n\nTo ensure safety, we can NOT use:\n\nRusty or unlabeled cans\nHomemade items\nNoncommercial canned or packaged items\nAlcoholic beverages or mixes or soda\nOpen or used items\n\n\nThank You!\n\nBy contributing to Loaves & Fishes through a Food Drive, you are helping to provide high quality, nutritious food to thousands of Greenville County residents who rely on emergency food assistance each year. Thank you for supporting our hungry neighbors!",
+        "url": "https://facebook.com/727305327460816",
+        "time": "21:00:00",
+        "date": "2017-11-22",
+        "datetime": "2017-11-22T21:00:00-0500",
+        "venue": {
+          "name": "GOTTROCKS",
+          "url": "https://facebook.com/188656604439",
+          "latitude": 34.852613397854,
+          "longitude": -82.358855397222,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "200 Eisenhower Dr",
+          "zip": "29607"
+        },
+        "updated": "2017-11-21T12:00:04.765Z"
+      },
+      {
+        "_id": "5a10d793562717464945503c",
+        "groupBy": "gottrocks",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 2000,
+        "title": "Afterglow Jam 2017",
+        "description":
+          "3rd Annual Thanksgving Afterglow Jam!\n\nAfter spending the actual holiday with the blood/legal relatives, visit the friendly, familiar, but ever more badass Gottrocks on Friday night to reunitie with your musical family. \n\nFeat:\nRush Morgan\nLOZ \nHillary Keane Project \nJillian Sprague \nBrandon Leon David \n\n#LocalGreen #AfterglowJam #StonerPop",
+        "url": "https://facebook.com/134948580463698",
+        "time": "20:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T20:00:00-0500",
+        "venue": {
+          "name": "GOTTROCKS",
+          "url": "https://facebook.com/188656604439",
+          "latitude": 34.852613397854,
+          "longitude": -82.358855397222,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "200 Eisenhower Dr",
+          "zip": "29607"
+        },
+        "updated": "2017-11-21T12:00:04.758Z"
+      },
+      {
+        "_id": "5a1229145627174649455056",
+        "groupBy": "gottrocks",
+        "dayOfWeek": "Sunday",
+        "sortOrder": 2000,
+        "title": "Emily Musolino at Gottrocks! - Greenville SC",
+        "description":
+          "Come hear rock 'n soul goddess Emily Musolino rock out with her band at Gottrocks, the hottest venue in Greenville!",
+        "url": "https://facebook.com/185566588684636",
+        "time": "21:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T21:00:00-0500",
+        "venue": {
+          "name": "GOTTROCKS",
+          "url": "https://facebook.com/188656604439",
+          "latitude": 34.852613397854,
+          "longitude": -82.358855397222,
+          "country": "United States",
+          "city": "Greenville",
+          "state": "SC",
+          "street": "200 Eisenhower Dr",
+          "zip": "29607"
+        },
+        "updated": "2017-11-21T12:00:04.757Z"
+      }
+    ]
+  }
+}

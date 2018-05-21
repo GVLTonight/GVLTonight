@@ -1,0 +1,1034 @@
+{
+  "day": {
+    "Thursday": [
+      {
+        "_id": "5a0e34935627174649455022",
+        "groupBy": "other",
+        "dayOfWeek": "Thursday",
+        "sortOrder": 5000,
+        "title": "Aisles of Jane Doe, ELectric Karma, BIllingsley",
+        "description": "Hard rock $8members,10non",
+        "url": "https://facebook.com/1727677573929923",
+        "time": "20:00:00",
+        "date": "2017-11-22",
+        "datetime": "2017-11-22T20:00:00-0500",
+        "venue": {
+          "name": "PULP",
+          "url": "https://facebook.com/181018978648041",
+          "latitude": 35.59123,
+          "longitude": -82.55113,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "103 Hilliard Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.893Z"
+      },
+      {
+        "_id": "5a0e34935627174649455021",
+        "groupBy": "other",
+        "dayOfWeek": "Thursday",
+        "sortOrder": 5000,
+        "title": "PULP presents Twist of Fate / The Aisles of Jane Doe",
+        "description":
+          "PULP presents\nTwist of Fate / The Aisles of Jane Doe\nShow: 9pm  at\n$5 members\n$7 non-members\nAll Ages",
+        "url": "https://facebook.com/309294582881273",
+        "time": "21:00:00",
+        "date": "2017-11-22",
+        "datetime": "2017-11-22T21:00:00-0500",
+        "venue": {
+          "name": "PULP",
+          "url": "https://facebook.com/181018978648041",
+          "latitude": 35.59123,
+          "longitude": -82.55113,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "103 Hilliard Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.893Z"
+      },
+      {
+        "_id": "5a0f86135627174649455032",
+        "groupBy": "avlmusichall",
+        "dayOfWeek": "Thursday",
+        "sortOrder": 3000,
+        "title":
+          "Mitch's Totally Rad Trivia! **Wednesday Drinksgiving Edition**",
+        "description":
+          "Mitch's Totally Rad Trivia is a team trivia played in 7 rounds over the course of 2 endlessly entertaining hours. The game covers everything pop culture and is always irreverent by nature. The game is not your average pub quiz as it explores everything from didgeridoo covers of pop songs to bad celebrity tattoos and everything in between. Ever wanted to identify animals by their gonads? Then this is the game for you! Mitch curates a one of a kind trivia smorgasbord of random, unusual, and hilarious subjects. This absurd trivia game is not about historical facts or sports stats, it is all about random movies, unforgettable ear-worms, and the hilariousness of growing up in the 80's and 90's. The game starts at 7pm in the cozy One Stop in downtown Asheville. Drink specials include $4 bourbon/$4 Washington Apple Shots and $5 White Russians, and food is available from MOJO Kitchen which offers 1/2 price nachos during the game! Best of all the winning team each week takes home a collection of Totally Rad Prizes including a $35 gift certificate to The One Stop/MOJO Kitchen.",
+        "url": "https://facebook.com/111282246314615",
+        "time": "19:00:00",
+        "date": "2017-11-22",
+        "datetime": "2017-11-22T19:00:00-0500",
+        "venue": {
+          "name": "The One Stop at Asheville Music Hall",
+          "url": "https://facebook.com/235250273170663",
+          "latitude": 35.5952,
+          "longitude": -82.55312,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "55 College Street",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.918Z"
+      },
+      {
+        "_id": "5a0e34935627174649455028",
+        "groupBy": "avlmusichall",
+        "dayOfWeek": "Thursday",
+        "sortOrder": 3000,
+        "title": "Evil Note Lab - [ableton push jam] - 11/22",
+        "description":
+          "Genre: Live Ableton Push Jam\nCover: Donation$\nShow: 10:30PM\nAges: 21+\n\nWe will be exploring the boundaries of music using Ableton Push as our vehicle.",
+        "url": "https://facebook.com/1643808642349651",
+        "time": "22:30:00",
+        "date": "2017-11-22",
+        "datetime": "2017-11-22T22:30:00-0500",
+        "venue": {
+          "name": "The One Stop at Asheville Music Hall",
+          "url": "https://facebook.com/235250273170663",
+          "latitude": 35.5952,
+          "longitude": -82.55312,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "55 College Street",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.918Z"
+      }
+    ],
+    "Friday": [
+      {
+        "_id": "5a0f86135627174649455031",
+        "groupBy": "avlmusichall",
+        "dayOfWeek": "Friday",
+        "sortOrder": 3000,
+        "title": "Free Dead Friday #303 feat. members of Phuncle Sam acoustic",
+        "description":
+          "FREE DEAD FRIDAYS @ The One Stop\n- feat. members of Phuncle Sam acoustic\n\n\nJoin us at The One Stop at Asheville Music Hall every Friday at 5:30PM for our FREE Acoustic Grateful Dead series Featuring members of Phuncle Sam and great drink and food specials.",
+        "url": "https://facebook.com/944158459071366",
+        "time": "17:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T17:00:00-0500",
+        "venue": {
+          "name": "The One Stop at Asheville Music Hall",
+          "url": "https://facebook.com/235250273170663",
+          "latitude": 35.5952,
+          "longitude": -82.55312,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "55 College Street",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.917Z"
+      },
+      {
+        "_id": "5a0f86135627174649455030",
+        "groupBy": "other",
+        "dayOfWeek": "Friday",
+        "sortOrder": 5000,
+        "title": "Black Watch Release Party",
+        "description":
+          "The only beer bold enough to follow up Cold Mountain. Black Watch Double Chocolate Milk Stout, releasing Black Friday, November 24. We're right up the road to help you wash away all the stress of post-holiday shopping! \n\nThis smooth beer hits you with one pound of cacao nibs per barrel, flaked oats, five malts, roasted barley, and a finish reminiscent of brownie batter. Did we mention it weighs in at 8% ABV?",
+        "url": "https://facebook.com/1484260345205858",
+        "time": "12:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T12:00:00-0500",
+        "venue": {
+          "name": "Highland Brewing Company",
+          "url": "https://facebook.com/44380914634",
+          "latitude": 35.57174,
+          "longitude": -82.5014,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "12 Old Charlotte Hwy, Ste 200",
+          "zip": "28803"
+        },
+        "updated": "2017-11-21T12:00:04.902Z"
+      }
+    ],
+    "Saturday": [
+      {
+        "_id": "5a10d793562717464945503a",
+        "groupBy": "avlmusichall",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 3000,
+        "title": "Hometown throw down! The Philo Band w/ Unihorn & Dj Destro",
+        "description":
+          "Genre: Funk/Soul/Hip Hop\nTickets: $10\nShow: 10PM (Doors 9PM)\nAges: 21+\n\n\nPhilo (full band featuring members of Empire Strikes Brass)\n\nA walking paradox. A man all his own. Philo has been heavy in the game for years. Equally as talented in the realms of penning lyrics as he is in music production, he is not a force to be trifled with. Philo currently performs with a full 8 piece band backing him, including a horn section composed of members of Empire Strikes Brass and the unparalleled vocal talents of Grammy-nominated artist Debrissa McKinney. Soulful, danceable, hard-driving live hip-hop that is sure to get you moving.\n\nUniHorn\n\nComprised of some of Asheville's funkiest musicians UniHorn features an explosive brass section, sweeping keyboard runs, and high energy tasty beats! Mixing in both original compositions and covers UniHorn knows how to keep the crowd moving and the party raging! Members include: Paul Juhl, Sean Mason, Lenny Pettinelli, JP Furnas, & Alex Bradley.\n\nLate night DJ set with DJ Destro",
+        "url": "https://facebook.com/142851033026973",
+        "time": "22:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T22:00:00-0500",
+        "venue": {
+          "name": "Asheville Music Hall",
+          "url": "https://facebook.com/164709563614716",
+          "latitude": 35.59488,
+          "longitude": -82.55302,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "31 Patton Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-20T12:00:04.557Z"
+      },
+      {
+        "_id": "5a10d7935627174649455041",
+        "groupBy": "greyeagle",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 2000,
+        "title":
+          "David Wilcox's Annual Thanksgiving Homecoming Concert at The Grey Eagle",
+        "description":
+          "David Wilcox's Annual Thanksgiving Homecoming Concert at The Grey Eagle",
+        "url": "https://facebook.com/242873182906507",
+        "time": "20:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T20:00:00-0500",
+        "venue": {
+          "name": "The Grey Eagle",
+          "url": "https://facebook.com/162139570507076",
+          "latitude": 35.587092570796,
+          "longitude": -82.564479100751,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "185 Clingman Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.894Z"
+      },
+      {
+        "_id": "5a137a93562717464945505c",
+        "groupBy": "avlmusichall",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 3000,
+        "title": "Hometown throw down! The Philo Band w/ Unihorn & Dj Delight",
+        "description":
+          "Genre: Funk/Soul/Hip Hop\nTickets: $10\nShow: 10PM (Doors 9PM)\nAges: 21+\n\n\nPhilo (full band featuring members of Empire Strikes Brass)\n\nA walking paradox. A man all his own. Philo has been heavy in the game for years. Equally as talented in the realms of penning lyrics as he is in music production, he is not a force to be trifled with. Philo currently performs with a full 8 piece band backing him, including a horn section composed of members of Empire Strikes Brass and the unparalleled vocal talents of Grammy-nominated artist Debrissa McKinney. Soulful, danceable, hard-driving live hip-hop that is sure to get you moving.\n\nUniHorn\n\nComprised of some of Asheville's funkiest musicians UniHorn features an explosive brass section, sweeping keyboard runs, and high energy tasty beats! Mixing in both original compositions and covers UniHorn knows how to keep the crowd moving and the party raging! Members include: Paul Juhl, Sean Mason, Lenny Pettinelli, JP Furnas, & Alex Bradley.\n\nLate night DJ set with DJ Delight",
+        "url": "https://facebook.com/142851033026973",
+        "time": "22:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T22:00:00-0500",
+        "venue": {
+          "name": "Asheville Music Hall",
+          "url": "https://facebook.com/164709563614716",
+          "latitude": 35.59488,
+          "longitude": -82.55302,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "31 Patton Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.889Z"
+      },
+      {
+        "_id": "5a137a935627174649455063",
+        "groupBy": "avlmusichall",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 3000,
+        "title": "Dirty Dead at The One Stop - [grateful dead/jgb]",
+        "description":
+          "Genre: Grateful Dead/JGB\r\nCover: Donations @ Door\r\nShow: 10PM\r\nAges: 21+\r\n\r\nDirty Dead\r\n\r\nAsheville NC's DIRTY DEAD are literally on fire. With high-energy, modern interpretations of the classic GD/JGB catalog, DIRTY DEAD are calling the music higher and further than in a long time! With an eclectic mix of players from various styles of music -- as the Grateful Dead were --something new, fresh and exciting is happening. Psychedelia, reggae, funk and hip-hop in a Grateful Dead song? OK, got to see this!\r\n\r\nTHE SOUND grew out of guitarist / flautist PAUL DRUM DECIRCE's feeling the urge for the Dead sound to evolve further -- further than trying to imitate or even emulate the great bands accomplishments. GRATEFUL DEADplayed at the foot of the pyramids and JERRY GARCIA rocked for thirty years ... no need to try and copy that. \r\n\r\nINSTEAD, the band simply lead their individual styles to a mash up...and the result quite simply is ... DIRTY! \r\n\r\nFUN, HI-ENERGY interpretations are the result and since their first gig in September of '16, DD fans have been supporting and pushing this unique sound.\r\n\r\nDIRTY DEAD was formed by PAUL DRUM DECIRCE, a well known flautist/guitarist in the WNC music scene. Paul has been called \"the pied piper of Asheville\" (Mountain Xpress), and was the founding member of PEACE JONES. He has worked extensively with THE SCREAMING J'S, YESS-I, JARVIS JENKINS and many others. On the guitar and mandolin beside him is JOHN HUMPHRIES, a great country-rock Ween influenced whiz kid. On keyboards is ERIC SWANSON, a long-time Dead music player. On bass is TIM ROBINSON from YESS-I and POT BELLY PIGS, a ruthless reggae infused bassman. On drums is CHRIS WALDEN, long-time drummer in the WNC jam scene and the steam behind the high energy live performance.\r\n\r\nCOME GET DIRTY with us at our next show! Meet the band, hear samples, shop merch and more at: \r\n\r\nwww.dirtydeadband.com",
+        "url": "https://facebook.com/317200575353628",
+        "time": "22:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T22:00:00-0500",
+        "venue": {
+          "name": "The One Stop at Asheville Music Hall",
+          "url": "https://facebook.com/235250273170663",
+          "latitude": 35.5952,
+          "longitude": -82.55312,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "55 College Street",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.917Z"
+      },
+      {
+        "_id": "5a10d7935627174649455046",
+        "groupBy": "avlmusichall",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 3000,
+        "title": "Dirty Dead After FDF 303",
+        "description":
+          "Genre:  Grateful Dead/JGB\nCover:  Donations @ Door\nShow:  10PM\nAges:  21+\n\nDirty Dead\n\nAsheville NC's DIRTY DEAD are literally on fire. With high-energy, modern interpretations of the classic GD/JGB catalog, DIRTY DEAD are calling the music higher and further than in a long time! With an eclectic mix of players from various styles of music -- as the Grateful Dead were --something new, fresh and exciting is happening. Psychedelia, reggae, funk and hip-hop in a Grateful Dead song? OK, got to see this!\n\nTHE SOUND grew out of guitarist / flautist PAUL DRUM DECIRCE's feeling the urge for the Dead sound to evolve further -- further than trying to imitate or even emulate the great bands accomplishments. GRATEFUL DEAD played at the foot of the pyramids and JERRY GARCIA rocked for thirty years ... no need to try and copy that. \n\nINSTEAD, the band simply lead their individual styles to a mash up...and the result quite simply is ... DIRTY! \n\nFUN, HI-ENERGY interpretations are the result and since their first gig in September of '16, DD fans have been supporting and pushing this unique sound.\n\nDIRTY DEAD was formed by PAUL DRUM DECIRCE, a well known flautist/guitarist in the WNC music scene. Paul has been called \"the pied piper of Asheville\" (Mountain Xpress), and was the founding member of PEACE JONES. He has worked extensively with THE SCREAMING J'S, YESS-I, JARVIS JENKINS and many others. On the guitar and mandolin beside him is JOHN HUMPHRIES, a great country-rock Ween influenced whiz kid. On keyboards is ERIC SWANSON, a long-time Dead music player. On bass is TIM ROBINSON from YESS-I and POT BELLY PIGS, a ruthless reggae infused bassman. On drums is CHRIS WALDEN, long-time drummer in the WNC jam scene and the steam behind the high energy live performance.\n\nCOME GET DIRTY with us at our next show! Meet the band, hear samples, shop merch and more at:  \n\nwww.dirtydeadband.com",
+        "url": "https://facebook.com/145086989447687",
+        "time": "22:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T22:00:00-0500",
+        "venue": {
+          "name": "The One Stop at Asheville Music Hall",
+          "url": "https://facebook.com/235250273170663",
+          "latitude": 35.5952,
+          "longitude": -82.55312,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "55 College Street",
+          "zip": "28801"
+        },
+        "updated": "2017-11-20T01:00:03.794Z"
+      },
+      {
+        "_id": "5a10d7935627174649455045",
+        "groupBy": "avlmusichall",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 3000,
+        "title": "Randomanimals - [Neo Soul/Funk]",
+        "description":
+          "Genre: Neo Soul/Funk\nCover: Donation$\nShow: 10PM\nAges: 21+\n\nRandomanimals\n\nBrand new Asheville, NC project featuring:\n\nJC Mears (The Get Right Band)\nTyler Mack (Supatight)\nMikey Domanico (Supatight)\nGeoff Happel (Happel Pie)\nMatt Powers (Supatight)\n\nvid: https://youtu.be/xkgsgIbCBJY",
+        "url": "https://facebook.com/1942863562702372",
+        "time": "12:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T12:00:00-0500",
+        "venue": {
+          "name": "The One Stop at Asheville Music Hall",
+          "url": "https://facebook.com/235250273170663",
+          "latitude": 35.5952,
+          "longitude": -82.55312,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "55 College Street",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.917Z"
+      },
+      {
+        "_id": "5a10d793562717464945503e",
+        "groupBy": "orangepeel",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 1000,
+        "title": "Kid Hop Hooray! - Wintertime Indoor Dance Party",
+        "description":
+          "The Orange Peel & The Hop presents\nKid Hop Hooray!\nWintertime Indoor Dance Party\nShow: 10am  \n$5 adults\n$3 kids\nunder 2 get in free!\n10:00am - 1:00pm\n\n*Kid Hop Hooray will also be taking place on Dec. 16th! \n\nTickets & Info: www.theorangepeel.net/events/kid-hop-hooray/\n\nFeaturing 2 special performances by the Underdog Crew, Asheville’s bboy and bgirl dance crew!\n10:00am to 1:00pm – Open Floor Dance Party for Kids with a Live DJ! Drop in anytime.\nPlaying Child-Appropriate FUN dance music!\nThere will be FREE Glow accessories for your little dancers, plenty of room to run, dance, and get their sillies out while it’s cold outside, and snacks for purchase from Asheville Pizza Co and the Hop Ice Creamery!  And of course, The Orange Peel bar will be open for mom and dad’s refreshments (and/or kids‘ juice boxes).\nPadded area available for crawlers and new walkers to play and explore.\nThe music will be especially chosen to appeal to kids from ages 2 to 10, but the whole family is more than welcome! 12 and under are only $3 (under 2 years old are free) and everyone else is $5.\n2 private rooms available for rent for birthday parties after the dance party ends! Bring decorations and a cake and let the Orange Peel & the Hop help you create a fun and unique birthday experience for your child and their buddies after they dance their booties off! Contact liz@theorangepeel.net for more information and party reservations.\n\nhttps://www.youtube.com/watch?v=Mb2ACq-DH_k",
+        "url": "https://facebook.com/135251953789246",
+        "time": "10:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T10:00:00-0500",
+        "venue": {
+          "name": "The Orange Peel",
+          "url": "https://facebook.com/110322765681142",
+          "latitude": 35.591422352493,
+          "longitude": -82.551142738639,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "101 Biltmore Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.892Z"
+      }
+    ],
+    "Sunday": [
+      {
+        "_id": "5a1229135627174649455054",
+        "groupBy": "civiccenter",
+        "dayOfWeek": "Sunday",
+        "sortOrder": 4000,
+        "title": "TOUCH Samadhi presents Psychedelia",
+        "description":
+          "T.O.U.C.H. Samadhi \nPsychedelia\nSaturday 11.25.17\n\nCoral \nCryoverb\nAphotik \nTreffen\n\nDeco by:\nMAPP\n\n9:30 - 2:30 • $10 at the door\n\n\nRidge at New Mountain \n38 N French Broad Avenue, Asheville\n\ntouchsamadhi.com\nfacebook.com/M.A.P.P.Deco",
+        "url": "https://facebook.com/520865388246779",
+        "time": "21:30:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T21:30:00-0500",
+        "venue": {
+          "name": "The Ridge at New Mountain AVL",
+          "url": "https://facebook.com/698053760323446",
+          "latitude": 35.59453,
+          "longitude": -82.55888,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "38 N French Broad Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.902Z"
+      },
+      {
+        "_id": "5a1229135627174649455053",
+        "groupBy": "greyeagle",
+        "dayOfWeek": "Sunday",
+        "sortOrder": 2000,
+        "title":
+          "An Evening With Acoustic Syndicate: Annual Thanksgiving Homecoming at The Grey Eagle",
+        "description":
+          "An Evening With Acoustic Syndicate: Annual Thanksgiving Homecoming at The Grey Eagle",
+        "url": "https://facebook.com/402937290089782",
+        "time": "21:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T21:00:00-0500",
+        "venue": {
+          "name": "The Grey Eagle",
+          "url": "https://facebook.com/162139570507076",
+          "latitude": 35.587092570796,
+          "longitude": -82.564479100751,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "185 Clingman Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.894Z"
+      },
+      {
+        "_id": "5a122913562717464945504f",
+        "groupBy": "orangepeel",
+        "dayOfWeek": "Sunday",
+        "sortOrder": 1000,
+        "title":
+          "FTO presents: The Elements of Hip Hop at The Orange Peel 11/25",
+        "description":
+          "A celebration of The Elements of Hip Hop with FTO & friends. \n[all ages. 8pm door/9pm show. $15]\n\nfeaturing:\nDJ battles with the Vinyl Time Travelers. \nRap battle: Sk, the Novelist vs. Jewce\nBreakdance battle with the Ashevillist (AVL b-boy collective)\nPerformace from Free The Optimus. FTO x JBOT (live hip hop band ruckus)\n\ntickets: http://theorangepeel.net/events/elements-of-hip-hop/\nhttp://FTOlife.com",
+        "url": "https://facebook.com/132494420842892",
+        "time": "20:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T20:00:00-0500",
+        "venue": {
+          "name": "The Orange Peel",
+          "url": "https://facebook.com/110322765681142",
+          "latitude": 35.591422352493,
+          "longitude": -82.551142738639,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "101 Biltmore Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.892Z"
+      },
+      {
+        "_id": "5a1229145627174649455055",
+        "groupBy": "avlmusichall",
+        "dayOfWeek": "Sunday",
+        "sortOrder": 3000,
+        "title": "Bluegrass Brunch w/ Sufi Bros., Bald Mountain Boys & MORE!",
+        "description":
+          "Bluegrass Brunch\nhosted by Aaron Woody Wood & The Sufi Brothers \n\nPickin' on the Porch w/ Chicken Coop Willaye 1030AM\nBald Mountain Boys 11AM - 12:30PM\nSufi Brothers 12:45PM - 3PM\n\nBe sure to check out our Bloody Mary Bar, the BEST selection of pickled products and other additions in Asheville. The MOJO Kitchen will be serving a special Brunch menu until 3PM as well.\n\nFood & music start at 10:30am\n ADULT beverages at Noon.\n\nCheck out a video of Woody here:\nhttp://youtu.be/cghG4SnZ_KA",
+        "url": "https://facebook.com/132288450722382",
+        "time": "10:30:00",
+        "date": "2017-11-26",
+        "datetime": "2017-11-26T10:30:00-0500",
+        "venue": {
+          "name": "The One Stop at Asheville Music Hall",
+          "url": "https://facebook.com/235250273170663",
+          "latitude": 35.5952,
+          "longitude": -82.55312,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "55 College Street",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.903Z"
+      }
+    ],
+    "Monday": [
+      {
+        "_id": "5a137a935627174649455061",
+        "groupBy": "greyeagle",
+        "dayOfWeek": "Monday",
+        "sortOrder": 2000,
+        "title":
+          "Gravitation, Falling Through April, Galena, & Shadow Show at The Grey Eagle",
+        "description":
+          "Gravitation, Falling Through April, Galena, Shadow Show at The Grey Eagle",
+        "url": "https://facebook.com/1804673352904284",
+        "time": "20:00:00",
+        "date": "2017-11-26",
+        "datetime": "2017-11-26T20:00:00-0500",
+        "venue": {
+          "name": "The Grey Eagle",
+          "url": "https://facebook.com/162139570507076",
+          "latitude": 35.587092570796,
+          "longitude": -82.564479100751,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "185 Clingman Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.894Z"
+      },
+      {
+        "_id": "5a137a93562717464945505e",
+        "groupBy": "orangepeel",
+        "dayOfWeek": "Monday",
+        "sortOrder": 1000,
+        "title": "Scarface with FULL BAND plus Gorgeous George The Pimp God",
+        "description":
+          "Scarface\nwith Full Band plus Gorgeous George & Pimp God\nShow: 9pm\t\nDoors: 8pm  \n$15 early bird\n$20 advance\n$25 day of show\nAges 18+\n\nTickets & Info: www.theorangepeel.net/events/scarface/\n\nScarface quickly became the South’s most admired rapper and remained so throughout the ’90s after breaking away from the Geto Boys to launch his solo career in 1991. Even if he never scored any national hits or stormed up the charts with any of his numerous albums throughout the ’90s, no one could question his clout throughout the South. He essentially defined what it meant to be a Southern thug rapper years before anyone even coined the term Dirty South. This became glaringly evident in the late ’90s when a massive wave of young MCs arose from Houston, New Orleans, and Memphis emulating his style of hard-boiled, ghetto-bred, straight-up hardcore rapping. Besides serving as the father of Southern thug rap, it seemed as if every hardcore rapper wanted to align himself with Scarface during the ’90s — everyone from Ice Cube and Dr. Dre to 2Pac and Master P collaborated with the former Geto Boy — all in an attempt to foster credibility among the loyal Southern rap audience. Yet despite his unquestionable influence, Scarface never crossed over to mainstream success. His albums were often plagued with filler, his lyrics were simply too harsh for radio, and his devotion to producer Mike Dean led to a stagnant, albeit trademark, sound. Still, likely because Scarface never crossed over and remained aligned to the streets, his influence never waned, making him one of the few veterans able to sustain in the here-today, gone-tomorrow rap game. In the early 2000s, Def Jam Records rewarded his staying power with a lucrative contract, a wealth of industry connections, and a powerful marketing push. Scarface consequently enjoyed the most successful album of his career, The Fix (2002), and a revival of interest in his back catalog, which his former label, Rap-A-Lot, repackaged that same year on Greatest Hits.\n\nBefore Brad Jordan (born November 9, 1970) became known as Scarface, he called himself Akshen. As such, he began his rap career first as a solo artist in his native Houston during the mid-’80s for James Smith’s then-fledging Rap-A-Lot label. Smith was trying to launch a group he tagged the Geto Boys, and he eventually asked Akshen to join the group in the late ’80s. The Geto Boys’ second album (and first to feature Scarface) — Grip It! On That Other Level (1990), later repackaged and re-released that same year simply as The Geto Boys — shocked many with its vivid depictions of violence and its overall extreme nature. This album featured the song “Scarface,” which introduced Akshen’s alter ego, a title he would keep from that point onward. The ensuing controversy surrounding the group’s debut put the Geto Boys on the map and set the stage for the impressive We Can’t Be Stopped (1991). In the wake of the group’s national success came solo albums, one of which being Scarface’s debut, Mr. Scarface Is Back (1991). The album made it evident who the group’s most talented member was, and the acclaim showered on Scarface resulted in bitter tensions among his fellow Geto Boys: Bushwick Bill and Willie D. By the time Scarface returned with his follow-up album, The World Is Yours (1993), his reputation overshadowed that of his group’s. Willie D consequently departed, and the Geto Boys never again rivaled We Can’t Be Stopped, releasing half-hearted, albeit popular, efforts with a new lineup before later reuniting in the late ’90s. In the meantime, Scarface continued to funnel his efforts into additional solo efforts: The Diary (1994) and Untouchable(1997). He then released the double-disc My Homies (1998), a bloated effort laden with guests, many of the South’s leading rappers.\n\nIt wasn’t until 2000, though, that Scarface won substantial admiration from the greater rap community with Last of a Dying Breed (2000), his most personal and focused album in years. As a result, he was awarded Lyricist of the Year at the 2001 Source Awards and was offered a promising deal with Def Jam Records. The powerhouse East Coast label wanted Scarface to helm its Def Jam South subsidiary division, and the rapper obliged, first signing Ludacris, who became an overnight superstar, and then releasing his own album, The Fix (2002). Led by a Kanye West-produced collaboration with Jay-Z, “Guess Who’s Back,” it spawned a popular single, “My Block,” and attracted widespread embrace. Rap-A-Lot furthered Scarface’s newfound coast-to-coast acceptance with the rapper’s first best-of collection, Greatest Hits (2002). In turn, he reunited with Willie D and Bushwick Bill and put together The Foundation (2005), another Geto Boys album. In 2006, he introduced his new crew, the Product, with the album One Hunid, and released a second volume of My Homies. Also landing in 2006 was 2 Face, a collection of tracks featuring Scarface and the late 2Pac. MADE proved that Scarface was still relevant in 2007; it debuted at number two on the R&B/Hip-Hop chart. In 2008 he retired his solo career with the good-bye album Emeritus. He came out of retirement in 2015 for Deeply Rooted, an album that debuted at number 11 on the Billboard 200 albums chart and featured guest appearances from Rick Ross, Z-Ro, John Legend, and Cee Lo Green.\n\nhttps://youtu.be/RgyDpXkZfXE",
+        "url": "https://facebook.com/126318291411285",
+        "time": "21:00:00",
+        "date": "2017-11-26",
+        "datetime": "2017-11-26T21:00:00-0500",
+        "venue": {
+          "name": "The Orange Peel",
+          "url": "https://facebook.com/110322765681142",
+          "latitude": 35.591422352493,
+          "longitude": -82.551142738639,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "101 Biltmore Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.891Z"
+      }
+    ],
+    "Tuesday": [
+      {
+        "_id": "5a137a935627174649455060",
+        "groupBy": "greyeagle",
+        "dayOfWeek": "Tuesday",
+        "sortOrder": 2000,
+        "title": "Open Mic Night at The Grey Eagle",
+        "description": "Open Mic Night at The Grey Eagle",
+        "url": "https://facebook.com/168833400378990",
+        "time": "19:00:00",
+        "date": "2017-11-27",
+        "datetime": "2017-11-27T19:00:00-0500",
+        "venue": {
+          "name": "The Grey Eagle",
+          "url": "https://facebook.com/162139570507076",
+          "latitude": 35.587092570796,
+          "longitude": -82.564479100751,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "185 Clingman Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.894Z"
+      }
+    ]
+  },
+  "venue": {
+    "other": [
+      {
+        "_id": "5a0e34935627174649455022",
+        "groupBy": "other",
+        "dayOfWeek": "Thursday",
+        "sortOrder": 5000,
+        "title": "Aisles of Jane Doe, ELectric Karma, BIllingsley",
+        "description": "Hard rock $8members,10non",
+        "url": "https://facebook.com/1727677573929923",
+        "time": "20:00:00",
+        "date": "2017-11-22",
+        "datetime": "2017-11-22T20:00:00-0500",
+        "venue": {
+          "name": "PULP",
+          "url": "https://facebook.com/181018978648041",
+          "latitude": 35.59123,
+          "longitude": -82.55113,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "103 Hilliard Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.893Z"
+      },
+      {
+        "_id": "5a0e34935627174649455021",
+        "groupBy": "other",
+        "dayOfWeek": "Thursday",
+        "sortOrder": 5000,
+        "title": "PULP presents Twist of Fate / The Aisles of Jane Doe",
+        "description":
+          "PULP presents\nTwist of Fate / The Aisles of Jane Doe\nShow: 9pm  at\n$5 members\n$7 non-members\nAll Ages",
+        "url": "https://facebook.com/309294582881273",
+        "time": "21:00:00",
+        "date": "2017-11-22",
+        "datetime": "2017-11-22T21:00:00-0500",
+        "venue": {
+          "name": "PULP",
+          "url": "https://facebook.com/181018978648041",
+          "latitude": 35.59123,
+          "longitude": -82.55113,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "103 Hilliard Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.893Z"
+      },
+      {
+        "_id": "5a0f86135627174649455030",
+        "groupBy": "other",
+        "dayOfWeek": "Friday",
+        "sortOrder": 5000,
+        "title": "Black Watch Release Party",
+        "description":
+          "The only beer bold enough to follow up Cold Mountain. Black Watch Double Chocolate Milk Stout, releasing Black Friday, November 24. We're right up the road to help you wash away all the stress of post-holiday shopping! \n\nThis smooth beer hits you with one pound of cacao nibs per barrel, flaked oats, five malts, roasted barley, and a finish reminiscent of brownie batter. Did we mention it weighs in at 8% ABV?",
+        "url": "https://facebook.com/1484260345205858",
+        "time": "12:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T12:00:00-0500",
+        "venue": {
+          "name": "Highland Brewing Company",
+          "url": "https://facebook.com/44380914634",
+          "latitude": 35.57174,
+          "longitude": -82.5014,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "12 Old Charlotte Hwy, Ste 200",
+          "zip": "28803"
+        },
+        "updated": "2017-11-21T12:00:04.902Z"
+      }
+    ],
+    "avlmusichall": [
+      {
+        "_id": "5a0f86135627174649455032",
+        "groupBy": "avlmusichall",
+        "dayOfWeek": "Thursday",
+        "sortOrder": 3000,
+        "title":
+          "Mitch's Totally Rad Trivia! **Wednesday Drinksgiving Edition**",
+        "description":
+          "Mitch's Totally Rad Trivia is a team trivia played in 7 rounds over the course of 2 endlessly entertaining hours. The game covers everything pop culture and is always irreverent by nature. The game is not your average pub quiz as it explores everything from didgeridoo covers of pop songs to bad celebrity tattoos and everything in between. Ever wanted to identify animals by their gonads? Then this is the game for you! Mitch curates a one of a kind trivia smorgasbord of random, unusual, and hilarious subjects. This absurd trivia game is not about historical facts or sports stats, it is all about random movies, unforgettable ear-worms, and the hilariousness of growing up in the 80's and 90's. The game starts at 7pm in the cozy One Stop in downtown Asheville. Drink specials include $4 bourbon/$4 Washington Apple Shots and $5 White Russians, and food is available from MOJO Kitchen which offers 1/2 price nachos during the game! Best of all the winning team each week takes home a collection of Totally Rad Prizes including a $35 gift certificate to The One Stop/MOJO Kitchen.",
+        "url": "https://facebook.com/111282246314615",
+        "time": "19:00:00",
+        "date": "2017-11-22",
+        "datetime": "2017-11-22T19:00:00-0500",
+        "venue": {
+          "name": "The One Stop at Asheville Music Hall",
+          "url": "https://facebook.com/235250273170663",
+          "latitude": 35.5952,
+          "longitude": -82.55312,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "55 College Street",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.918Z"
+      },
+      {
+        "_id": "5a0e34935627174649455028",
+        "groupBy": "avlmusichall",
+        "dayOfWeek": "Thursday",
+        "sortOrder": 3000,
+        "title": "Evil Note Lab - [ableton push jam] - 11/22",
+        "description":
+          "Genre: Live Ableton Push Jam\nCover: Donation$\nShow: 10:30PM\nAges: 21+\n\nWe will be exploring the boundaries of music using Ableton Push as our vehicle.",
+        "url": "https://facebook.com/1643808642349651",
+        "time": "22:30:00",
+        "date": "2017-11-22",
+        "datetime": "2017-11-22T22:30:00-0500",
+        "venue": {
+          "name": "The One Stop at Asheville Music Hall",
+          "url": "https://facebook.com/235250273170663",
+          "latitude": 35.5952,
+          "longitude": -82.55312,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "55 College Street",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.918Z"
+      },
+      {
+        "_id": "5a0f86135627174649455031",
+        "groupBy": "avlmusichall",
+        "dayOfWeek": "Friday",
+        "sortOrder": 3000,
+        "title": "Free Dead Friday #303 feat. members of Phuncle Sam acoustic",
+        "description":
+          "FREE DEAD FRIDAYS @ The One Stop\n- feat. members of Phuncle Sam acoustic\n\n\nJoin us at The One Stop at Asheville Music Hall every Friday at 5:30PM for our FREE Acoustic Grateful Dead series Featuring members of Phuncle Sam and great drink and food specials.",
+        "url": "https://facebook.com/944158459071366",
+        "time": "17:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T17:00:00-0500",
+        "venue": {
+          "name": "The One Stop at Asheville Music Hall",
+          "url": "https://facebook.com/235250273170663",
+          "latitude": 35.5952,
+          "longitude": -82.55312,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "55 College Street",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.917Z"
+      },
+      {
+        "_id": "5a10d793562717464945503a",
+        "groupBy": "avlmusichall",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 3000,
+        "title": "Hometown throw down! The Philo Band w/ Unihorn & Dj Destro",
+        "description":
+          "Genre: Funk/Soul/Hip Hop\nTickets: $10\nShow: 10PM (Doors 9PM)\nAges: 21+\n\n\nPhilo (full band featuring members of Empire Strikes Brass)\n\nA walking paradox. A man all his own. Philo has been heavy in the game for years. Equally as talented in the realms of penning lyrics as he is in music production, he is not a force to be trifled with. Philo currently performs with a full 8 piece band backing him, including a horn section composed of members of Empire Strikes Brass and the unparalleled vocal talents of Grammy-nominated artist Debrissa McKinney. Soulful, danceable, hard-driving live hip-hop that is sure to get you moving.\n\nUniHorn\n\nComprised of some of Asheville's funkiest musicians UniHorn features an explosive brass section, sweeping keyboard runs, and high energy tasty beats! Mixing in both original compositions and covers UniHorn knows how to keep the crowd moving and the party raging! Members include: Paul Juhl, Sean Mason, Lenny Pettinelli, JP Furnas, & Alex Bradley.\n\nLate night DJ set with DJ Destro",
+        "url": "https://facebook.com/142851033026973",
+        "time": "22:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T22:00:00-0500",
+        "venue": {
+          "name": "Asheville Music Hall",
+          "url": "https://facebook.com/164709563614716",
+          "latitude": 35.59488,
+          "longitude": -82.55302,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "31 Patton Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-20T12:00:04.557Z"
+      },
+      {
+        "_id": "5a137a93562717464945505c",
+        "groupBy": "avlmusichall",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 3000,
+        "title": "Hometown throw down! The Philo Band w/ Unihorn & Dj Delight",
+        "description":
+          "Genre: Funk/Soul/Hip Hop\nTickets: $10\nShow: 10PM (Doors 9PM)\nAges: 21+\n\n\nPhilo (full band featuring members of Empire Strikes Brass)\n\nA walking paradox. A man all his own. Philo has been heavy in the game for years. Equally as talented in the realms of penning lyrics as he is in music production, he is not a force to be trifled with. Philo currently performs with a full 8 piece band backing him, including a horn section composed of members of Empire Strikes Brass and the unparalleled vocal talents of Grammy-nominated artist Debrissa McKinney. Soulful, danceable, hard-driving live hip-hop that is sure to get you moving.\n\nUniHorn\n\nComprised of some of Asheville's funkiest musicians UniHorn features an explosive brass section, sweeping keyboard runs, and high energy tasty beats! Mixing in both original compositions and covers UniHorn knows how to keep the crowd moving and the party raging! Members include: Paul Juhl, Sean Mason, Lenny Pettinelli, JP Furnas, & Alex Bradley.\n\nLate night DJ set with DJ Delight",
+        "url": "https://facebook.com/142851033026973",
+        "time": "22:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T22:00:00-0500",
+        "venue": {
+          "name": "Asheville Music Hall",
+          "url": "https://facebook.com/164709563614716",
+          "latitude": 35.59488,
+          "longitude": -82.55302,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "31 Patton Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.889Z"
+      },
+      {
+        "_id": "5a137a935627174649455063",
+        "groupBy": "avlmusichall",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 3000,
+        "title": "Dirty Dead at The One Stop - [grateful dead/jgb]",
+        "description":
+          "Genre: Grateful Dead/JGB\r\nCover: Donations @ Door\r\nShow: 10PM\r\nAges: 21+\r\n\r\nDirty Dead\r\n\r\nAsheville NC's DIRTY DEAD are literally on fire. With high-energy, modern interpretations of the classic GD/JGB catalog, DIRTY DEAD are calling the music higher and further than in a long time! With an eclectic mix of players from various styles of music -- as the Grateful Dead were --something new, fresh and exciting is happening. Psychedelia, reggae, funk and hip-hop in a Grateful Dead song? OK, got to see this!\r\n\r\nTHE SOUND grew out of guitarist / flautist PAUL DRUM DECIRCE's feeling the urge for the Dead sound to evolve further -- further than trying to imitate or even emulate the great bands accomplishments. GRATEFUL DEADplayed at the foot of the pyramids and JERRY GARCIA rocked for thirty years ... no need to try and copy that. \r\n\r\nINSTEAD, the band simply lead their individual styles to a mash up...and the result quite simply is ... DIRTY! \r\n\r\nFUN, HI-ENERGY interpretations are the result and since their first gig in September of '16, DD fans have been supporting and pushing this unique sound.\r\n\r\nDIRTY DEAD was formed by PAUL DRUM DECIRCE, a well known flautist/guitarist in the WNC music scene. Paul has been called \"the pied piper of Asheville\" (Mountain Xpress), and was the founding member of PEACE JONES. He has worked extensively with THE SCREAMING J'S, YESS-I, JARVIS JENKINS and many others. On the guitar and mandolin beside him is JOHN HUMPHRIES, a great country-rock Ween influenced whiz kid. On keyboards is ERIC SWANSON, a long-time Dead music player. On bass is TIM ROBINSON from YESS-I and POT BELLY PIGS, a ruthless reggae infused bassman. On drums is CHRIS WALDEN, long-time drummer in the WNC jam scene and the steam behind the high energy live performance.\r\n\r\nCOME GET DIRTY with us at our next show! Meet the band, hear samples, shop merch and more at: \r\n\r\nwww.dirtydeadband.com",
+        "url": "https://facebook.com/317200575353628",
+        "time": "22:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T22:00:00-0500",
+        "venue": {
+          "name": "The One Stop at Asheville Music Hall",
+          "url": "https://facebook.com/235250273170663",
+          "latitude": 35.5952,
+          "longitude": -82.55312,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "55 College Street",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.917Z"
+      },
+      {
+        "_id": "5a10d7935627174649455046",
+        "groupBy": "avlmusichall",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 3000,
+        "title": "Dirty Dead After FDF 303",
+        "description":
+          "Genre:  Grateful Dead/JGB\nCover:  Donations @ Door\nShow:  10PM\nAges:  21+\n\nDirty Dead\n\nAsheville NC's DIRTY DEAD are literally on fire. With high-energy, modern interpretations of the classic GD/JGB catalog, DIRTY DEAD are calling the music higher and further than in a long time! With an eclectic mix of players from various styles of music -- as the Grateful Dead were --something new, fresh and exciting is happening. Psychedelia, reggae, funk and hip-hop in a Grateful Dead song? OK, got to see this!\n\nTHE SOUND grew out of guitarist / flautist PAUL DRUM DECIRCE's feeling the urge for the Dead sound to evolve further -- further than trying to imitate or even emulate the great bands accomplishments. GRATEFUL DEAD played at the foot of the pyramids and JERRY GARCIA rocked for thirty years ... no need to try and copy that. \n\nINSTEAD, the band simply lead their individual styles to a mash up...and the result quite simply is ... DIRTY! \n\nFUN, HI-ENERGY interpretations are the result and since their first gig in September of '16, DD fans have been supporting and pushing this unique sound.\n\nDIRTY DEAD was formed by PAUL DRUM DECIRCE, a well known flautist/guitarist in the WNC music scene. Paul has been called \"the pied piper of Asheville\" (Mountain Xpress), and was the founding member of PEACE JONES. He has worked extensively with THE SCREAMING J'S, YESS-I, JARVIS JENKINS and many others. On the guitar and mandolin beside him is JOHN HUMPHRIES, a great country-rock Ween influenced whiz kid. On keyboards is ERIC SWANSON, a long-time Dead music player. On bass is TIM ROBINSON from YESS-I and POT BELLY PIGS, a ruthless reggae infused bassman. On drums is CHRIS WALDEN, long-time drummer in the WNC jam scene and the steam behind the high energy live performance.\n\nCOME GET DIRTY with us at our next show! Meet the band, hear samples, shop merch and more at:  \n\nwww.dirtydeadband.com",
+        "url": "https://facebook.com/145086989447687",
+        "time": "22:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T22:00:00-0500",
+        "venue": {
+          "name": "The One Stop at Asheville Music Hall",
+          "url": "https://facebook.com/235250273170663",
+          "latitude": 35.5952,
+          "longitude": -82.55312,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "55 College Street",
+          "zip": "28801"
+        },
+        "updated": "2017-11-20T01:00:03.794Z"
+      },
+      {
+        "_id": "5a10d7935627174649455045",
+        "groupBy": "avlmusichall",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 3000,
+        "title": "Randomanimals - [Neo Soul/Funk]",
+        "description":
+          "Genre: Neo Soul/Funk\nCover: Donation$\nShow: 10PM\nAges: 21+\n\nRandomanimals\n\nBrand new Asheville, NC project featuring:\n\nJC Mears (The Get Right Band)\nTyler Mack (Supatight)\nMikey Domanico (Supatight)\nGeoff Happel (Happel Pie)\nMatt Powers (Supatight)\n\nvid: https://youtu.be/xkgsgIbCBJY",
+        "url": "https://facebook.com/1942863562702372",
+        "time": "12:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T12:00:00-0500",
+        "venue": {
+          "name": "The One Stop at Asheville Music Hall",
+          "url": "https://facebook.com/235250273170663",
+          "latitude": 35.5952,
+          "longitude": -82.55312,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "55 College Street",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.917Z"
+      },
+      {
+        "_id": "5a1229145627174649455055",
+        "groupBy": "avlmusichall",
+        "dayOfWeek": "Sunday",
+        "sortOrder": 3000,
+        "title": "Bluegrass Brunch w/ Sufi Bros., Bald Mountain Boys & MORE!",
+        "description":
+          "Bluegrass Brunch\nhosted by Aaron Woody Wood & The Sufi Brothers \n\nPickin' on the Porch w/ Chicken Coop Willaye 1030AM\nBald Mountain Boys 11AM - 12:30PM\nSufi Brothers 12:45PM - 3PM\n\nBe sure to check out our Bloody Mary Bar, the BEST selection of pickled products and other additions in Asheville. The MOJO Kitchen will be serving a special Brunch menu until 3PM as well.\n\nFood & music start at 10:30am\n ADULT beverages at Noon.\n\nCheck out a video of Woody here:\nhttp://youtu.be/cghG4SnZ_KA",
+        "url": "https://facebook.com/132288450722382",
+        "time": "10:30:00",
+        "date": "2017-11-26",
+        "datetime": "2017-11-26T10:30:00-0500",
+        "venue": {
+          "name": "The One Stop at Asheville Music Hall",
+          "url": "https://facebook.com/235250273170663",
+          "latitude": 35.5952,
+          "longitude": -82.55312,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "55 College Street",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.903Z"
+      }
+    ],
+    "greyeagle": [
+      {
+        "_id": "5a10d7935627174649455041",
+        "groupBy": "greyeagle",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 2000,
+        "title":
+          "David Wilcox's Annual Thanksgiving Homecoming Concert at The Grey Eagle",
+        "description":
+          "David Wilcox's Annual Thanksgiving Homecoming Concert at The Grey Eagle",
+        "url": "https://facebook.com/242873182906507",
+        "time": "20:00:00",
+        "date": "2017-11-24",
+        "datetime": "2017-11-24T20:00:00-0500",
+        "venue": {
+          "name": "The Grey Eagle",
+          "url": "https://facebook.com/162139570507076",
+          "latitude": 35.587092570796,
+          "longitude": -82.564479100751,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "185 Clingman Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.894Z"
+      },
+      {
+        "_id": "5a1229135627174649455053",
+        "groupBy": "greyeagle",
+        "dayOfWeek": "Sunday",
+        "sortOrder": 2000,
+        "title":
+          "An Evening With Acoustic Syndicate: Annual Thanksgiving Homecoming at The Grey Eagle",
+        "description":
+          "An Evening With Acoustic Syndicate: Annual Thanksgiving Homecoming at The Grey Eagle",
+        "url": "https://facebook.com/402937290089782",
+        "time": "21:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T21:00:00-0500",
+        "venue": {
+          "name": "The Grey Eagle",
+          "url": "https://facebook.com/162139570507076",
+          "latitude": 35.587092570796,
+          "longitude": -82.564479100751,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "185 Clingman Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.894Z"
+      },
+      {
+        "_id": "5a137a935627174649455061",
+        "groupBy": "greyeagle",
+        "dayOfWeek": "Monday",
+        "sortOrder": 2000,
+        "title":
+          "Gravitation, Falling Through April, Galena, & Shadow Show at The Grey Eagle",
+        "description":
+          "Gravitation, Falling Through April, Galena, Shadow Show at The Grey Eagle",
+        "url": "https://facebook.com/1804673352904284",
+        "time": "20:00:00",
+        "date": "2017-11-26",
+        "datetime": "2017-11-26T20:00:00-0500",
+        "venue": {
+          "name": "The Grey Eagle",
+          "url": "https://facebook.com/162139570507076",
+          "latitude": 35.587092570796,
+          "longitude": -82.564479100751,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "185 Clingman Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.894Z"
+      },
+      {
+        "_id": "5a137a935627174649455060",
+        "groupBy": "greyeagle",
+        "dayOfWeek": "Tuesday",
+        "sortOrder": 2000,
+        "title": "Open Mic Night at The Grey Eagle",
+        "description": "Open Mic Night at The Grey Eagle",
+        "url": "https://facebook.com/168833400378990",
+        "time": "19:00:00",
+        "date": "2017-11-27",
+        "datetime": "2017-11-27T19:00:00-0500",
+        "venue": {
+          "name": "The Grey Eagle",
+          "url": "https://facebook.com/162139570507076",
+          "latitude": 35.587092570796,
+          "longitude": -82.564479100751,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "185 Clingman Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.894Z"
+      }
+    ],
+    "civiccenter": [
+      {
+        "_id": "5a1229135627174649455054",
+        "groupBy": "civiccenter",
+        "dayOfWeek": "Sunday",
+        "sortOrder": 4000,
+        "title": "TOUCH Samadhi presents Psychedelia",
+        "description":
+          "T.O.U.C.H. Samadhi \nPsychedelia\nSaturday 11.25.17\n\nCoral \nCryoverb\nAphotik \nTreffen\n\nDeco by:\nMAPP\n\n9:30 - 2:30 • $10 at the door\n\n\nRidge at New Mountain \n38 N French Broad Avenue, Asheville\n\ntouchsamadhi.com\nfacebook.com/M.A.P.P.Deco",
+        "url": "https://facebook.com/520865388246779",
+        "time": "21:30:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T21:30:00-0500",
+        "venue": {
+          "name": "The Ridge at New Mountain AVL",
+          "url": "https://facebook.com/698053760323446",
+          "latitude": 35.59453,
+          "longitude": -82.55888,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "38 N French Broad Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.902Z"
+      }
+    ],
+    "orangepeel": [
+      {
+        "_id": "5a122913562717464945504f",
+        "groupBy": "orangepeel",
+        "dayOfWeek": "Sunday",
+        "sortOrder": 1000,
+        "title":
+          "FTO presents: The Elements of Hip Hop at The Orange Peel 11/25",
+        "description":
+          "A celebration of The Elements of Hip Hop with FTO & friends. \n[all ages. 8pm door/9pm show. $15]\n\nfeaturing:\nDJ battles with the Vinyl Time Travelers. \nRap battle: Sk, the Novelist vs. Jewce\nBreakdance battle with the Ashevillist (AVL b-boy collective)\nPerformace from Free The Optimus. FTO x JBOT (live hip hop band ruckus)\n\ntickets: http://theorangepeel.net/events/elements-of-hip-hop/\nhttp://FTOlife.com",
+        "url": "https://facebook.com/132494420842892",
+        "time": "20:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T20:00:00-0500",
+        "venue": {
+          "name": "The Orange Peel",
+          "url": "https://facebook.com/110322765681142",
+          "latitude": 35.591422352493,
+          "longitude": -82.551142738639,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "101 Biltmore Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.892Z"
+      },
+      {
+        "_id": "5a10d793562717464945503e",
+        "groupBy": "orangepeel",
+        "dayOfWeek": "Saturday",
+        "sortOrder": 1000,
+        "title": "Kid Hop Hooray! - Wintertime Indoor Dance Party",
+        "description":
+          "The Orange Peel & The Hop presents\nKid Hop Hooray!\nWintertime Indoor Dance Party\nShow: 10am  \n$5 adults\n$3 kids\nunder 2 get in free!\n10:00am - 1:00pm\n\n*Kid Hop Hooray will also be taking place on Dec. 16th! \n\nTickets & Info: www.theorangepeel.net/events/kid-hop-hooray/\n\nFeaturing 2 special performances by the Underdog Crew, Asheville’s bboy and bgirl dance crew!\n10:00am to 1:00pm – Open Floor Dance Party for Kids with a Live DJ! Drop in anytime.\nPlaying Child-Appropriate FUN dance music!\nThere will be FREE Glow accessories for your little dancers, plenty of room to run, dance, and get their sillies out while it’s cold outside, and snacks for purchase from Asheville Pizza Co and the Hop Ice Creamery!  And of course, The Orange Peel bar will be open for mom and dad’s refreshments (and/or kids‘ juice boxes).\nPadded area available for crawlers and new walkers to play and explore.\nThe music will be especially chosen to appeal to kids from ages 2 to 10, but the whole family is more than welcome! 12 and under are only $3 (under 2 years old are free) and everyone else is $5.\n2 private rooms available for rent for birthday parties after the dance party ends! Bring decorations and a cake and let the Orange Peel & the Hop help you create a fun and unique birthday experience for your child and their buddies after they dance their booties off! Contact liz@theorangepeel.net for more information and party reservations.\n\nhttps://www.youtube.com/watch?v=Mb2ACq-DH_k",
+        "url": "https://facebook.com/135251953789246",
+        "time": "10:00:00",
+        "date": "2017-11-25",
+        "datetime": "2017-11-25T10:00:00-0500",
+        "venue": {
+          "name": "The Orange Peel",
+          "url": "https://facebook.com/110322765681142",
+          "latitude": 35.591422352493,
+          "longitude": -82.551142738639,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "101 Biltmore Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.892Z"
+      },
+      {
+        "_id": "5a137a93562717464945505e",
+        "groupBy": "orangepeel",
+        "dayOfWeek": "Monday",
+        "sortOrder": 1000,
+        "title": "Scarface with FULL BAND plus Gorgeous George The Pimp God",
+        "description":
+          "Scarface\nwith Full Band plus Gorgeous George & Pimp God\nShow: 9pm\t\nDoors: 8pm  \n$15 early bird\n$20 advance\n$25 day of show\nAges 18+\n\nTickets & Info: www.theorangepeel.net/events/scarface/\n\nScarface quickly became the South’s most admired rapper and remained so throughout the ’90s after breaking away from the Geto Boys to launch his solo career in 1991. Even if he never scored any national hits or stormed up the charts with any of his numerous albums throughout the ’90s, no one could question his clout throughout the South. He essentially defined what it meant to be a Southern thug rapper years before anyone even coined the term Dirty South. This became glaringly evident in the late ’90s when a massive wave of young MCs arose from Houston, New Orleans, and Memphis emulating his style of hard-boiled, ghetto-bred, straight-up hardcore rapping. Besides serving as the father of Southern thug rap, it seemed as if every hardcore rapper wanted to align himself with Scarface during the ’90s — everyone from Ice Cube and Dr. Dre to 2Pac and Master P collaborated with the former Geto Boy — all in an attempt to foster credibility among the loyal Southern rap audience. Yet despite his unquestionable influence, Scarface never crossed over to mainstream success. His albums were often plagued with filler, his lyrics were simply too harsh for radio, and his devotion to producer Mike Dean led to a stagnant, albeit trademark, sound. Still, likely because Scarface never crossed over and remained aligned to the streets, his influence never waned, making him one of the few veterans able to sustain in the here-today, gone-tomorrow rap game. In the early 2000s, Def Jam Records rewarded his staying power with a lucrative contract, a wealth of industry connections, and a powerful marketing push. Scarface consequently enjoyed the most successful album of his career, The Fix (2002), and a revival of interest in his back catalog, which his former label, Rap-A-Lot, repackaged that same year on Greatest Hits.\n\nBefore Brad Jordan (born November 9, 1970) became known as Scarface, he called himself Akshen. As such, he began his rap career first as a solo artist in his native Houston during the mid-’80s for James Smith’s then-fledging Rap-A-Lot label. Smith was trying to launch a group he tagged the Geto Boys, and he eventually asked Akshen to join the group in the late ’80s. The Geto Boys’ second album (and first to feature Scarface) — Grip It! On That Other Level (1990), later repackaged and re-released that same year simply as The Geto Boys — shocked many with its vivid depictions of violence and its overall extreme nature. This album featured the song “Scarface,” which introduced Akshen’s alter ego, a title he would keep from that point onward. The ensuing controversy surrounding the group’s debut put the Geto Boys on the map and set the stage for the impressive We Can’t Be Stopped (1991). In the wake of the group’s national success came solo albums, one of which being Scarface’s debut, Mr. Scarface Is Back (1991). The album made it evident who the group’s most talented member was, and the acclaim showered on Scarface resulted in bitter tensions among his fellow Geto Boys: Bushwick Bill and Willie D. By the time Scarface returned with his follow-up album, The World Is Yours (1993), his reputation overshadowed that of his group’s. Willie D consequently departed, and the Geto Boys never again rivaled We Can’t Be Stopped, releasing half-hearted, albeit popular, efforts with a new lineup before later reuniting in the late ’90s. In the meantime, Scarface continued to funnel his efforts into additional solo efforts: The Diary (1994) and Untouchable(1997). He then released the double-disc My Homies (1998), a bloated effort laden with guests, many of the South’s leading rappers.\n\nIt wasn’t until 2000, though, that Scarface won substantial admiration from the greater rap community with Last of a Dying Breed (2000), his most personal and focused album in years. As a result, he was awarded Lyricist of the Year at the 2001 Source Awards and was offered a promising deal with Def Jam Records. The powerhouse East Coast label wanted Scarface to helm its Def Jam South subsidiary division, and the rapper obliged, first signing Ludacris, who became an overnight superstar, and then releasing his own album, The Fix (2002). Led by a Kanye West-produced collaboration with Jay-Z, “Guess Who’s Back,” it spawned a popular single, “My Block,” and attracted widespread embrace. Rap-A-Lot furthered Scarface’s newfound coast-to-coast acceptance with the rapper’s first best-of collection, Greatest Hits (2002). In turn, he reunited with Willie D and Bushwick Bill and put together The Foundation (2005), another Geto Boys album. In 2006, he introduced his new crew, the Product, with the album One Hunid, and released a second volume of My Homies. Also landing in 2006 was 2 Face, a collection of tracks featuring Scarface and the late 2Pac. MADE proved that Scarface was still relevant in 2007; it debuted at number two on the R&B/Hip-Hop chart. In 2008 he retired his solo career with the good-bye album Emeritus. He came out of retirement in 2015 for Deeply Rooted, an album that debuted at number 11 on the Billboard 200 albums chart and featured guest appearances from Rick Ross, Z-Ro, John Legend, and Cee Lo Green.\n\nhttps://youtu.be/RgyDpXkZfXE",
+        "url": "https://facebook.com/126318291411285",
+        "time": "21:00:00",
+        "date": "2017-11-26",
+        "datetime": "2017-11-26T21:00:00-0500",
+        "venue": {
+          "name": "The Orange Peel",
+          "url": "https://facebook.com/110322765681142",
+          "latitude": 35.591422352493,
+          "longitude": -82.551142738639,
+          "country": "United States",
+          "city": "Asheville",
+          "state": "NC",
+          "street": "101 Biltmore Ave",
+          "zip": "28801"
+        },
+        "updated": "2017-11-21T12:00:04.891Z"
+      }
+    ]
+  }
+}

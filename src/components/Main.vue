@@ -2,6 +2,7 @@
   <div class="main">
     <site-title :variant="variantObject"></site-title>
     <errors :errorList="errors"></errors>
+    <h1 class="notification">Facebook has disallowed access to all public events, which is the core feature that allows {{variant.name}} to work. Until this issue is resloved, this site has no choice but to remain inactive.</h1>
     <events-tonight :eventsTonight="tonightsEvents"></events-tonight>
     <events-this-week :eventsThisWeek="thisWeeksEvents"></events-this-week>
   </div>
@@ -74,5 +75,13 @@ export default {
 </script>
 
 <style scoped>
-
+  .notification {
+    background-color: red;
+    color: white;
+    line-height: normal;
+    padding-top: 0;
+    margin-top: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+  }
 </style>
